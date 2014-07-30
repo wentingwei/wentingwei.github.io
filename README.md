@@ -1,6 +1,6 @@
 # 个人博客
 
-[site](http://site.github.io)
+[win.moe](http://win.moe)
 
 个人博客，转载请注明出处，保留所有权利。
 
