@@ -7,10 +7,10 @@ pygments: true
 paginate: 4
 
 # 修改为自己的配置
-title : _config.yml中的title设置
+title : hello world
 tagline: 
 author :
-  name : _config.yml中的author.name
+  name : win.moe
   email : 
   github : 
   twitter : 
