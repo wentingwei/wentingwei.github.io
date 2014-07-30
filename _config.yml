@@ -84,7 +84,7 @@ site :
   comments :
     provider : disqus
     disqus :
-      short_name : 你的disque账户名
+      short_name : winter2014
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
