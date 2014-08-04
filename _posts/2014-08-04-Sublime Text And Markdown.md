@@ -1,6 +1,5 @@
-------------
 #1.安装MarkdownBuild和MarkdownPreview
-
+------------
  - Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview
  - 如果没有，请先安装Package Control,Command+~ 输入下面代码
 
@@ -13,6 +12,6 @@
 > installation'
 
 #2.在sublime中写Markdown的文本
-
+------------
  - Command+Shift+P选择Markdown Preview : Preview in Browser
  - 选择github，然后浏览器会显示出你的文本
