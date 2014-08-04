@@ -10,7 +10,7 @@ paginate: 4
 title : 我读书少 你不要欺负我
 tagline: 
 author :
-  name : 文·盲
+  name : 文盲(win.moe)
   email : 
   github : 
   twitter : 
@@ -27,7 +27,7 @@ markdown: kramdown
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 # 博客地址，如果没有自定义CNAME，写用户名即可
-production_url : 你的github用户名
+production_url : win.moe
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 # 我使用我的id作为了这个属性的属性名
