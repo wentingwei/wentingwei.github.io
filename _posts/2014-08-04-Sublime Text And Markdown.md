@@ -1,5 +1,4 @@
-#Sublime Text And Markdown
-
+------------
 ##1.安装MarkdownBuild和MarkdownPreview
 
  - Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview
