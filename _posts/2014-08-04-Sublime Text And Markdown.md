@@ -1,10 +1,10 @@
 ---
 layout: post
-keywords: test
-description: test
-title: "test"
-categories: [test]
-tags: [test]
+keywords: sublime markdown
+description: sublime markdown
+title: "在Sublime中写markdown"
+categories: [markdown]
+tags: [markdown]
 group: archive
 icon: file-alt
 ---
