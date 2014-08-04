@@ -1,3 +1,15 @@
+---
+layout: post
+keywords: test
+description: test
+title: "test"
+categories: [test]
+tags: [test]
+group: archive
+icon: file-alt
+---
+{% include site/setup %}
+
 #1.安装MarkdownBuild和MarkdownPreview
 ------------
  - Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview
