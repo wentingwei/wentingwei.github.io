@@ -3,7 +3,7 @@ layout: post
 keywords: githubpages
 description: githubpages
 title: "使用githubpages搭建博客"
-categories: [githubpages]
+categories: [技术]
 tags: [githubpages]
 group: archive
 icon: file-alt
