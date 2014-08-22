@@ -2,7 +2,7 @@ permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
-pygments: true
+highlighter: pygments
 # 分页配置，每页最多显示几篇文章
 paginate: 4
 
@@ -88,7 +88,7 @@ site :
     provider : disqus
     disqus :
       short_name : winter2014
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
@@ -106,7 +106,7 @@ site :
   #
   sharing :
     provider : false
-    
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -117,4 +117,4 @@ site :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+

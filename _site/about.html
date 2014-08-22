@@ -1,11 +1,13 @@
+
+
 <!DOCTYPE html>
 <html lang="cn">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <title>关于</title>
+    
+    
+    <meta name="author" content="文盲(win.moe)">
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,8 +41,8 @@
     -->
 
     <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}{{ site.site.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.site.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
     <script type="text/javascript">
     </script>
@@ -55,14 +57,24 @@
           <div class="col-md-2">
           </div>
           <div class="col-md-8">
-            <a class="navbar-brand" href="{{ HOME_PATH }}">
-              <span class="site-author"> {{ site.author.name }} </span>
-              <span class="site-title"> /* {{ site.title }} */ </span>
+            <a class="navbar-brand" href="/">
+              <span class="site-author"> 文盲(win.moe) </span>
+              <span class="site-title"> /* 成功的道路很相似，你就没必要开辟一条属于自己的失败之路。 */ </span>
             </a>
             <ul id="nav-menu" class="nav navbar-nav">
-              {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include site/navigation_list %}
+              
+              
+              
+
+
+
+
+
+<li class="posts"><a href="/posts.html">文章</a></li>
+<li class="timeline"><a href="/timeline.html">归档</a></li>
+<li class="categories"><a href="/categories.html">目录</a></li>
+<li class="active"><a href="/about.html">关于</a></li>
+
             </ul>
           </div>
           <div class="col-md-2">
@@ -71,18 +83,78 @@
       </div>
 
       <!-- 正文 -->
-      {{ content }}
+      
+
+<div class="row typo">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <br />
+    
+
+<div>
+  <h2>
+    关于
+  </h2>
+  <p class="about">
+    体肥还需勤锻炼，人丑就该多读书。
+  </p>
+  <h2>
+    邮箱链接
+  </h2>
+  <table class="table table-striped" id="about-me">
+    <tbody>
+      <tr>
+        <td class="col-md-3"><i class="fa fa-envelope"></i> <span>我的邮箱</span></td>
+        <td><a href="winter1987@gmail.com">win · Gmail</a> </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br />
+<br />
+<br />
+<div id="comment-hook"></div>
+
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'winter2014'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementById('comment-hook') || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+
 
     </div>
     <!-- 底部声明 -->
     <div class="row bottom">
       <div class="col-md-2">
       </div>
-        <p id="footer">&copy;2014 - <a href="http://win.moe/">{{ page.title }}</a>
+        <p id="footer">&copy;2014 - <a href="http://win.moe/">关于</a>
       <div class="col-md-2">
       </div>
     </div>
 
-    {% include site/analytics %}
+    
+
   </body>
 </html>
+

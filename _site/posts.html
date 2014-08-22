@@ -1,11 +1,13 @@
+
+
 <!DOCTYPE html>
 <html lang="cn">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <title>文章</title>
+    
+    
+    <meta name="author" content="文盲(win.moe)">
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,8 +41,8 @@
     -->
 
     <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}{{ site.site.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.site.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
     <script type="text/javascript">
     </script>
@@ -55,14 +57,24 @@
           <div class="col-md-2">
           </div>
           <div class="col-md-8">
-            <a class="navbar-brand" href="{{ HOME_PATH }}">
-              <span class="site-author"> {{ site.author.name }} </span>
-              <span class="site-title"> /* {{ site.title }} */ </span>
+            <a class="navbar-brand" href="/">
+              <span class="site-author"> 文盲(win.moe) </span>
+              <span class="site-title"> /* 成功的道路很相似，你就没必要开辟一条属于自己的失败之路。 */ </span>
             </a>
             <ul id="nav-menu" class="nav navbar-nav">
-              {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include site/navigation_list %}
+              
+              
+              
+
+
+
+
+
+<li class="active"><a href="/posts.html">文章</a></li>
+<li class="timeline"><a href="/timeline.html">归档</a></li>
+<li class="categories"><a href="/categories.html">目录</a></li>
+<li class="about"><a href="/about.html">关于</a></li>
+
             </ul>
           </div>
           <div class="col-md-2">
@@ -71,18 +83,71 @@
       </div>
 
       <!-- 正文 -->
-      {{ content }}
+      
+
+<div class="row typo">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <br />
+    
+
+
+<table class="table table-striped table-bordered" id="post-data">
+  <thead>
+    <th class="post-date"><i class="fa fa-calendar"></i> 日期</th>
+    <th class="post-url"><i class="fa fa-bookmark"></i> 标题</th>
+    <th class="post-tags"><i class="fa fa-tags"></i> 标签</th>
+  </thead>
+  
+  
+
+<tr>  
+  <td class="post-date">2014 年 08 月 14 日</td>
+  <td class="post-url">
+    <a href="/2014/08/14/hackers-and-painters">黑客与画家读书笔记</a>
+  </td>
+  <td class="post-tags">读书</td>
+</tr>
+
+<tr>  
+  <td class="post-date">2014 年 08 月 04 日</td>
+  <td class="post-url">
+    <a href="/2014/08/04/sublime-text-and-markdown">在Sublime中写markdown</a>
+  </td>
+  <td class="post-tags">markdown</td>
+</tr>
+
+<tr>  
+  <td class="post-date">2014 年 07 月 30 日</td>
+  <td class="post-url">
+    <a href="/2014/07/30/use-github-pages-for-blog">使用githubpages搭建博客</a>
+  </td>
+  <td class="post-tags">githubpages</td>
+</tr>
+
+  
+
+
+</table>
+
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+
 
     </div>
     <!-- 底部声明 -->
     <div class="row bottom">
       <div class="col-md-2">
       </div>
-        <p id="footer">&copy;2014 - <a href="http://win.moe/">{{ page.title }}</a>
+        <p id="footer">&copy;2014 - <a href="http://win.moe/">文章</a>
       <div class="col-md-2">
       </div>
     </div>
 
-    {% include site/analytics %}
+    
+
   </body>
 </html>
+
