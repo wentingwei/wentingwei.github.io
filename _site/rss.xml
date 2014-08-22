@@ -90,8 +90,8 @@
         <description>成功的道路很相似，你就没必要开辟一条属于自己的失败之路。 - 文盲(win.moe)</description>
         <link>win.moe</link>
         <link>win.moe</link>
-        <lastBuildDate>2014-08-22T19:30:32+08:00</lastBuildDate>
-        <pubDate>2014-08-22T19:30:32+08:00</pubDate>
+        <lastBuildDate>2014-08-22T19:46:22+08:00</lastBuildDate>
+        <pubDate>2014-08-22T19:46:22+08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -273,7 +273,11 @@ installation’&lt;/p&gt;
     <div class="row bottom">
       <div class="col-md-2">
       </div>
-        <p id="footer">&copy;2014 - <a href="http://win.moe/">RSS Feed</a>
+            <footer id="footer" class="inner">
+                Copyright &copy; 2014 WinMoe. All rights reserved. 
+                Powered by <a href="http://jekyllbootstrap.com">Jekyll</a>
+            </footer>
+
       <div class="col-md-2">
       </div>
     </div>
