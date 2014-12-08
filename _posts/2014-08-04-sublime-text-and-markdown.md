@@ -7,8 +7,9 @@ categories: [技术]
 tags: [markdown]
 group: archive
 icon: file-alt
+disqus: y
 ---
-{% include site/setup %}
+
 
 #1.安装MarkdownBuild和MarkdownPreview
 ------------

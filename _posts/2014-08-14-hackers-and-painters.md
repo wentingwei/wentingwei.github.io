@@ -7,8 +7,8 @@ categories: [读书]
 tags: [读书]
 group: archive
 icon: file-alt
+disqus: y
 ---
-{% include site/setup %}
 
 ------------
 黑客与画家

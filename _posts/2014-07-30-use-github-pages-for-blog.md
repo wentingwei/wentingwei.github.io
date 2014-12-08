@@ -1,14 +1,10 @@
 ---
 layout: post
-keywords: githubpages
-description: githubpages
-title: "使用githubpages搭建博客"
-categories: [技术]
-tags: [githubpages]
-group: archive
-icon: file-alt
+title: 使用githubpages搭建博客
+date: 2014-07-30 16:27:31
+disqus: y
+share: y
 ---
-{% include site/setup %}
 
  - 注册[github][1]
  - 注册域名去[name.com][2]或者[godaddy.com][3]
