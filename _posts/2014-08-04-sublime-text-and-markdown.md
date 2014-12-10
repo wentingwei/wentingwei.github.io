@@ -7,7 +7,7 @@ categories: [技术]
 tags: [markdown]
 group: archive
 icon: file-alt
-disqus: y
+disqus: n
 ---
 
 

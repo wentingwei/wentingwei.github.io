@@ -2,8 +2,9 @@
 layout: post
 title: 使用githubpages搭建博客
 date: 2014-07-30 16:27:31
-disqus: y
-share: y
+categories: [技术]
+disqus: n
+share: n
 ---
 
  - 注册[github][1]

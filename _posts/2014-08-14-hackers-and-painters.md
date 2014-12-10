@@ -7,7 +7,8 @@ categories: [读书]
 tags: [读书]
 group: archive
 icon: file-alt
-disqus: y
+disqus: n
+share: n
 ---
 
 ------------

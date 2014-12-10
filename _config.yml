@@ -1,9 +1,9 @@
-title:            Win.Moe
+title:            win.moe
 description:      win moe
-url:              # Site url.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+url:              win.moe
+signoff:          每天进步一点点.
+#disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+#facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 #google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
