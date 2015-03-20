@@ -1,7 +1,7 @@
 <html>
   <head>
-    <meta content='如何与人交流 - win.moe' property='og:title' />
-    <title>如何与人交流 - win.moe</title>
+    <meta content='阴影优化之shadow cache - win.moe' property='og:title' />
+    <title>阴影优化之shadow cache - win.moe</title>
     <!--link href='/images/fav.png' rel='shortcut icon'-->
 <link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
@@ -32,39 +32,48 @@
       <section class="paging">
   
     <div class="left">
-      <a href="/%E8%AF%BB%E4%B9%A6/2014/08/14/hackers-and-painters/">
+      <a href="/%E5%BF%83%E5%BE%97/2015/03/19/How-to-Have-a-Great-Conversation/">
         ‹
       </a>
     </div>
   
   
-    <div class="right">
-      <a href="/%E6%8A%80%E6%9C%AF/2015/03/20/Shadow-Cache/">
-        ›
-      </a>
-    </div>
-  
 </section>
       <div class="content">
         <section class='post'>
           <h1 class="upcase">
-            <div class='date'>19 Mar 2015</div>
-            如何与人交流
+            <div class='date'>20 Mar 2015</div>
+            阴影优化之shadow cache
           </h1>
           <hr>
 
-<h2><img src="/images/post/Conversation.jpg" alt=""></h2>
+<p>描述：对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？</p>
 
-<ol>
-<li>搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。</li>
-<li>不要试图用自己能理解的话语来表达，考虑别人的理解，目的是对方能明白，而不是自己在表述。</li>
-<li>用温和而直接了当的方式去讲，而不是绕弯，不然可能会一时没有明白或误会本意。</li>
-<li>要有重点，讲清楚自己的观点，而不是发散性思维，从一个话题转到另一个话题。</li>
-<li>善于倾听，对方的反馈，可能是你讲的不对，或者没有表达清楚。</li>
-<li>尽量传播直接的信息，而不是间接获取的，因为信息传播过程中会变的远离本来的内容。</li>
-<li>交流过程中不要打断别人，多倾听，吸取有意义的观点。</li>
-<li>从容专心，有耐心，站在对方的角度考虑问题。</li>
-</ol>
+<hr>
+
+<p>针对这个问题，我做了一个思考：美术在场景做好之后，我们划分场景，预渲染整个场景静态物件的深度到贴图上，运行期，根据阴影摄像机的位置不同来拼接这些深度图，以此实现减少DrawCall和全局阴影的效果。</p>
+
+<hr>
+
+<p>具体做法：</p>
+
+<ul>
+<li>  在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等</li>
+<li>  针对每个摆好的阴影摄像机，对场景拍照，保存深度图</li>
+<li>  运行期根据当前阴影摄像机所在的位置，拼出一张深度图，然后再画动态物件到shadowmap上</li>
+<li>  最终使用这张shadowmap来画场景物件，实现阴影效果</li>
+</ul>
+
+<hr>
+
+<p>一些关键点：</p>
+
+<ul>
+<li>  划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机</li>
+<li>  保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间</li>
+<li>  拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法</li>
+<li>  最终的shadowmap使用ReadDepthAsTexture技术</li>
+</ul>
 
           <br />
 <HR style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#FFFFFF SIZE=1>
