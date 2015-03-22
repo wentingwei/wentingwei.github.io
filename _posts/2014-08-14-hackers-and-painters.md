@@ -1,8 +1,8 @@
 ---
 layout: post
 keywords: 黑客与画家
-description: 黑客与画家
-title: "黑客与画家读书笔记"
+description: 黑客与画家（笔记）
+title: "黑客与画家（笔记）"
 categories: [读书]
 tags: [读书]
 group: archive
