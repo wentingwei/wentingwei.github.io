@@ -7,8 +7,7 @@ categories: [Technology]
 tags: [Technology]
 group: archive
 icon: file-alt
-disqus: n
-share: n
+duoshuo: y
 ---
 
 -----

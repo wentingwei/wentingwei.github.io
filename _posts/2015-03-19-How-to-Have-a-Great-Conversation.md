@@ -7,11 +7,12 @@ categories: [Think]
 tags: [Think]
 group: archive
 icon: file-alt
-disqus: n
-share: n
+duoshuo: y
 ---
+
 -----
 ![](/images/post/Conversation.jpg)
+
 -----
 1. 搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。
 2. 不要试图用自己能理解的话语来表达，考虑别人的理解，目的是对方能明白，而不是自己在表述。

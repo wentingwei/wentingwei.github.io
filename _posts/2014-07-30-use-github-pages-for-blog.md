@@ -3,8 +3,7 @@ layout: post
 title: 使用githubpages搭建博客
 date: 2014-07-30 16:27:31
 categories: [Technology]
-disqus: n
-share: n
+duoshuo: y
 ---
 
  - 注册[github][1]
@@ -17,7 +16,7 @@ share: n
  - 去域名注册商添加A记录到192.30.252.153
  - 等待5分钟即可访问
 
-
+---
   [1]: https://github.com
   [2]: http://name.com
   [3]: http://godaddy.com

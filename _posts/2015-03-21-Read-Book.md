@@ -7,8 +7,7 @@ categories: [Read]
 tags: [Read]
 group: archive
 icon: file-alt
-disqus: n
-share: n
+duoshuo: y
 ---
 
 ------------

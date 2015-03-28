@@ -7,9 +7,9 @@ categories: [Technology]
 tags: [Technology]
 group: archive
 icon: file-alt
-disqus: n
-share: n
+duoshuo: y
 ---
+
 -----
 描述：对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？
 

@@ -179,7 +179,9 @@
         <title>如何与人交流</title>
         <description>&lt;hr&gt;
 
-&lt;h2&gt;&lt;img src=&quot;/images/post/Conversation.jpg&quot; alt=&quot;&quot;&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/post/Conversation.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
 
 &lt;ol&gt;
 &lt;li&gt;搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。&lt;/li&gt;
@@ -199,7 +201,9 @@
     
       <item>
         <title>优米视频（创业关键点记录）</title>
-        <description>&lt;p&gt;这是看&lt;a href=&quot;http://www.youmi.cn/&quot;&gt;优米视频&lt;/a&gt;的同时记录下来的一些要点：&lt;/p&gt;
+        <description>&lt;hr&gt;
+
+&lt;p&gt;这是看&lt;a href=&quot;http://www.youmi.cn/&quot;&gt;优米视频&lt;/a&gt;的同时记录下来的一些要点：&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -233,7 +237,9 @@
     
       <item>
         <title>程序员的思维修炼（笔记）</title>
-        <description>&lt;p&gt;程序员的思维修炼&lt;/p&gt;
+        <description>&lt;hr&gt;
+
+&lt;p&gt;程序员的思维修炼&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;作者:  Andy Hunt &lt;/li&gt;
@@ -541,9 +547,9 @@ Code is write-once, read-many.”&lt;/p&gt;
     
       <item>
         <title>在Sublime中写markdown</title>
-        <description>&lt;h1&gt;1.安装MarkdownBuild和MarkdownPreview&lt;/h1&gt;
+        <description>&lt;hr&gt;
 
-&lt;hr&gt;
+&lt;h3&gt;1.安装MarkdownBuild和MarkdownPreview&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview&lt;/li&gt;
@@ -560,9 +566,9 @@ open(os.path.join(ipp,pf),&amp;lsquo;wb&amp;rsquo;).write(urllib2.urlopen(&amp;l
 installation&amp;rsquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1&gt;2.在sublime中写Markdown的文本&lt;/h1&gt;
-
 &lt;hr&gt;
+
+&lt;h3&gt;2.在sublime中写Markdown的文本&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Command+Shift+P选择Markdown Preview : Preview in Browser&lt;/li&gt;
@@ -587,6 +593,8 @@ installation&amp;rsquo;&lt;/p&gt;
 &lt;li&gt;去域名注册商添加A记录到192.30.252.153&lt;/li&gt;
 &lt;li&gt;等待5分钟即可访问&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr&gt;
 </description>
         <pubDate>Thu, 31 Jul 2014 00:27:31 +0800</pubDate>
         <link>win.moe/technology/2014/07/31/use-github-pages-for-blog/</link>

@@ -7,10 +7,10 @@ categories: [Read]
 tags: [Read]
 group: archive
 icon: file-alt
-disqus: n
-share: n
+duoshuo: y
 ---
 
+---
 程序员的思维修炼
 
 - 作者:  Andy Hunt 

@@ -7,8 +7,7 @@ categories: [Unity3D]
 tags: [Unity3D]
 group: archive
 icon: file-alt
-disqus: n
-share: n
+duoshuo: y
 ---
 
 ---
