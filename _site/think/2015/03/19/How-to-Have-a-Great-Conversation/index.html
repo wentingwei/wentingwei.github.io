@@ -1,7 +1,7 @@
 <html>
   <head>
-    <meta content='静态渲染之Ambient Occlusion - win.moe' property='og:title' />
-    <title>静态渲染之Ambient Occlusion - win.moe</title>
+    <meta content='如何与人交流 - win.moe' property='og:title' />
+    <title>如何与人交流 - win.moe</title>
     <!--link href='/images/fav.png' rel='shortcut icon'-->
 <link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
@@ -32,14 +32,14 @@
       <section class="paging">
   
     <div class="left">
-      <a href="/technology/2015/03/20/Shadow-Cache/">
+      <a href="/read/2015/01/18/youmi/">
         ‹
       </a>
     </div>
   
   
     <div class="right">
-      <a href="/read/2015/03/21/Read-Book/">
+      <a href="/technology/2015/03/20/Shadow-Cache/">
         ›
       </a>
     </div>
@@ -48,38 +48,23 @@
       <div class="content">
         <section class='post'>
           <h1 class="upcase">
-            <div class='date'>21 Mar 2015</div>
-            静态渲染之Ambient Occlusion
+            <div class='date'>19 Mar 2015</div>
+            如何与人交流
           </h1>
           <hr>
 
-<p><a href="http://en.wikipedia.org/wiki/Ambient_occlusion">Ambient Occlusion Wikipedia</a></p>
+<h2><img src="/images/post/Conversation.jpg" alt=""></h2>
 
-<hr>
-
-<p>描述：对于3D游戏，AO作为全局光照的一部分已经成为很多3D引擎的标配，不管是静态还是SSAO，本文描述了，在游戏开发后期为了提高整体效果而弥补的静态渲染的AO。</p>
-
-<hr>
-
-<p>流程：</p>
-
-<ul>
-<li>  按文件划分UV（正常应该按场景的区域还划分？）</li>
-<li>  渲染生成AO贴图</li>
-<li>  运行期使用AO贴图</li>
-</ul>
-
-<hr>
-
-<p>一些要点：</p>
-
-<ul>
-<li>  分UV，合并单个文件的Mesh为一个Mesh，然后转换为DX的标准Mesh，然后利用DX自带的UVAtlas来进行UV划分（UVAtlas分的UV并不是很好），UVAtlas中有很多参数需要注意.分好UV的Mesh，根据文件把第二套UV数据插入进去，保存Mesh以及文件.</li>
-<li>  渲染生成AO部分参考<a href="http://www.gamasutra.com/view/feature/130455/hardware_accelerating_art_.php?page=2">这篇文章</a>,对于非封闭的模型，美术又没有补面的，要做一些特殊处理.</li>
-<li>  运行期AO贴图直接影响光照运算或者模拟乘上去（GameBryo的话直接放DarkMap通道来用了）</li>
-</ul>
-
-<hr>
+<ol>
+<li>搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。</li>
+<li>不要试图用自己能理解的话语来表达，考虑别人的理解，目的是对方能明白，而不是自己在表述。</li>
+<li>用温和而直接了当的方式去讲，而不是绕弯，不然可能会一时没有明白或误会本意。</li>
+<li>要有重点，讲清楚自己的观点，而不是发散性思维，从一个话题转到另一个话题。</li>
+<li>善于倾听，对方的反馈，可能是你讲的不对，或者没有表达清楚。</li>
+<li>尽量传播直接的信息，而不是间接获取的，因为信息传播过程中会变的远离本来的内容。</li>
+<li>交流过程中不要打断别人，多倾听，吸取有意义的观点。</li>
+<li>从容专心，有耐心，站在对方的角度考虑问题。</li>
+</ol>
 
           <br />
 <HR style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#FFFFFF SIZE=1>

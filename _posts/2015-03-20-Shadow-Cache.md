@@ -3,7 +3,7 @@ layout: post
 keywords: 技术
 description: 阴影优化之shadow cache
 title: "阴影优化之shadow cache"
-categories: [技术]
+categories: [Technology]
 tags: [技术]
 group: archive
 icon: file-alt

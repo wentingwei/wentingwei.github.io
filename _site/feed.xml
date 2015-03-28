@@ -7,6 +7,60 @@
     <atom:link href="win.moe/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Unity3D之破解与反破解</title>
+        <description>&lt;hr&gt;
+
+&lt;h3&gt;1. Unity3D破解（MacOSX）&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分别复制两个文件到响应目录即可&lt;/li&gt;
+&lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
+&lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;2. Unity3D游戏资源导出&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压之&lt;/li&gt;
+&lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;3. 代码反编译与防止&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;随便下载一个Unity做的游戏apk解压，找到Assembly-CSCarp.dll&lt;/li&gt;
+&lt;li&gt;拖拽到 MonoDevelop中打开（ 或者使用 .NET Reflector 8 反编译 ）&lt;/li&gt;
+&lt;li&gt;防止反编译插件：Codeguard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;4. 代码混淆与还原&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;代码混淆与还原工具&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;de4dot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;参考:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.xuanyusong.com/%5D&quot;&gt;http://www.xuanyusong.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;https://github.com/ata4/disunity/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;https://github.com/0xd4d/de4dot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 28 Mar 2015 00:00:00 +0800</pubDate>
+        <link>win.moe/unity3d/2015/03/28/Unity3D-Crack/</link>
+        <guid isPermaLink="true">win.moe/unity3d/2015/03/28/Unity3D-Crack/</guid>
+      </item>
+    
+      <item>
         <title>读书毁了我（笔记）</title>
         <description>&lt;hr&gt;
 
@@ -43,8 +97,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/%E8%AF%BB%E4%B9%A6/2015/03/21/Read-Book/</link>
-        <guid isPermaLink="true">win.moe/%E8%AF%BB%E4%B9%A6/2015/03/21/Read-Book/</guid>
+        <link>win.moe/read/2015/03/21/Read-Book/</link>
+        <guid isPermaLink="true">win.moe/read/2015/03/21/Read-Book/</guid>
       </item>
     
       <item>
@@ -117,8 +171,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/%E6%8A%80%E6%9C%AF/2015/03/20/Shadow-Cache/</link>
-        <guid isPermaLink="true">win.moe/%E6%8A%80%E6%9C%AF/2015/03/20/Shadow-Cache/</guid>
+        <link>win.moe/technology/2015/03/20/Shadow-Cache/</link>
+        <guid isPermaLink="true">win.moe/technology/2015/03/20/Shadow-Cache/</guid>
       </item>
     
       <item>
@@ -139,8 +193,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 19 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/%E5%BF%83%E5%BE%97/2015/03/19/How-to-Have-a-Great-Conversation/</link>
-        <guid isPermaLink="true">win.moe/%E5%BF%83%E5%BE%97/2015/03/19/How-to-Have-a-Great-Conversation/</guid>
+        <link>win.moe/think/2015/03/19/How-to-Have-a-Great-Conversation/</link>
+        <guid isPermaLink="true">win.moe/think/2015/03/19/How-to-Have-a-Great-Conversation/</guid>
       </item>
     
       <item>
@@ -173,8 +227,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Sun, 18 Jan 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/%E9%98%85%E8%AF%BB/2015/01/18/youmi/</link>
-        <guid isPermaLink="true">win.moe/%E9%98%85%E8%AF%BB/2015/01/18/youmi/</guid>
+        <link>win.moe/read/2015/01/18/youmi/</link>
+        <guid isPermaLink="true">win.moe/read/2015/01/18/youmi/</guid>
       </item>
     
       <item>
@@ -349,8 +403,8 @@ Code is write-once, read-many.”&lt;/p&gt;
 &lt;hr&gt;
 </description>
         <pubDate>Thu, 02 Oct 2014 00:00:00 +0800</pubDate>
-        <link>win.moe/%E8%AF%BB%E4%B9%A6/2014/10/02/Pragmatic-Thinking-and-Learning/</link>
-        <guid isPermaLink="true">win.moe/%E8%AF%BB%E4%B9%A6/2014/10/02/Pragmatic-Thinking-and-Learning/</guid>
+        <link>win.moe/read/2014/10/02/Pragmatic-Thinking-and-Learning/</link>
+        <guid isPermaLink="true">win.moe/read/2014/10/02/Pragmatic-Thinking-and-Learning/</guid>
       </item>
     
       <item>
@@ -516,8 +570,8 @@ installation&amp;rsquo;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 04 Aug 2014 00:00:00 +0800</pubDate>
-        <link>win.moe/%E6%8A%80%E6%9C%AF/2014/08/04/sublime-text-and-markdown/</link>
-        <guid isPermaLink="true">win.moe/%E6%8A%80%E6%9C%AF/2014/08/04/sublime-text-and-markdown/</guid>
+        <link>win.moe/technology/2014/08/04/sublime-text-and-markdown/</link>
+        <guid isPermaLink="true">win.moe/technology/2014/08/04/sublime-text-and-markdown/</guid>
       </item>
     
       <item>
@@ -535,8 +589,8 @@ installation&amp;rsquo;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 31 Jul 2014 00:27:31 +0800</pubDate>
-        <link>win.moe/%E6%8A%80%E6%9C%AF/2014/07/31/use-github-pages-for-blog/</link>
-        <guid isPermaLink="true">win.moe/%E6%8A%80%E6%9C%AF/2014/07/31/use-github-pages-for-blog/</guid>
+        <link>win.moe/technology/2014/07/31/use-github-pages-for-blog/</link>
+        <guid isPermaLink="true">win.moe/technology/2014/07/31/use-github-pages-for-blog/</guid>
       </item>
     
   </channel>

@@ -1,7 +1,7 @@
 <html>
   <head>
-    <meta content='静态渲染之Ambient Occlusion - win.moe' property='og:title' />
-    <title>静态渲染之Ambient Occlusion - win.moe</title>
+    <meta content='在Sublime中写markdown - win.moe' property='og:title' />
+    <title>在Sublime中写markdown - win.moe</title>
     <!--link href='/images/fav.png' rel='shortcut icon'-->
 <link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
@@ -32,14 +32,14 @@
       <section class="paging">
   
     <div class="left">
-      <a href="/technology/2015/03/20/Shadow-Cache/">
+      <a href="/technology/2014/07/31/use-github-pages-for-blog/">
         ‹
       </a>
     </div>
   
   
     <div class="right">
-      <a href="/read/2015/03/21/Read-Book/">
+      <a href="/%E8%AF%BB%E4%B9%A6/2014/08/14/hackers-and-painters/">
         ›
       </a>
     </div>
@@ -48,38 +48,36 @@
       <div class="content">
         <section class='post'>
           <h1 class="upcase">
-            <div class='date'>21 Mar 2015</div>
-            静态渲染之Ambient Occlusion
+            <div class='date'>04 Aug 2014</div>
+            在Sublime中写markdown
           </h1>
-          <hr>
-
-<p><a href="http://en.wikipedia.org/wiki/Ambient_occlusion">Ambient Occlusion Wikipedia</a></p>
+          <h1>1.安装MarkdownBuild和MarkdownPreview</h1>
 
 <hr>
-
-<p>描述：对于3D游戏，AO作为全局光照的一部分已经成为很多3D引擎的标配，不管是静态还是SSAO，本文描述了，在游戏开发后期为了提高整体效果而弥补的静态渲染的AO。</p>
-
-<hr>
-
-<p>流程：</p>
 
 <ul>
-<li>  按文件划分UV（正常应该按场景的区域还划分？）</li>
-<li>  渲染生成AO贴图</li>
-<li>  运行期使用AO贴图</li>
+<li>Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview</li>
+<li>如果没有，请先安装Package Control,Command+~ 输入下面代码</li>
 </ul>
 
-<hr>
+<blockquote>
+<p>import urllib2,os; pf=&lsquo;Package Control.sublime-package&rsquo;;
+ipp=sublime.installed<em>packages</em>path(); os.makedirs(ipp) if not
+os.path.exists(ipp) else None;
+urllib2.install<em>opener(urllib2.build</em>opener(urllib2.ProxyHandler()));
+open(os.path.join(ipp,pf),&lsquo;wb&rsquo;).write(urllib2.urlopen(&lsquo;http://sublime.wbond.net/&rsquo;+pf.replace(&lsquo;
+&rsquo;,&lsquo;%20&rsquo;)).read()); print &lsquo;Please restart Sublime Text to finish
+installation&rsquo;</p>
+</blockquote>
 
-<p>一些要点：</p>
+<h1>2.在sublime中写Markdown的文本</h1>
+
+<hr>
 
 <ul>
-<li>  分UV，合并单个文件的Mesh为一个Mesh，然后转换为DX的标准Mesh，然后利用DX自带的UVAtlas来进行UV划分（UVAtlas分的UV并不是很好），UVAtlas中有很多参数需要注意.分好UV的Mesh，根据文件把第二套UV数据插入进去，保存Mesh以及文件.</li>
-<li>  渲染生成AO部分参考<a href="http://www.gamasutra.com/view/feature/130455/hardware_accelerating_art_.php?page=2">这篇文章</a>,对于非封闭的模型，美术又没有补面的，要做一些特殊处理.</li>
-<li>  运行期AO贴图直接影响光照运算或者模拟乘上去（GameBryo的话直接放DarkMap通道来用了）</li>
+<li>Command+Shift+P选择Markdown Preview : Preview in Browser</li>
+<li>选择github，然后浏览器会显示出你的文本</li>
 </ul>
-
-<hr>
 
           <br />
 <HR style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#FFFFFF SIZE=1>

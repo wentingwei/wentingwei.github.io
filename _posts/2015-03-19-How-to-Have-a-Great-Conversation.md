@@ -3,7 +3,7 @@ layout: post
 keywords: 交流
 description: 如何与人交流
 title: "如何与人交流"
-categories: [心得]
+categories: [Think]
 tags: [心得]
 group: archive
 icon: file-alt

@@ -3,7 +3,7 @@ layout: post
 keywords: [读书]
 description: 程序员的思维修炼（笔记）
 title: "程序员的思维修炼（笔记）"
-categories: [读书]
+categories: [Read]
 tags: [读书]
 group: archive
 icon: file-alt

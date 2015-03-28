@@ -3,7 +3,7 @@ layout: post
 keywords: sublime markdown
 description: sublime markdown
 title: "在Sublime中写markdown"
-categories: [技术]
+categories: [Technology]
 tags: [markdown]
 group: archive
 icon: file-alt
