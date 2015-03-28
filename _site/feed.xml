@@ -13,7 +13,7 @@
 &lt;h3&gt;1. Unity3D破解（MacOSX）&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;分别复制两个文件到响应目录即可&lt;/li&gt;
+&lt;li&gt;分别复制两个文件到相应目录即可&lt;/li&gt;
 &lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
 &lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
 &lt;/ul&gt;
@@ -23,7 +23,7 @@
 &lt;h3&gt;2. Unity3D游戏资源导出&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压之&lt;/li&gt;
+&lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源&lt;/li&gt;
 &lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
 &lt;/ol&gt;
 

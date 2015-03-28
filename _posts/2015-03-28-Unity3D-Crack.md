@@ -13,14 +13,14 @@ duoshuo: y
 ---
 ###1. Unity3D破解（MacOSX）
 
-- 分别复制两个文件到响应目录即可
+- 分别复制两个文件到相应目录即可
 - /Library/Application Support/Unity/Unity_v4.x.ulf
 - /Applications/Unity/Unity.app/Contents/MacOS/Unity
 
 ---
 ###2. Unity3D游戏资源导出
 
-1. 下载.IPA或者.APK文件,修改后缀名为.zip，解压之
+1. 下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源
 2. 使用资源的提取工具[disunity][0]提取资源，具体参考其说明
 
 ---
