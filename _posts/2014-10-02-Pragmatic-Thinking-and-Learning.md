@@ -4,7 +4,7 @@ keywords: [读书]
 description: 程序员的思维修炼（笔记）
 title: "程序员的思维修炼（笔记）"
 categories: [Read]
-tags: [读书]
+tags: [Read]
 group: archive
 icon: file-alt
 disqus: n

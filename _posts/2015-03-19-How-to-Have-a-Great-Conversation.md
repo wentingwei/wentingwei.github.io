@@ -4,7 +4,7 @@ keywords: 交流
 description: 如何与人交流
 title: "如何与人交流"
 categories: [Think]
-tags: [心得]
+tags: [Think]
 group: archive
 icon: file-alt
 disqus: n

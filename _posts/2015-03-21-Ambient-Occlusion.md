@@ -3,8 +3,8 @@ layout: post
 keywords: 技术
 description: 静态渲染之Ambient Occlusion
 title: "静态渲染之Ambient Occlusion"
-categories: [技术]
-tags: [技术]
+categories: [Technology]
+tags: [Technology]
 group: archive
 icon: file-alt
 disqus: n

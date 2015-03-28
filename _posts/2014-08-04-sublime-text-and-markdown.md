@@ -4,7 +4,7 @@ keywords: sublime markdown
 description: sublime markdown
 title: "在Sublime中写markdown"
 categories: [Technology]
-tags: [markdown]
+tags: [Technology]
 group: archive
 icon: file-alt
 disqus: n
