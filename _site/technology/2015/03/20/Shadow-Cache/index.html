@@ -53,7 +53,9 @@
           </h1>
           <hr>
 
-<p>描述：对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？</p>
+<p><strong>描述</strong>：</p>
+
+<p>对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？</p>
 
 <hr>
 
@@ -61,7 +63,7 @@
 
 <hr>
 
-<p>具体做法：</p>
+<p><strong>具体做法</strong>：</p>
 
 <ul>
 <li>  在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等</li>
@@ -72,14 +74,24 @@
 
 <hr>
 
-<p>一些关键点：</p>
+<p><strong>一些关键点</strong>：</p>
 
 <ul>
 <li>  划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机</li>
 <li>  保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间</li>
 <li>  拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法</li>
-<li>  最终的shadowmap使用ReadDepthAsTexture技术</li>
+<li>  最终的shadowmap使用<a href="http://aras-p.info/texts/D3D9GPUHacks.html">Read depth buffer as texture</a>技术</li>
 </ul>
+
+<hr>
+
+<p>参考：</p>
+
+<ul>
+<li>http://aras-p.info/texts/D3D9GPUHacks.html</li>
+</ul>
+
+<hr>
 
         </section>
         <hr>

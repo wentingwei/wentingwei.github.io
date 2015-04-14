@@ -212,7 +212,9 @@
         <title>阴影优化之shadow cache</title>
         <description>&lt;hr&gt;
 
-&lt;p&gt;描述：对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;描述&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -220,7 +222,7 @@
 
 &lt;hr&gt;
 
-&lt;p&gt;具体做法：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;具体做法&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;  在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等&lt;/li&gt;
@@ -231,14 +233,24 @@
 
 &lt;hr&gt;
 
-&lt;p&gt;一些关键点：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一些关键点&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;  划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机&lt;/li&gt;
 &lt;li&gt;  保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间&lt;/li&gt;
 &lt;li&gt;  拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法&lt;/li&gt;
-&lt;li&gt;  最终的shadowmap使用ReadDepthAsTexture技术&lt;/li&gt;
+&lt;li&gt;  最终的shadowmap使用&lt;a href=&quot;http://aras-p.info/texts/D3D9GPUHacks.html&quot;&gt;Read depth buffer as texture&lt;/a&gt;技术&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;参考：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;http://aras-p.info/texts/D3D9GPUHacks.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/03/20/Shadow-Cache/</link>
