@@ -7,10 +7,12 @@ signoff:          每天进步一点点.
 #google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name:         About
-    url:          /about
-  - name:         Blog
+  - name:         Home
     url:          /
+  - name:         关于
+    url:          /about
+  - name:         豆瓣
+    url:          /douban
     external:     true
 highlighter:      pygments
 permalink:        pretty
