@@ -13,6 +13,8 @@ links:
     url:          /about
   - name:         豆瓣
     url:          /douban
+  - name:         LOFTER
+    url:          http://3.1415926.info
     external:     true
 highlighter:      pygments
 permalink:        pretty
