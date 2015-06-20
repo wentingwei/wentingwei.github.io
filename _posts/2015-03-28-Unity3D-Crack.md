@@ -44,4 +44,4 @@ duoshuo: y
 
 [0]: https://github.com/ata4/disunity/releases
 [1]: https://github.com/0xd4d/de4dot
-[2]: http://www.xuanyusong.com/]
+[2]: http://www.xuanyusong.com/
