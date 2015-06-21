@@ -46,68 +46,44 @@
             <div class='date'>31 Mar 2015</div>
             Unity3D之打包IPA和APK
           </h1>
-          <hr>
-
+          <hr />
 <p>用Unity3D开发App，最终会打包为ipa(iOS),apk(Android),<strong>本质是zip文件</strong>，下面我们来介绍这两个平台如何打包。</p>
 
 <ul>
-<li>系统 : OSX10.10.2</li>
-<li>Unity : 4.6.3</li>
+  <li>系统 : OSX10.10.2</li>
+  <li>Unity : 4.6.3</li>
 </ul>
 
-<hr>
+<hr />
+<p>##1. iOS平台ipa打包
+—</p>
 
-<h2>1. iOS平台ipa打包</h2>
+<h4 id="apple1">1. 注册Apple开发者账号,<a href="https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm">注册链接</a></h4>
+<p>####2. 打开Unity菜单 File -&gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图： 
+ <img src="/images/post/unity3d_distribution_02.png" alt="" />
+####3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可
+ <img src="/images/post/unity3d_distribution_03.png" alt="" />
+####4. 接下来会自动编译，过程中我们会看到XCode打开了
+####5. 下一步分几个步骤如下图所示：
+#####1.选择 Product -&gt; Archive
+<img src="/images/post/unity3d_distribution_04.png" alt="" />
+#####2. 选中项目，点击Export
+<img src="/images/post/unity3d_distribution_05.png" alt="" />
+#####3. 勾选选项，点击下一步
+<img src="/images/post/unity3d_distribution_06.png" alt="" />
+#####4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧
+<img src="/images/post/unity3d_distribution_07.png" alt="" /></p>
 
-<hr>
+<hr />
+<p>##2. Android平台apk打包
+—
+####1.下载<a href="http://developer.android.com/sdk/index.html">Android SDK</a>,<a href="http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip">下载链接</a>
+####2.通过Android SDK Manager 安装更新SDK，国内参考链接；<a href="http://www.androiddevtools.cn/">http://www.androiddevtools.cn/</a>
+####3.设置Unity Preferences 设置SDK路径
+<img src="/images/post/unity3d_distribution_01.png" alt="" />
+####4.打开Unity菜单 File -&gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧 
+<img src="/images/post/unity3d_distribution_08.png" alt="" /></p>
 
-<h4>1. 注册Apple开发者账号,<a href="https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm">注册链接</a></h4>
-
-<h4>2. 打开Unity菜单 File -&gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图：</h4>
-
-<p><img src="/images/post/unity3d_distribution_02.png" alt=""></p>
-
-<h4>3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可</h4>
-
-<p><img src="/images/post/unity3d_distribution_03.png" alt=""></p>
-
-<h4>4. 接下来会自动编译，过程中我们会看到XCode打开了</h4>
-
-<h4>5. 下一步分几个步骤如下图所示：</h4>
-
-<h5>1.选择 Product -&gt; Archive</h5>
-
-<p><img src="/images/post/unity3d_distribution_04.png" alt=""></p>
-
-<h5>2. 选中项目，点击Export</h5>
-
-<p><img src="/images/post/unity3d_distribution_05.png" alt=""></p>
-
-<h5>3. 勾选选项，点击下一步</h5>
-
-<p><img src="/images/post/unity3d_distribution_06.png" alt=""></p>
-
-<h5>4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧</h5>
-
-<p><img src="/images/post/unity3d_distribution_07.png" alt=""></p>
-
-<hr>
-
-<h2>2. Android平台apk打包</h2>
-
-<hr>
-
-<h4>1.下载<a href="http://developer.android.com/sdk/index.html">Android SDK</a>,<a href="http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip">下载链接</a></h4>
-
-<h4>2.通过Android SDK Manager 安装更新SDK，国内参考链接；<a href="http://www.androiddevtools.cn/">http://www.androiddevtools.cn/</a></h4>
-
-<h4>3.设置Unity Preferences 设置SDK路径</h4>
-
-<p><img src="/images/post/unity3d_distribution_01.png" alt=""></p>
-
-<h4>4.打开Unity菜单 File -&gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧</h4>
-
-<p><img src="/images/post/unity3d_distribution_08.png" alt=""></p>
 
         </section>
         <hr>

@@ -20,7 +20,7 @@ links:
     url:          /links
 highlighter:      pygments
 permalink:        pretty
-markdown:         redcarpet
+markdown:         Kramdown
 redcarpet:
   extensions:
     - smart
