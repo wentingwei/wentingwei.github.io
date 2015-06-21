@@ -3,16 +3,25 @@ layout: page
 title: 链接
 ---
 
-1. [YC创业课][0]{:target="_blank"}
-2. [云风][1]{:target="_blank"}
-3. [Matrix67][2]{:target="_blank"}
-4. [刘未鹏][3]{:target="_blank"}
-5. [徐宥][4]{:target="_blank"}
-6. [陈皓][5]{:target="_blank"}
-7. [王信文][6]{:target="_blank"}
-8. [王垠][7]{:target="_blank"}
+1. [YC创业课][0]
+2. [云风][1]
+3. [Matrix67][2]
+4. [刘未鹏][3]
+5. [徐宥][4]
+6. [陈皓][5]
+7. [王信文][6]
+8. [王垠][7]
 
 
+<script type="text/javascript">
+var links = document.links;
+ 
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+   if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+   } 
+}
+</script>
 ---
 [0]: http://startupclass.club
 [1]: http://blog.codingnow.com

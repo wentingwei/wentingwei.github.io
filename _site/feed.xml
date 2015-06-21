@@ -8,44 +8,68 @@
     
       <item>
         <title>Unity3D之打包IPA和APK</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;用Unity3D开发App，最终会打包为ipa(iOS),apk(Android),&lt;strong&gt;本质是zip文件&lt;/strong&gt;，下面我们来介绍这两个平台如何打包。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;系统 : OSX10.10.2&lt;/li&gt;
-  &lt;li&gt;Unity : 4.6.3&lt;/li&gt;
+&lt;li&gt;系统 : OSX10.10.2&lt;/li&gt;
+&lt;li&gt;Unity : 4.6.3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;##1. iOS平台ipa打包
-—&lt;/p&gt;
+&lt;hr&gt;
 
-&lt;h4 id=&quot;apple1&quot;&gt;1. 注册Apple开发者账号,&lt;a href=&quot;https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm&quot;&gt;注册链接&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;####2. 打开Unity菜单 File -&amp;gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图： 
- &lt;img src=&quot;/images/post/unity3d_distribution_02.png&quot; alt=&quot;&quot; /&gt;
-####3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可
- &lt;img src=&quot;/images/post/unity3d_distribution_03.png&quot; alt=&quot;&quot; /&gt;
-####4. 接下来会自动编译，过程中我们会看到XCode打开了
-####5. 下一步分几个步骤如下图所示：
-#####1.选择 Product -&amp;gt; Archive
-&lt;img src=&quot;/images/post/unity3d_distribution_04.png&quot; alt=&quot;&quot; /&gt;
-#####2. 选中项目，点击Export
-&lt;img src=&quot;/images/post/unity3d_distribution_05.png&quot; alt=&quot;&quot; /&gt;
-#####3. 勾选选项，点击下一步
-&lt;img src=&quot;/images/post/unity3d_distribution_06.png&quot; alt=&quot;&quot; /&gt;
-#####4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧
-&lt;img src=&quot;/images/post/unity3d_distribution_07.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;1. iOS平台ipa打包&lt;/h2&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;##2. Android平台apk打包
-—
-####1.下载&lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt;,&lt;a href=&quot;http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip&quot;&gt;下载链接&lt;/a&gt;
-####2.通过Android SDK Manager 安装更新SDK，国内参考链接；&lt;a href=&quot;http://www.androiddevtools.cn/&quot;&gt;http://www.androiddevtools.cn/&lt;/a&gt;
-####3.设置Unity Preferences 设置SDK路径
-&lt;img src=&quot;/images/post/unity3d_distribution_01.png&quot; alt=&quot;&quot; /&gt;
-####4.打开Unity菜单 File -&amp;gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧 
-&lt;img src=&quot;/images/post/unity3d_distribution_08.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr&gt;
 
+&lt;h4&gt;1. 注册Apple开发者账号,&lt;a href=&quot;https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm&quot;&gt;注册链接&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;2. 打开Unity菜单 File -&amp;gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图：&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_02.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_03.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;4. 接下来会自动编译，过程中我们会看到XCode打开了&lt;/h4&gt;
+
+&lt;h4&gt;5. 下一步分几个步骤如下图所示：&lt;/h4&gt;
+
+&lt;h5&gt;1.选择 Product -&amp;gt; Archive&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_04.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;2. 选中项目，点击Export&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_05.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;3. 勾选选项，点击下一步&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_06.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_07.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;2. Android平台apk打包&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;1.下载&lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt;,&lt;a href=&quot;http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip&quot;&gt;下载链接&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;2.通过Android SDK Manager 安装更新SDK，国内参考链接；&lt;a href=&quot;http://www.androiddevtools.cn/&quot;&gt;http://www.androiddevtools.cn/&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;3.设置Unity Preferences 设置SDK路径&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_01.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;4.打开Unity菜单 File -&amp;gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_08.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/unity3d/2015/03/31/Unity3D-Distribution/</link>
@@ -54,48 +78,52 @@
     
       <item>
         <title>Unity3D之破解与反破解</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;###1. Unity3D破解（MacOSX）&lt;/p&gt;
+        <description>&lt;hr&gt;
+
+&lt;h3&gt;1. Unity3D破解（MacOSX）&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;分别复制两个文件到相应目录即可&lt;/li&gt;
-  &lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
-  &lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
+&lt;li&gt;分别复制两个文件到相应目录即可&lt;/li&gt;
+&lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
+&lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;###2. Unity3D游戏资源导出&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;2. Unity3D游戏资源导出&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源&lt;/li&gt;
-  &lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
+&lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源&lt;/li&gt;
+&lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;###3. 代码反编译与防止&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;3. 代码反编译与防止&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;随便下载一个Unity做的游戏apk解压，找到Assembly-CSCarp.dll&lt;/li&gt;
-  &lt;li&gt;拖拽到 MonoDevelop中打开（ 或者使用 .NET Reflector 8 反编译 ）&lt;/li&gt;
-  &lt;li&gt;防止反编译插件：Codeguard&lt;/li&gt;
+&lt;li&gt;随便下载一个Unity做的游戏apk解压，找到Assembly-CSCarp.dll&lt;/li&gt;
+&lt;li&gt;拖拽到 MonoDevelop中打开（ 或者使用 .NET Reflector 8 反编译 ）&lt;/li&gt;
+&lt;li&gt;防止反编译插件：Codeguard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;###4. 代码混淆与还原&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;4. 代码混淆与还原&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;代码混淆与还原工具&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;de4dot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;代码混淆与还原工具&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;de4dot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;参考:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.xuanyusong.com/&quot;&gt;http://www.xuanyusong.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;https://github.com/ata4/disunity/releases&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;https://github.com/0xd4d/de4dot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.xuanyusong.com/&quot;&gt;http://www.xuanyusong.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;https://github.com/ata4/disunity/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;https://github.com/0xd4d/de4dot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sat, 28 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/unity3d/2015/03/28/Unity3D-Crack/</link>
@@ -104,34 +132,39 @@
     
       <item>
         <title>读书毁了我（笔记）</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;读书毁了我&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;作者: 王强&lt;/li&gt;
-  &lt;li&gt;出版社: 中信出版社&lt;/li&gt;
-  &lt;li&gt;出版年: 2012&lt;/li&gt;
-  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/19912140/&quot;&gt;读书毁了我&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;凤凰读书：&lt;a href=&quot;http://v.book.ifeng.com/book/ts/32856.htm&quot;&gt;在线阅读&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;作者: 王强&lt;/li&gt;
+&lt;li&gt;出版社: 中信出版社&lt;/li&gt;
+&lt;li&gt;出版年: 2012&lt;/li&gt;
+&lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/19912140/&quot;&gt;读书毁了我&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;凤凰读书：&lt;a href=&quot;http://v.book.ifeng.com/book/ts/32856.htm&quot;&gt;在线阅读&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;在埃及，驯养的动物受到了最高规格的礼遇。猫戴着金耳环，狗佩着银项链。杀死狗或猫是没有争议的死罪。有一个罗马士兵在底比斯杀死了一只猫，当地人愤怒地用乱棒击毙了他。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;在巴比伦，一个人被狗尿溅及乃是件举足轻重的事情。撒尿的若是黑狗或白狗，这意味着不祥将至；若是红狗，则预告着幸福和前程。假如一个人目睹狗在交配，那么这提醒他身边的女人不久将有外遇。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;节日临近，你们喜欢用泪水来浇灌记忆的花圃，你们喜欢用叹息来缅怀失去的故土。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;“试想时间是一圆环，首和尾相连。世界重复着自己，分毫不差，无止无尽。”在这样的一个世界里，人生该是一种什么样的呈现呢？人们不会知道自己将世复一世地活下去。经商的不知道自己会一而再、再而三地讨还同一个价码。从政的不知道自己会在时间的循环里，从同一个讲坛发出无数次的呐喊。身为父母的珍爱着孩子的第一次笑声，仿佛他们不再会听到它一样。热恋中的人头一次害羞地宽衣做爱的时候，惊异于灵活的腿股和娇嫩的乳头。他们何以会知道每一次隐秘的瞥视、每一次触摸都将一而再、再而三地重复下去，一如既往？在这样的一个世界里，丧失牵引着获得，永别连接着再生。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;这是一个只有“现在”的世界，“过去”只存在于书本中、文献里。为了认识自己，每个人都带着他自己的“生命之书”，书里填满了他生命的足迹。没有这部“生命之书”，一个人便只是一张快照，一个二维的图像，一个鬼影。随时间的推移，这“生命之书”变得越来越厚，直到人再也无法卒读。这时人即有了选择：上了岁数的人也许只读前边的书页，了解他们的年轻时代；也许只读最后，了解他们刚逝的岁月。有的人干脆全数放弃此册，也就弃绝了往昔。在这些人看来，昨天是穷是富，是学问满腹还是彻底无知，已变得没那么举足轻重了。甚至根本就不存在一个昨天。&lt;/p&gt;
 
-&lt;hr /&gt;
-
+&lt;hr&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/read/2015/03/21/Read-Book/</link>
@@ -140,33 +173,35 @@
     
       <item>
         <title>静态渲染之Ambient Occlusion</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ambient_occlusion&quot;&gt;Ambient Occlusion Wikipedia&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;描述：对于3D游戏，AO作为全局光照的一部分已经成为很多3D引擎的标配，不管是静态还是SSAO，本文描述了，在游戏开发后期为了提高整体效果而弥补的静态渲染的AO。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;流程：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;按文件划分UV（正常应该按场景的区域还划分？）&lt;/li&gt;
-  &lt;li&gt;渲染生成AO贴图&lt;/li&gt;
-  &lt;li&gt;运行期使用AO贴图&lt;/li&gt;
+&lt;li&gt;  按文件划分UV（正常应该按场景的区域还划分？）&lt;/li&gt;
+&lt;li&gt;  渲染生成AO贴图&lt;/li&gt;
+&lt;li&gt;  运行期使用AO贴图&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;一些要点：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;分UV，合并单个文件的Mesh为一个Mesh，然后转换为DX的标准Mesh，然后利用DX自带的UVAtlas来进行UV划分（UVAtlas分的UV并不是很好），UVAtlas中有很多参数需要注意.分好UV的Mesh，根据文件把第二套UV数据插入进去，保存Mesh以及文件.&lt;/li&gt;
-  &lt;li&gt;渲染生成AO部分参考&lt;a href=&quot;http://www.gamasutra.com/view/feature/130455/hardware_accelerating_art_.php?page=2&quot;&gt;这篇文章&lt;/a&gt;,对于非封闭的模型，美术又没有补面的，要做一些特殊处理.&lt;/li&gt;
-  &lt;li&gt;运行期AO贴图直接影响光照运算或者模拟乘上去（GameBryo的话直接放DarkMap通道来用了）&lt;/li&gt;
+&lt;li&gt;  分UV，合并单个文件的Mesh为一个Mesh，然后转换为DX的标准Mesh，然后利用DX自带的UVAtlas来进行UV划分（UVAtlas分的UV并不是很好），UVAtlas中有很多参数需要注意.分好UV的Mesh，根据文件把第二套UV数据插入进去，保存Mesh以及文件.&lt;/li&gt;
+&lt;li&gt;  渲染生成AO部分参考&lt;a href=&quot;http://www.gamasutra.com/view/feature/130455/hardware_accelerating_art_.php?page=2&quot;&gt;这篇文章&lt;/a&gt;,对于非封闭的模型，美术又没有补面的，要做一些特殊处理.&lt;/li&gt;
+&lt;li&gt;  运行期AO贴图直接影响光照运算或者模拟乘上去（GameBryo的话直接放DarkMap通道来用了）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/03/21/Ambient-Occlusion/</link>
@@ -175,42 +210,47 @@
     
       <item>
         <title>阴影优化之shadow cache</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;&lt;strong&gt;描述&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;p&gt;对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;针对这个问题，我做了一个思考：美术在场景做好之后，我们划分场景，预渲染整个场景静态物件的深度到贴图上，运行期，根据阴影摄像机的位置不同来拼接这些深度图，以此实现减少DrawCall和全局阴影的效果。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;&lt;strong&gt;具体做法&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等&lt;/li&gt;
-  &lt;li&gt;针对每个摆好的阴影摄像机，对场景拍照，保存深度图&lt;/li&gt;
-  &lt;li&gt;运行期根据当前阴影摄像机所在的位置，拼出一张深度图，然后再画动态物件到shadowmap上&lt;/li&gt;
-  &lt;li&gt;最终使用这张shadowmap来画场景物件，实现阴影效果&lt;/li&gt;
+&lt;li&gt;  在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等&lt;/li&gt;
+&lt;li&gt;  针对每个摆好的阴影摄像机，对场景拍照，保存深度图&lt;/li&gt;
+&lt;li&gt;  运行期根据当前阴影摄像机所在的位置，拼出一张深度图，然后再画动态物件到shadowmap上&lt;/li&gt;
+&lt;li&gt;  最终使用这张shadowmap来画场景物件，实现阴影效果&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;&lt;strong&gt;一些关键点&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机&lt;/li&gt;
-  &lt;li&gt;保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间&lt;/li&gt;
-  &lt;li&gt;拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法&lt;/li&gt;
-  &lt;li&gt;最终的shadowmap使用&lt;a href=&quot;http://aras-p.info/texts/D3D9GPUHacks.html&quot;&gt;Read depth buffer as texture&lt;/a&gt;技术&lt;/li&gt;
+&lt;li&gt;  划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机&lt;/li&gt;
+&lt;li&gt;  保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间&lt;/li&gt;
+&lt;li&gt;  拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法&lt;/li&gt;
+&lt;li&gt;  最终的shadowmap使用&lt;a href=&quot;http://aras-p.info/texts/D3D9GPUHacks.html&quot;&gt;Read depth buffer as texture&lt;/a&gt;技术&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;参考：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;http://aras-p.info/texts/D3D9GPUHacks.html&lt;/li&gt;
+&lt;li&gt;http://aras-p.info/texts/D3D9GPUHacks.html&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/03/20/Shadow-Cache/</link>
@@ -219,19 +259,21 @@
     
       <item>
         <title>如何与人交流</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;/images/post/Conversation.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;hr&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/images/post/Conversation.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。&lt;/li&gt;
-  &lt;li&gt;不要试图用自己能理解的话语来表达，考虑别人的理解，目的是对方能明白，而不是自己在表述。&lt;/li&gt;
-  &lt;li&gt;用温和而直接了当的方式去讲，而不是绕弯，不然可能会一时没有明白或误会本意。&lt;/li&gt;
-  &lt;li&gt;要有重点，讲清楚自己的观点，而不是发散性思维，从一个话题转到另一个话题。&lt;/li&gt;
-  &lt;li&gt;善于倾听，对方的反馈，可能是你讲的不对，或者没有表达清楚。&lt;/li&gt;
-  &lt;li&gt;尽量传播直接的信息，而不是间接获取的，因为信息传播过程中会变的远离本来的内容。&lt;/li&gt;
-  &lt;li&gt;交流过程中不要打断别人，多倾听，吸取有意义的观点。&lt;/li&gt;
-  &lt;li&gt;从容专心，有耐心，站在对方的角度考虑问题。&lt;/li&gt;
+&lt;li&gt;搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。&lt;/li&gt;
+&lt;li&gt;不要试图用自己能理解的话语来表达，考虑别人的理解，目的是对方能明白，而不是自己在表述。&lt;/li&gt;
+&lt;li&gt;用温和而直接了当的方式去讲，而不是绕弯，不然可能会一时没有明白或误会本意。&lt;/li&gt;
+&lt;li&gt;要有重点，讲清楚自己的观点，而不是发散性思维，从一个话题转到另一个话题。&lt;/li&gt;
+&lt;li&gt;善于倾听，对方的反馈，可能是你讲的不对，或者没有表达清楚。&lt;/li&gt;
+&lt;li&gt;尽量传播直接的信息，而不是间接获取的，因为信息传播过程中会变的远离本来的内容。&lt;/li&gt;
+&lt;li&gt;交流过程中不要打断别人，多倾听，吸取有意义的观点。&lt;/li&gt;
+&lt;li&gt;从容专心，有耐心，站在对方的角度考虑问题。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 19 Mar 2015 00:00:00 +0800</pubDate>
@@ -241,33 +283,34 @@
     
       <item>
         <title>优米视频（创业关键点记录）</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;这是看&lt;a href=&quot;http://www.youmi.cn/&quot;&gt;优米视频&lt;/a&gt;的同时记录下来的一些要点：&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;要有理想而不理想化&lt;/li&gt;
-  &lt;li&gt;勇气和胆量很重要&lt;/li&gt;
-  &lt;li&gt;心有多大舞台就有多大&lt;/li&gt;
-  &lt;li&gt;敢于冒险&lt;/li&gt;
-  &lt;li&gt;情商与人相处的能力&lt;/li&gt;
-  &lt;li&gt;不公平的市场竞争环境&lt;/li&gt;
-  &lt;li&gt;机会给有准备的人&lt;/li&gt;
-  &lt;li&gt;目标不要太高&lt;/li&gt;
-  &lt;li&gt;核心竞争力可以持续的&lt;/li&gt;
-  &lt;li&gt;结果和目标不是一个东西&lt;/li&gt;
-  &lt;li&gt;资源整合的能力&lt;/li&gt;
-  &lt;li&gt;简单责任规范&lt;/li&gt;
-  &lt;li&gt;尊重选择权&lt;/li&gt;
-  &lt;li&gt;大象很难踩死蚂蚁的只要躲的好&lt;/li&gt;
-  &lt;li&gt;尊重游戏规则&lt;/li&gt;
-  &lt;li&gt;出刀要快&lt;/li&gt;
-  &lt;li&gt;失败的经验都是一致的贪婪做了不该做的事&lt;/li&gt;
-  &lt;li&gt;听别人讲比自己讲重要&lt;/li&gt;
+&lt;li&gt;要有理想而不理想化&lt;/li&gt;
+&lt;li&gt;勇气和胆量很重要&lt;/li&gt;
+&lt;li&gt;心有多大舞台就有多大&lt;/li&gt;
+&lt;li&gt;敢于冒险&lt;/li&gt;
+&lt;li&gt;情商与人相处的能力&lt;/li&gt;
+&lt;li&gt;不公平的市场竞争环境&lt;/li&gt;
+&lt;li&gt;机会给有准备的人&lt;/li&gt;
+&lt;li&gt;目标不要太高&lt;/li&gt;
+&lt;li&gt;核心竞争力可以持续的&lt;/li&gt;
+&lt;li&gt;结果和目标不是一个东西&lt;/li&gt;
+&lt;li&gt;资源整合的能力&lt;/li&gt;
+&lt;li&gt;简单责任规范&lt;/li&gt;
+&lt;li&gt;尊重选择权&lt;/li&gt;
+&lt;li&gt;大象很难踩死蚂蚁的只要躲的好&lt;/li&gt;
+&lt;li&gt;尊重游戏规则&lt;/li&gt;
+&lt;li&gt;出刀要快&lt;/li&gt;
+&lt;li&gt;失败的经验都是一致的贪婪做了不该做的事&lt;/li&gt;
+&lt;li&gt;听别人讲比自己讲重要&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 </description>
         <pubDate>Sun, 18 Jan 2015 00:00:00 +0800</pubDate>
         <link>win.moe/read/2015/01/18/youmi/</link>
@@ -276,173 +319,176 @@
     
       <item>
         <title>程序员的思维修炼（笔记）</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;程序员的思维修炼&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;作者:  Andy Hunt &lt;/li&gt;
-  &lt;li&gt;出版社: 人民邮电出版社&lt;/li&gt;
-  &lt;li&gt;出版年:  2010&lt;/li&gt;
-  &lt;li&gt;译者: 崔康 &lt;/li&gt;
-  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/5372651/&quot;&gt;程序员的思维修炼&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;作者:  Andy Hunt &lt;/li&gt;
+&lt;li&gt;出版社: 人民邮电出版社&lt;/li&gt;
+&lt;li&gt;出版年:  2010&lt;/li&gt;
+&lt;li&gt;译者: 崔康 &lt;/li&gt;
+&lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/5372651/&quot;&gt;程序员的思维修炼&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;切忌随波逐流。
 “Only dead fish go with the flow.”&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;需要一个明确定义的任务。&lt;/li&gt;
-  &lt;li&gt;任务需要有适当难度——有挑战性但可行。&lt;/li&gt;
-  &lt;li&gt;任务环境可以提供大量反馈，以便于你采取行动。&lt;/li&gt;
-  &lt;li&gt;提供重复犯错和纠正错误的机会。”&lt;/li&gt;
+&lt;li&gt;需要一个明确定义的任务。&lt;/li&gt;
+&lt;li&gt;任务需要有适当难度——有挑战性但可行。&lt;/li&gt;
+&lt;li&gt;任务环境可以提供大量反馈，以便于你采取行动。&lt;/li&gt;
+&lt;li&gt;提供重复犯错和纠正错误的机会。”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;“代码，一次编写，多次阅读。
 Code is write-once, read-many.”&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;坚持晨写至少两周。&lt;/li&gt;
-  &lt;li&gt;培养快速的洞察能力。寻找不相关事物之间的关系或类比。&lt;/li&gt;
-  &lt;li&gt;面对难题时引入更多感观。哪些对你而言最有效果？&lt;/li&gt;
-  &lt;li&gt;阅读一些有别于平常的东西，比如小说，但不是科幻小说，等等。&lt;/li&gt;
-  &lt;li&gt;尝试不同类型的电影、假期、音乐或者咖啡。&lt;/li&gt;
-  &lt;li&gt;点一些你喜欢的餐馆里从未吃过的菜。&lt;/li&gt;
-  &lt;li&gt;逆向思维。你会看到什么？”&lt;/li&gt;
+&lt;li&gt;坚持晨写至少两周。&lt;/li&gt;
+&lt;li&gt;培养快速的洞察能力。寻找不相关事物之间的关系或类比。&lt;/li&gt;
+&lt;li&gt;面对难题时引入更多感观。哪些对你而言最有效果？&lt;/li&gt;
+&lt;li&gt;阅读一些有别于平常的东西，比如小说，但不是科幻小说，等等。&lt;/li&gt;
+&lt;li&gt;尝试不同类型的电影、假期、音乐或者咖啡。&lt;/li&gt;
+&lt;li&gt;点一些你喜欢的餐馆里从未吃过的菜。&lt;/li&gt;
+&lt;li&gt;逆向思维。你会看到什么？”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;使用乐高积木或者办公用品做一种设计〔44〕。&lt;/li&gt;
-  &lt;li&gt;学习一门有更多R型思考方式参与的课程或者培养一种类似的兴趣，并天天坚持。&lt;/li&gt;
-  &lt;li&gt;使用双人行机制，让同伴激励你，讨论你的进展。&lt;/li&gt;
-  &lt;li&gt;想想能否用一个隐喻或者一套隐喻来大致描述你当前的项目（用某种有形的东西来思考将会更有帮助）。尝试使用隐喻或者夸张的手法来说一些笑话。&lt;/li&gt;
-  &lt;li&gt;观察你认识的专家。有什么“奇怪”的习惯现在让你觉得更能理解？&lt;/li&gt;
-  &lt;li&gt;什么单词可以加到你的工作词汇中？”&lt;/li&gt;
+&lt;li&gt;使用乐高积木或者办公用品做一种设计〔44〕。&lt;/li&gt;
+&lt;li&gt;学习一门有更多R型思考方式参与的课程或者培养一种类似的兴趣，并天天坚持。&lt;/li&gt;
+&lt;li&gt;使用双人行机制，让同伴激励你，讨论你的进展。&lt;/li&gt;
+&lt;li&gt;想想能否用一个隐喻或者一套隐喻来大致描述你当前的项目（用某种有形的东西来思考将会更有帮助）。尝试使用隐喻或者夸张的手法来说一些笑话。&lt;/li&gt;
+&lt;li&gt;观察你认识的专家。有什么“奇怪”的习惯现在让你觉得更能理解？&lt;/li&gt;
+&lt;li&gt;什么单词可以加到你的工作词汇中？”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;“禅宗心印”&lt;/li&gt;
-  &lt;li&gt;主动改变清晨事项的常规顺序或者其他一贯的做法。&lt;/li&gt;
-  &lt;li&gt;“心印是指在佛教禅宗中，以似是而非的形式出的谜语，能帮助思索，同时也是获得直觉性知识的一种手段。——编者注”&lt;/li&gt;
+&lt;li&gt;“禅宗心印”&lt;/li&gt;
+&lt;li&gt;主动改变清晨事项的常规顺序或者其他一贯的做法。&lt;/li&gt;
+&lt;li&gt;“心印是指在佛教禅宗中，以似是而非的形式出的谜语，能帮助思索，同时也是获得直觉性知识的一种手段。——编者注”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;直觉是伟大的，除了当它不伟大的时候。&lt;/li&gt;
-  &lt;li&gt;我们不是理智的生物。&lt;/li&gt;
-  &lt;li&gt;We are not rational creatures.&lt;/li&gt;
-  &lt;li&gt;尊重不同人的不同性格。&lt;/li&gt;
-  &lt;li&gt;当你想与人争辩时，请想一想这点。&lt;/li&gt;
+&lt;li&gt;直觉是伟大的，除了当它不伟大的时候。&lt;/li&gt;
+&lt;li&gt;我们不是理智的生物。&lt;/li&gt;
+&lt;li&gt;We are not rational creatures.&lt;/li&gt;
+&lt;li&gt;尊重不同人的不同性格。&lt;/li&gt;
+&lt;li&gt;当你想与人争辩时，请想一想这点。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;“只是看到一个数字就会影响你随后对数字的预测和决定。举例来说，如果我不断地提到有100本书等待出售，那么我就向你灌输了一个数字。现在我卖给你一本书85美元，你就会停留在刚才的数字100上，而85听起来就好像很便宜。”&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;“极其不可能的巧合事件其实每天都在发生。”&lt;/li&gt;
-  &lt;li&gt;“在你出生时，世界上的任何事情都是平凡的，都是世界运转的天然组成部分。当你在十五岁到三十五岁之间时，世界上创造出的任何事物都是新鲜的、令人振奋的、革命性的，你可能以此为职业。三十五岁之后创造出的任何事物都是有悖于事物的自然顺序的。”&lt;/li&gt;
-  &lt;li&gt;“为了实现你的愿望——在职业生涯和个人生活中学习和成长，你需要设定一些目标。但是目标本身并不能保证你成功。
+&lt;li&gt;“极其不可能的巧合事件其实每天都在发生。”&lt;/li&gt;
+&lt;li&gt;“在你出生时，世界上的任何事情都是平凡的，都是世界运转的天然组成部分。当你在十五岁到三十五岁之间时，世界上创造出的任何事物都是新鲜的、令人振奋的、革命性的，你可能以此为职业。三十五岁之后创造出的任何事物都是有悖于事物的自然顺序的。”&lt;/li&gt;
+&lt;li&gt;“为了实现你的愿望——在职业生涯和个人生活中学习和成长，你需要设定一些目标。但是目标本身并不能保证你成功。
 目标是很美好的事情，你可能会有许多目标：减肥、找到一个更好的工作、搬进一个更大的房子（或者更小的房子）、写本小说、学习演奏电吉他、编写一个超级Rails应用程序或者完全掌握Erlang。”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;制定具体计划
 制定计划就是巨大的进步。计划要具体，要运用SMART目标理念，要为不同时间段设计不同层次的目标。例如：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;现在（你下一步的行动）&lt;/li&gt;
-  &lt;li&gt;明年的目标&lt;/li&gt;
-  &lt;li&gt;五年后的目标&lt;/li&gt;
+&lt;li&gt;现在（你下一步的行动）&lt;/li&gt;
+&lt;li&gt;明年的目标&lt;/li&gt;
+&lt;li&gt;五年后的目标&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;写下现在、短期和长期的具体目标。&lt;/li&gt;
-  &lt;li&gt;增加两个新的学习领域，让你的知识投资变得多样化。&lt;/li&gt;
-  &lt;li&gt;每周设定时间来实施知识投资。&lt;/li&gt;
-  &lt;li&gt;设置提醒，让自己定期、阶段性地重新评估投资计划。哪些发生了改变，哪些已没有意义，现在你要做什么？”&lt;/li&gt;
+&lt;li&gt;写下现在、短期和长期的具体目标。&lt;/li&gt;
+&lt;li&gt;增加两个新的学习领域，让你的知识投资变得多样化。&lt;/li&gt;
+&lt;li&gt;每周设定时间来实施知识投资。&lt;/li&gt;
+&lt;li&gt;设置提醒，让自己定期、阶段性地重新评估投资计划。哪些发生了改变，哪些已没有意义，现在你要做什么？”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;“首先，一个目标任务应该是具体的。也就是说，只说“我想学习Erlang”是不够的。应该把事情具体化，例如“我想要用Erlang编写一个可以动态生成内容的Web服务器”。”&lt;/p&gt;
 
 &lt;p&gt;“知识投资也是一样。你需要定期投资最低限度的时间量。养成一种习惯，如果需要的话。躲到你的家庭办公室里去或者走进有无线网络的咖啡厅。并非每期学习都同样富有成效，但是只要定期安排学习，长期来看一定会成功。如果你一直在等待空闲时间或者等待灵感的突现，那么它永远都不会发生。”&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;增强注意力&lt;/li&gt;
-  &lt;li&gt;管理你的知识&lt;/li&gt;
-  &lt;li&gt;优化当前情境&lt;/li&gt;
+&lt;li&gt;增强注意力&lt;/li&gt;
+&lt;li&gt;管理你的知识&lt;/li&gt;
+&lt;li&gt;优化当前情境&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;寻找一个安静的地方，摆脱干扰或中断。这个可能是最难的一步。&lt;/li&gt;
-  &lt;li&gt;舒适、清醒地坐着，挺直背。让你的身体放松下来，就像一个玩具娃娃。花点时间感受体内的任何紧张情绪，将其释放。&lt;/li&gt;
-  &lt;li&gt;闭上眼睛，将注意力集中在呼吸——空气进入和离开你身体的这一点上。&lt;/li&gt;
-  &lt;li&gt;注意呼吸节奏，吸气的长短和质量，吸气后屏气的短暂间歇，呼气的质量，呼气后屏气的短暂间歇。不要试图去改变它，只是感受。&lt;/li&gt;
-  &lt;li&gt;将思维集中于呼吸。不要说话。不要描述你的呼吸或其他任何想法。不要与自己交谈。这是另一个困难的部分。&lt;/li&gt;
-  &lt;li&gt;你可能会发现自己在思考一些问题或在与自己交谈。每当你注意力游荡开去，就要抛弃这些想法，轻轻将注意力回到呼吸上。&lt;/li&gt;
-  &lt;li&gt;即使你的思维经常游荡，这个[…]”&lt;/li&gt;
+&lt;li&gt;寻找一个安静的地方，摆脱干扰或中断。这个可能是最难的一步。&lt;/li&gt;
+&lt;li&gt;舒适、清醒地坐着，挺直背。让你的身体放松下来，就像一个玩具娃娃。花点时间感受体内的任何紧张情绪，将其释放。&lt;/li&gt;
+&lt;li&gt;闭上眼睛，将注意力集中在呼吸——空气进入和离开你身体的这一点上。&lt;/li&gt;
+&lt;li&gt;注意呼吸节奏，吸气的长短和质量，吸气后屏气的短暂间歇，呼气的质量，呼气后屏气的短暂间歇。不要试图去改变它，只是感受。&lt;/li&gt;
+&lt;li&gt;将思维集中于呼吸。不要说话。不要描述你的呼吸或其他任何想法。不要与自己交谈。这是另一个困难的部分。&lt;/li&gt;
+&lt;li&gt;你可能会发现自己在思考一些问题或在与自己交谈。每当你注意力游荡开去，就要抛弃这些想法，轻轻将注意力回到呼吸上。&lt;/li&gt;
+&lt;li&gt;即使你的思维经常游荡，这个[…]”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;定期做冥想。开始时，每天选取几个容易想起的时刻进行三次深度放松的“冥想”呼吸练习，例如，在起床时，在午餐、晚餐时，或参加会议之前。&lt;/li&gt;
-  &lt;li&gt;最好在每天的同一时刻，尝试持续20分钟的冥想练习。你能够开始平静内心的想法了吗？”&lt;/li&gt;
+&lt;li&gt;定期做冥想。开始时，每天选取几个容易想起的时刻进行三次深度放松的“冥想”呼吸练习，例如，在起床时，在午餐、晚餐时，或参加会议之前。&lt;/li&gt;
+&lt;li&gt;最好在每天的同一时刻，尝试持续20分钟的冥想练习。你能够开始平静内心的想法了吗？”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;“不是每天都是富有成效的一天。如果事件变得混乱，接受事实并意识到你不会进入最佳状态，这样可能会更有效。首先处理紧息状况，然后在办公室享受比萨饼，并期望有一个更美好的明天。”&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;“采取步步为营的细小步骤
 开始时目标设低一些。当你实现时奖励自己一下，再设立下一个小步骤。一步一个脚印，脑子里记住你的最终目标，但不要试图把所有步骤都想明白。只关注下一步，一旦你到达这一步，再继续为实现下一个目标而努力。”&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;开始承担责任，不要害怕问“为什么”，也不要害怕问“你怎么知道的”或者“我怎么知道的”，同样要大方地回答“我目前还不知道”。&lt;/li&gt;
-  &lt;li&gt;挑两件帮助你维持情境、免受干扰的事情，立即实施。&lt;/li&gt;
-  &lt;li&gt;创建一个实用投资计划，设定SMART目标。&lt;/li&gt;
-  &lt;li&gt;弄清楚你在所属专业领域中所处的位置（从新手到专家）和你期望的位置。保证诚实。你需要更多的诀窍还是更多的情境？更多规则还是更多直觉？&lt;/li&gt;
-  &lt;li&gt;实践。某段代码遇到问题了吗？尝试用五种不同的方式编写。&lt;/li&gt;
-  &lt;li&gt;允许犯更多错误——错误是许可的，要从中学习教训。”&lt;/li&gt;
+&lt;li&gt;开始承担责任，不要害怕问“为什么”，也不要害怕问“你怎么知道的”或者“我怎么知道的”，同样要大方地回答“我目前还不知道”。&lt;/li&gt;
+&lt;li&gt;挑两件帮助你维持情境、免受干扰的事情，立即实施。&lt;/li&gt;
+&lt;li&gt;创建一个实用投资计划，设定SMART目标。&lt;/li&gt;
+&lt;li&gt;弄清楚你在所属专业领域中所处的位置（从新手到专家）和你期望的位置。保证诚实。你需要更多的诀窍还是更多的情境？更多规则还是更多直觉？&lt;/li&gt;
+&lt;li&gt;实践。某段代码遇到问题了吗？尝试用五种不同的方式编写。&lt;/li&gt;
+&lt;li&gt;允许犯更多错误——错误是许可的，要从中学习教训。”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;携带一个笔记本（最好不带横线）。涂鸦，做思维导图，记笔记。让你的思想自由地流动。&lt;/li&gt;
-  &lt;li&gt;打开心扉接收美感和其他的感官输入。不论是你的房间、桌面还是代码，关注它们是多么地赏心悦目。&lt;/li&gt;
-  &lt;li&gt;开始在私人wiki上记录你感兴趣的事情。&lt;/li&gt;
-  &lt;li&gt;开始写博客。为你读过的书写评论〔2〕。阅读更多书，你会有更多可写的东西。使用SQ3R和思维导图。&lt;/li&gt;
-  &lt;li&gt;让散步成为你每天生活的一部分。&lt;/li&gt;
-  &lt;li&gt;启动一个读书小组。&lt;/li&gt;
-  &lt;li&gt;再拿一个显示器，开始使用虚拟桌面。&lt;/li&gt;
-  &lt;li&gt;回顾每章的“实践单元”，尝试去做。”&lt;/li&gt;
+&lt;li&gt;携带一个笔记本（最好不带横线）。涂鸦，做思维导图，记笔记。让你的思想自由地流动。&lt;/li&gt;
+&lt;li&gt;打开心扉接收美感和其他的感官输入。不论是你的房间、桌面还是代码，关注它们是多么地赏心悦目。&lt;/li&gt;
+&lt;li&gt;开始在私人wiki上记录你感兴趣的事情。&lt;/li&gt;
+&lt;li&gt;开始写博客。为你读过的书写评论〔2〕。阅读更多书，你会有更多可写的东西。使用SQ3R和思维导图。&lt;/li&gt;
+&lt;li&gt;让散步成为你每天生活的一部分。&lt;/li&gt;
+&lt;li&gt;启动一个读书小组。&lt;/li&gt;
+&lt;li&gt;再拿一个显示器，开始使用虚拟桌面。&lt;/li&gt;
+&lt;li&gt;回顾每章的“实践单元”，尝试去做。”&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 </description>
         <pubDate>Thu, 02 Oct 2014 00:00:00 +0800</pubDate>
         <link>win.moe/read/2014/10/02/Pragmatic-Thinking-and-Learning/</link>
@@ -451,112 +497,130 @@ Code is write-once, read-many.”&lt;/p&gt;
     
       <item>
         <title>黑客与画家（笔记）</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;hr&gt;
+
 &lt;p&gt;黑客与画家&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;作者: [美] Paul Graham &lt;/li&gt;
-  &lt;li&gt;出版社: 人民邮电出版社&lt;/li&gt;
-  &lt;li&gt;副标题: 硅谷创业之父Paul Graham文集&lt;/li&gt;
-  &lt;li&gt;原作名: Hackers and Painters: Big Ideas from the Computer Age&lt;/li&gt;
-  &lt;li&gt;译者: &lt;a href=&quot;http://www.ruanyifeng.com/blog&quot;&gt;阮一峰&lt;/a&gt; &lt;/li&gt;
-  &lt;li&gt;出版年: 2011-4&lt;/li&gt;
-  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/6021440&quot;&gt;黑客与画家&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;作者: [美] Paul Graham &lt;/li&gt;
+&lt;li&gt;出版社: 人民邮电出版社&lt;/li&gt;
+&lt;li&gt;副标题: 硅谷创业之父Paul Graham文集&lt;/li&gt;
+&lt;li&gt;原作名: Hackers and Painters: Big Ideas from the Computer Age&lt;/li&gt;
+&lt;li&gt;译者: &lt;a href=&quot;http://www.ruanyifeng.com/blog&quot;&gt;阮一峰&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;出版年: 2011-4&lt;/li&gt;
+&lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/6021440&quot;&gt;黑客与画家&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;《蝇王》（Lord of the Flies）是英国作家威廉·戈尔丁（William Golding，1911—1994）发表于1954年的小说，讲述了一群6～12岁的男孩被困在一个荒岛上的故事。起初，所有人为了生存，互相帮助；后来逐渐分裂成两派，互相残杀，一派象征着文明与秩序，另一派象征着野蛮和混乱。作者通过这个故事，表达了毎个人心中都存在着黑暗的力量。此书出版后引起轰动，成为当年最畅销的书籍，被认为是英国的经典文学作品之一，西方各国学校将其列为学生必读书。1983年，威廉·戈尔丁因为此书获得了诺贝尔文学奖。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;很小的时候，我就被不断告知，要设身处地为他人着想。现实中，这必然意味着你要做其他人需要的事情，而不是你自己想做的事情。这样看上去好像对我很不利，所以我暗下决心不让自己变成这样的人。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;管理企业其实很简单，只要记住两点就可以了：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;做出用户喜欢的产品&lt;/li&gt;
-  &lt;li&gt;保证开支小于收入&lt;/li&gt;
+&lt;li&gt;做出用户喜欢的产品&lt;/li&gt;
+&lt;li&gt;保证开支小于收入&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;只要做到这两点，你就会超过大多数创业公司。随着事业的发展，你自己就能琢磨出来其他的诀窍。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;往往只有在创业公司里，你才能得到一种宝贵的工作环境，就叫做“不受干扰”。不同的工作对“不受干扰”有不同的要求。文稿校对人员每15分钟被打断一次，工作效率也不会有太大损失。但是，黑客要求的“不受干扰”的时间是非常长的，有时你要用1个小时才刚刚把一个问题理清。所以，人事部突然打电话要你去填一张表格，会造成巨大的成本损失。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;“财富”这个词有很多意思，有些并不是指物质财富。我不想做深入讨论，研究到底什么才是真正的财富。我这里指的只是一种特定的技术层面上的“财富”——人们用金钱向你交换的东西。这是一种很有趣、很值得研究的财富，因为它使得你免于饥饿，而且人们是否用金钱交换这种财富取决于他们，不取决于你。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;如果一家公司真正能够按照贡献付薪，它将取得巨大成功。许多雇员会更努力地工作。更重要的是，这样一家公司将吸引那些工作特别努力的人，从而超越竞争对手。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;创业公司为每个人提供了一条途径，同时获得可测量性和可放大性。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;VC问我们，如果另一家创业公司开发与我们同样的软件，需要多少时间。我们当时的回答就是，可能没人能做到。我觉得，这样说使得我们听上去很幼稚，或者很像骗子。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;如果你有两个选择，就选较难的那个。如果你要选择是坐在家里看电视，还是外出跑步，那就出去跑步吧。这个方法有效的原因可能是遇到两个一难一易的选择时，往往出于懒惰的缘故，你会选择较易的那个选项。在意识深处，你其实知道不懒惰的做法会带来更好的结果，这个方法只是迫使你接受这一点。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;我认为，如果你的公司有机会被收购，那将是不错的选择。管理一家公司与创立一家公司是不同的两件事。当情况基本稳定下来以后，不妨让大公司来接手。这在财务上也是明智的选择，卖掉公司你的风险就分散了，这就好像有一个理财师建议你用所有钱投资一支波动性很高的股票，你会怎么想？&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;在这两种收购动机中，归根结底的因素都是用户数量。你以为买家在收购前会做很多研究，搞清楚你的公司到底值多少钱，其实根本不是这么回事。他们真正在意的只是你拥有的用户数量。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;产于1989年、保存状况良好的林肯牌加长型礼车，现价大约是5000美元。产于2004年的奔驰S600轿车的价格是12.2万美元。如果要一个生活在20世纪初的普通人分辨哪一辆车价格更贵，他大概会猜错。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;你应该培养对自己的不满。达·芬奇为了把一根线画对，经常要画五六次。保时捷911型汽车的原型很粗糙，只有在重新设计后它的背部轮廓才变成现在这样独特的曲线。建筑师莱特设计的古根海姆博物馆，最早的时候，右半边有点像古代的塔庙（ziggurat），他后来把它倒过来，就成了现在的样子。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;蛋彩画是的欧洲绘画方式，盛行于文艺复兴初期，主要是将鸡蛋和水作为溶剂，溶解绘画颜料，使之可以用来绘画。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;好设计是简单的设计&lt;/li&gt;
-  &lt;li&gt;好设计是永不过时的设计&lt;/li&gt;
-  &lt;li&gt;好设计是解决主要问题的设计&lt;/li&gt;
-  &lt;li&gt;好设计是启发性的设计&lt;/li&gt;
-  &lt;li&gt;好设计是艰苦的设计&lt;/li&gt;
-  &lt;li&gt;好设计是看似容易的设计&lt;/li&gt;
-  &lt;li&gt;好设计是对称的设计&lt;/li&gt;
-  &lt;li&gt;好设计是模仿大自然的设计&lt;/li&gt;
-  &lt;li&gt;好设计是一种再设计&lt;/li&gt;
-  &lt;li&gt;好设计是能够复制的设计 &lt;/li&gt;
-  &lt;li&gt;好设计常常是奇特的设计&lt;/li&gt;
-  &lt;li&gt;好设计是成批出现的&lt;/li&gt;
-  &lt;li&gt;好设计常常是大胆的设计&lt;/li&gt;
+&lt;li&gt;好设计是简单的设计&lt;/li&gt;
+&lt;li&gt;好设计是永不过时的设计&lt;/li&gt;
+&lt;li&gt;好设计是解决主要问题的设计&lt;/li&gt;
+&lt;li&gt;好设计是启发性的设计&lt;/li&gt;
+&lt;li&gt;好设计是艰苦的设计&lt;/li&gt;
+&lt;li&gt;好设计是看似容易的设计&lt;/li&gt;
+&lt;li&gt;好设计是对称的设计&lt;/li&gt;
+&lt;li&gt;好设计是模仿大自然的设计&lt;/li&gt;
+&lt;li&gt;好设计是一种再设计&lt;/li&gt;
+&lt;li&gt;好设计是能够复制的设计 &lt;/li&gt;
+&lt;li&gt;好设计常常是奇特的设计&lt;/li&gt;
+&lt;li&gt;好设计是成批出现的&lt;/li&gt;
+&lt;li&gt;好设计常常是大胆的设计&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;如果你长期使用某种语言，你就会慢慢按照这种语言的思维模式进行思考。所以，后来当你遇到其他任何一种有重大差异的语言，即使那种语言本身并没有任何不对的地方，你也会觉得它极其难用。缺乏经验的程序员对于各种语言优缺点的判断经常被这种心态误导。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
 &lt;p&gt;Lisp很值得学习。你掌握它以后，会感到它给你带来的极大启发。这会大大提高你的编程水平，使你成为一个更好的程序员。尽管在实际工作中极少会用到Lisp。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;那些经理奇迹般地同时具备了两种很常见但很难结合在一起的特点：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;对技术一无所知&lt;/li&gt;
-  &lt;li&gt;对技术有强烈的个人观点&lt;/li&gt;
+&lt;li&gt;对技术一无所知&lt;/li&gt;
+&lt;li&gt;对技术有强烈的个人观点&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
+
 &lt;p&gt;选择更强大的编程语言会减少所需要的开发人员数量。因为：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;如果你使用的语言很强大，可能会减少一些编程的工作量，也就不需要那么多黑客了。&lt;/li&gt;
-  &lt;li&gt;使用更高级语言的黑客可能比别的程序员更聪明。&lt;/li&gt;
+&lt;li&gt;如果你使用的语言很强大，可能会减少一些编程的工作量，也就不需要那么多黑客了。&lt;/li&gt;
+&lt;li&gt;使用更高级语言的黑客可能比别的程序员更聪明。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;在大型组织内部，有一个专门的术语描述这种跟随大多数人的选择的做法，叫做“业界最佳实践”。这个词出现的原因其实就是为了让你的经理可以推卸责任。既然我选择的是“业界最佳实践”，如果不成功，项目失败了，那么你也无法指责我，因为做出选择的人不是我，而是整个“业界”。&lt;/p&gt;
+&lt;hr&gt;
 
+&lt;p&gt;在大型组织内部，有一个专门的术语描述这种跟随大多数人的选择的做法，叫做“业界最佳实践”。这个词出现的原因其实就是为了让你的经理可以推卸责任。既然我选择的是“业界最佳实践”，如果不成功，项目失败了，那么你也无法指责我，因为做出选择的人不是我，而是整个“业界”。&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Aug 2014 00:00:00 +0800</pubDate>
         <link>win.moe/read/2014/08/14/hackers-and-painters/</link>
@@ -565,30 +629,32 @@ Code is write-once, read-many.”&lt;/p&gt;
     
       <item>
         <title>在Sublime中写markdown</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;###1.安装MarkdownBuild和MarkdownPreview&lt;/p&gt;
+        <description>&lt;hr&gt;
+
+&lt;h3&gt;1.安装MarkdownBuild和MarkdownPreview&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview&lt;/li&gt;
-  &lt;li&gt;如果没有，请先安装Package Control,Command+~ 输入下面代码&lt;/li&gt;
+&lt;li&gt;Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview&lt;/li&gt;
+&lt;li&gt;如果没有，请先安装Package Control,Command+~ 输入下面代码&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;import urllib2,os; pf=’Package Control.sublime-package’;
-ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not
+&lt;p&gt;import urllib2,os; pf=&amp;lsquo;Package Control.sublime-package&amp;rsquo;;
+ipp=sublime.installed&lt;em&gt;packages&lt;/em&gt;path(); os.makedirs(ipp) if not
 os.path.exists(ipp) else None;
-urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));
-open(os.path.join(ipp,pf),’wb’).write(urllib2.urlopen(‘http://sublime.wbond.net/’+pf.replace(‘
-‘,’%20’)).read()); print ‘Please restart Sublime Text to finish
-installation’&lt;/p&gt;
+urllib2.install&lt;em&gt;opener(urllib2.build&lt;/em&gt;opener(urllib2.ProxyHandler()));
+open(os.path.join(ipp,pf),&amp;lsquo;wb&amp;rsquo;).write(urllib2.urlopen(&amp;lsquo;http://sublime.wbond.net/&amp;rsquo;+pf.replace(&amp;lsquo;
+&amp;rsquo;,&amp;lsquo;%20&amp;rsquo;)).read()); print &amp;lsquo;Please restart Sublime Text to finish
+installation&amp;rsquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;###2.在sublime中写Markdown的文本&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;2.在sublime中写Markdown的文本&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Command+Shift+P选择Markdown Preview : Preview in Browser&lt;/li&gt;
-  &lt;li&gt;选择github，然后浏览器会显示出你的文本&lt;/li&gt;
+&lt;li&gt;Command+Shift+P选择Markdown Preview : Preview in Browser&lt;/li&gt;
+&lt;li&gt;选择github，然后浏览器会显示出你的文本&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 04 Aug 2014 00:00:00 +0800</pubDate>

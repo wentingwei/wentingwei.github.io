@@ -35,18 +35,27 @@
           <section class='post'>
             <h1>链接</h1>
             <ol>
-  <li><a href="http://startupclass.club" target="_blank">YC创业课</a></li>
-  <li><a href="http://blog.codingnow.com" target="_blank">云风</a></li>
-  <li><a href="http://www.matrix67.com/blog" target="_blank">Matrix67</a></li>
-  <li><a href="http://mindhacks.cn" target="_blank">刘未鹏</a></li>
-  <li><a href="http://blog.youxu.info" target="_blank">徐宥</a></li>
-  <li><a href="http://coolshell.cn" target="_blank">陈皓</a></li>
-  <li><a href="http://www.verypig.com" target="_blank">王信文</a></li>
-  <li><a href="http://www.yinwang.org" target="_blank">王垠</a></li>
+<li><a href="http://startupclass.club">YC创业课</a></li>
+<li><a href="http://blog.codingnow.com">云风</a></li>
+<li><a href="http://www.matrix67.com/blog">Matrix67</a></li>
+<li><a href="http://mindhacks.cn">刘未鹏</a></li>
+<li><a href="http://blog.youxu.info">徐宥</a></li>
+<li><a href="http://coolshell.cn">陈皓</a></li>
+<li><a href="http://www.verypig.com">王信文</a></li>
+<li><a href="http://www.yinwang.org">王垠</a></li>
 </ol>
 
-<hr />
+<script type="text/javascript">
+var links = document.links;
+ 
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+   if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+   } 
+}
+</script>
 
+<hr>
 
           </section>
       </div>
