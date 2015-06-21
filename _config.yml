@@ -7,16 +7,16 @@ signoff:          每天进步一点点.
 #google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name:         Home
+  - name:         主页
     url:          /
   - name:         关于
     url:          /about
   - name:         豆瓣
     url:          /douban
-  - name:         LOFTER
+  - name:         乐乎
     url:          http://3.1415926.info
     external:     true
-  - name:         LINKS
+  - name:         链接
     url:          /links
 highlighter:      pygments
 permalink:        pretty
