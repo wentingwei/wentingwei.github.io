@@ -7,6 +7,25 @@
     <atom:link href="win.moe/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>不要慌，慢慢来</title>
+        <description>&lt;ol&gt;
+&lt;li&gt;做事要大气，不慌，不急于下定论&lt;/li&gt;
+&lt;li&gt;把精力专注在重要的事情上，产品把控&lt;/li&gt;
+&lt;li&gt;心中告诉自己，遇事沉着是一种修养，要注意&lt;/li&gt;
+&lt;li&gt;放慢步骤，事情不可能一下就能解决，所以要一步一步来&lt;/li&gt;
+&lt;li&gt;先把能做的作对而不追求速度，这样去做速度自然地提高，因为踏实地一步步做会提高自己的信心&lt;/li&gt;
+&lt;li&gt;事后总结自己的不足和错误，记在心中，以便下次改进&lt;/li&gt;
+&lt;li&gt;体会别人说话的用途，用心感受别人做的事情，怀着感激之心&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
+        <link>win.moe/think/2015/07/27/xuexi/</link>
+        <guid isPermaLink="true">win.moe/think/2015/07/27/xuexi/</guid>
+      </item>
+    
+      <item>
         <title>Unity3D之打包IPA和APK</title>
         <description>&lt;hr&gt;
 
@@ -625,41 +644,6 @@ Code is write-once, read-many.”&lt;/p&gt;
         <pubDate>Thu, 14 Aug 2014 00:00:00 +0800</pubDate>
         <link>win.moe/read/2014/08/14/hackers-and-painters/</link>
         <guid isPermaLink="true">win.moe/read/2014/08/14/hackers-and-painters/</guid>
-      </item>
-    
-      <item>
-        <title>在Sublime中写markdown</title>
-        <description>&lt;hr&gt;
-
-&lt;h3&gt;1.安装MarkdownBuild和MarkdownPreview&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview&lt;/li&gt;
-&lt;li&gt;如果没有，请先安装Package Control,Command+~ 输入下面代码&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;import urllib2,os; pf=&amp;lsquo;Package Control.sublime-package&amp;rsquo;;
-ipp=sublime.installed&lt;em&gt;packages&lt;/em&gt;path(); os.makedirs(ipp) if not
-os.path.exists(ipp) else None;
-urllib2.install&lt;em&gt;opener(urllib2.build&lt;/em&gt;opener(urllib2.ProxyHandler()));
-open(os.path.join(ipp,pf),&amp;lsquo;wb&amp;rsquo;).write(urllib2.urlopen(&amp;lsquo;http://sublime.wbond.net/&amp;rsquo;+pf.replace(&amp;lsquo;
-&amp;rsquo;,&amp;lsquo;%20&amp;rsquo;)).read()); print &amp;lsquo;Please restart Sublime Text to finish
-installation&amp;rsquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;h3&gt;2.在sublime中写Markdown的文本&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Command+Shift+P选择Markdown Preview : Preview in Browser&lt;/li&gt;
-&lt;li&gt;选择github，然后浏览器会显示出你的文本&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 04 Aug 2014 00:00:00 +0800</pubDate>
-        <link>win.moe/technology/2014/08/04/sublime-text-and-markdown/</link>
-        <guid isPermaLink="true">win.moe/technology/2014/08/04/sublime-text-and-markdown/</guid>
       </item>
     
   </channel>
