@@ -7,6 +7,34 @@
     <atom:link href="win.moe/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Minecraft Ambient Occlusion</title>
+        <description>&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ambient_occlusion&quot;&gt;Ambient Occlusion Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Minecraft Ambient Occlusion&lt;/h2&gt;
+
+&lt;p&gt;ref:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/&quot;&gt;ambient-occlusion-for-minecraft-like-worlds&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/overviewer/Minecraft-Overviewer/blob/master/docs/design/designdoc.rst#lighting&quot;&gt;Minecraft-Overviewer-lighting&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&quot;&gt;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://codeflow.org/entries/2010/dec/09/minecraft-like-rendering-experiments-in-opengl-4/#ambient-occlusion&quot;&gt;minecraft-like-rendering-experiments-in-opengl-4&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mgoodfel/SeaOfMemes&quot;&gt;https://github.com/mgoodfel/SeaOfMemes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/15lb3i/the_big_list_of_block_engines/&quot;&gt;the-big-list-of-block-engines&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2015 00:00:00 +0800</pubDate>
+        <link>win.moe/technology/2015/09/05/MineCraft-Ambient-Occlusion/</link>
+        <guid isPermaLink="true">win.moe/technology/2015/09/05/MineCraft-Ambient-Occlusion/</guid>
+      </item>
+    
+      <item>
         <title>影响力（笔记）</title>
         <description>&lt;hr&gt;
 
@@ -599,42 +627,6 @@
         <pubDate>Thu, 19 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/think/2015/03/19/How-to-Have-a-Great-Conversation/</link>
         <guid isPermaLink="true">win.moe/think/2015/03/19/How-to-Have-a-Great-Conversation/</guid>
-      </item>
-    
-      <item>
-        <title>优米视频（创业关键点记录）</title>
-        <description>&lt;hr&gt;
-
-&lt;p&gt;这是看&lt;a href=&quot;http://www.youmi.cn/&quot;&gt;优米视频&lt;/a&gt;的同时记录下来的一些要点：&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;要有理想而不理想化&lt;/li&gt;
-&lt;li&gt;勇气和胆量很重要&lt;/li&gt;
-&lt;li&gt;心有多大舞台就有多大&lt;/li&gt;
-&lt;li&gt;敢于冒险&lt;/li&gt;
-&lt;li&gt;情商与人相处的能力&lt;/li&gt;
-&lt;li&gt;不公平的市场竞争环境&lt;/li&gt;
-&lt;li&gt;机会给有准备的人&lt;/li&gt;
-&lt;li&gt;目标不要太高&lt;/li&gt;
-&lt;li&gt;核心竞争力可以持续的&lt;/li&gt;
-&lt;li&gt;结果和目标不是一个东西&lt;/li&gt;
-&lt;li&gt;资源整合的能力&lt;/li&gt;
-&lt;li&gt;简单责任规范&lt;/li&gt;
-&lt;li&gt;尊重选择权&lt;/li&gt;
-&lt;li&gt;大象很难踩死蚂蚁的只要躲的好&lt;/li&gt;
-&lt;li&gt;尊重游戏规则&lt;/li&gt;
-&lt;li&gt;出刀要快&lt;/li&gt;
-&lt;li&gt;失败的经验都是一致的贪婪做了不该做的事&lt;/li&gt;
-&lt;li&gt;听别人讲比自己讲重要&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-</description>
-        <pubDate>Sun, 18 Jan 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/read/2015/01/18/youmi/</link>
-        <guid isPermaLink="true">win.moe/read/2015/01/18/youmi/</guid>
       </item>
     
   </channel>
