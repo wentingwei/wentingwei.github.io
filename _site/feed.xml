@@ -7,6 +7,24 @@
     <atom:link href="win.moe/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>必须的品格</title>
+        <description>&lt;ul&gt;
+&lt;li&gt;骨气  激情  才华&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;毅力  智慧  名气&lt;/li&gt;
+&lt;li&gt;幽默  形象  踏实&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;魅力  善良  梦想&lt;/li&gt;
+&lt;li&gt;霸气  豁达  浪漫&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;忠诚  英明  野心&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+</description>
+        <pubDate>Fri, 13 Nov 2015 00:00:00 +0800</pubDate>
+        <link>win.moe/think/2015/11/13/pinge/</link>
+        <guid isPermaLink="true">win.moe/think/2015/11/13/pinge/</guid>
+      </item>
+    
+      <item>
         <title>Minecraft Ambient Occlusion</title>
         <description>&lt;hr&gt;
 
@@ -30,8 +48,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Sat, 05 Sep 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/technology/2015/09/05/MineCraft-Ambient-Occlusion/</link>
-        <guid isPermaLink="true">win.moe/technology/2015/09/05/MineCraft-Ambient-Occlusion/</guid>
+        <link>win.moe/technology/2015/09/05/minecraft-ambient-occlusion/</link>
+        <guid isPermaLink="true">win.moe/technology/2015/09/05/minecraft-ambient-occlusion/</guid>
       </item>
     
       <item>
@@ -238,8 +256,8 @@
 这说明人们对稀缺的东西，会做出更高的评价。因此，与其告诉人们将会得到什么，不如告诉他们将会失去什么，这样更容易对他人产生影响。&lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/read/2015/09/03/Influence/</link>
-        <guid isPermaLink="true">win.moe/read/2015/09/03/Influence/</guid>
+        <link>win.moe/read/2015/09/03/influence/</link>
+        <guid isPermaLink="true">win.moe/read/2015/09/03/influence/</guid>
       </item>
     
       <item>
@@ -350,8 +368,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Sun, 26 Jul 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/read/2015/07/26/Rework/</link>
-        <guid isPermaLink="true">win.moe/read/2015/07/26/Rework/</guid>
+        <link>win.moe/read/2015/07/26/rework/</link>
+        <guid isPermaLink="true">win.moe/read/2015/07/26/rework/</guid>
       </item>
     
       <item>
@@ -420,8 +438,8 @@
 &lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_08.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/unity3d/2015/03/31/Unity3D-Distribution/</link>
-        <guid isPermaLink="true">win.moe/unity3d/2015/03/31/Unity3D-Distribution/</guid>
+        <link>win.moe/unity3d/2015/03/31/unity3d-distribution/</link>
+        <guid isPermaLink="true">win.moe/unity3d/2015/03/31/unity3d-distribution/</guid>
       </item>
     
       <item>
@@ -474,8 +492,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 28 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/unity3d/2015/03/28/Unity3D-Crack/</link>
-        <guid isPermaLink="true">win.moe/unity3d/2015/03/28/Unity3D-Crack/</guid>
+        <link>win.moe/unity3d/2015/03/28/unity3d-crack/</link>
+        <guid isPermaLink="true">win.moe/unity3d/2015/03/28/unity3d-crack/</guid>
       </item>
     
       <item>
@@ -515,8 +533,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/read/2015/03/21/Read-Book/</link>
-        <guid isPermaLink="true">win.moe/read/2015/03/21/Read-Book/</guid>
+        <link>win.moe/read/2015/03/21/read-book/</link>
+        <guid isPermaLink="true">win.moe/read/2015/03/21/read-book/</guid>
       </item>
     
       <item>
@@ -552,8 +570,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/technology/2015/03/21/Ambient-Occlusion/</link>
-        <guid isPermaLink="true">win.moe/technology/2015/03/21/Ambient-Occlusion/</guid>
+        <link>win.moe/technology/2015/03/21/ambient-occlusion/</link>
+        <guid isPermaLink="true">win.moe/technology/2015/03/21/ambient-occlusion/</guid>
       </item>
     
       <item>
@@ -601,33 +619,8 @@
 &lt;hr&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/technology/2015/03/20/Shadow-Cache/</link>
-        <guid isPermaLink="true">win.moe/technology/2015/03/20/Shadow-Cache/</guid>
-      </item>
-    
-      <item>
-        <title>如何与人交流</title>
-        <description>&lt;hr&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/Conversation.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ol&gt;
-&lt;li&gt;搞清楚双方的知识和认知范围，尽量说有交集的部分，不然理解会有偏差。&lt;/li&gt;
-&lt;li&gt;不要试图用自己能理解的话语来表达，考虑别人的理解，目的是对方能明白，而不是自己在表述。&lt;/li&gt;
-&lt;li&gt;用温和而直接了当的方式去讲，而不是绕弯，不然可能会一时没有明白或误会本意。&lt;/li&gt;
-&lt;li&gt;要有重点，讲清楚自己的观点，而不是发散性思维，从一个话题转到另一个话题。&lt;/li&gt;
-&lt;li&gt;善于倾听，对方的反馈，可能是你讲的不对，或者没有表达清楚。&lt;/li&gt;
-&lt;li&gt;尽量传播直接的信息，而不是间接获取的，因为信息传播过程中会变的远离本来的内容。&lt;/li&gt;
-&lt;li&gt;交流过程中不要打断别人，多倾听，吸取有意义的观点。&lt;/li&gt;
-&lt;li&gt;从容专心，有耐心，站在对方的角度考虑问题。&lt;/li&gt;
-&lt;li&gt;获取有用的信息，一旦出现讨论问题A，对方给信息B，快速结束对话，因为最终得不到想要的结果。&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 19 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/think/2015/03/19/How-to-Have-a-Great-Conversation/</link>
-        <guid isPermaLink="true">win.moe/think/2015/03/19/How-to-Have-a-Great-Conversation/</guid>
+        <link>win.moe/technology/2015/03/20/shadow-cache/</link>
+        <guid isPermaLink="true">win.moe/technology/2015/03/20/shadow-cache/</guid>
       </item>
     
   </channel>
