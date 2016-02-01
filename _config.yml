@@ -13,9 +13,6 @@ links:
     url:          /about
   - name:         豆瓣
     url:          /douban
-  - name:         乐乎
-    url:          http://3.1415926.info
-    external:     true
   - name:         链接
     url:          /links
 highlighter:      pygments
