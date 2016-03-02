@@ -15,9 +15,9 @@ links:
     url:          /douban
   - name:         链接
     url:          /links
-highlighter:      pygments
+rouge:      pygments
 permalink:        pretty
-markdown:         redcarpet
+markdown:         kramdown
 redcarpet:
   extensions:
     - smart

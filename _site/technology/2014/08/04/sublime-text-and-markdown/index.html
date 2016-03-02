@@ -50,32 +50,30 @@
             <div class='date'>04 Aug 2014</div>
             在Sublime中写markdown
           </h1>
-          <hr>
-
-<h3>1.安装MarkdownBuild和MarkdownPreview</h3>
+          <hr />
+<p>###1.安装MarkdownBuild和MarkdownPreview</p>
 
 <ul>
-<li>Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview</li>
-<li>如果没有，请先安装Package Control,Command+~ 输入下面代码</li>
+  <li>Command+Shift+P 输入Install 然后看到Package Control：Install Package，输入MarkdownBuild和MarkdownPreview</li>
+  <li>如果没有，请先安装Package Control,Command+~ 输入下面代码</li>
 </ul>
 
 <blockquote>
-<p>import urllib2,os; pf=&lsquo;Package Control.sublime-package&rsquo;;
-ipp=sublime.installed<em>packages</em>path(); os.makedirs(ipp) if not
+  <p>import urllib2,os; pf=’Package Control.sublime-package’;
+ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not
 os.path.exists(ipp) else None;
-urllib2.install<em>opener(urllib2.build</em>opener(urllib2.ProxyHandler()));
-open(os.path.join(ipp,pf),&lsquo;wb&rsquo;).write(urllib2.urlopen(&lsquo;http://sublime.wbond.net/&rsquo;+pf.replace(&lsquo;
-&rsquo;,&lsquo;%20&rsquo;)).read()); print &lsquo;Please restart Sublime Text to finish
-installation&rsquo;</p>
+urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));
+open(os.path.join(ipp,pf),’wb’).write(urllib2.urlopen(‘http://sublime.wbond.net/’+pf.replace(‘
+‘,’%20’)).read()); print ‘Please restart Sublime Text to finish
+installation’</p>
 </blockquote>
 
-<hr>
-
-<h3>2.在sublime中写Markdown的文本</h3>
+<hr />
+<p>###2.在sublime中写Markdown的文本</p>
 
 <ul>
-<li>Command+Shift+P选择Markdown Preview : Preview in Browser</li>
-<li>选择github，然后浏览器会显示出你的文本</li>
+  <li>Command+Shift+P选择Markdown Preview : Preview in Browser</li>
+  <li>选择github，然后浏览器会显示出你的文本</li>
 </ul>
 
         </section>

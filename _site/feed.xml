@@ -9,15 +9,15 @@
       <item>
         <title>必须的品格</title>
         <description>&lt;ul&gt;
-&lt;li&gt;骨气  激情  才华&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;毅力  智慧  名气&lt;/li&gt;
-&lt;li&gt;幽默  形象  踏实&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;魅力  善良  梦想&lt;/li&gt;
-&lt;li&gt;霸气  豁达  浪漫&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;忠诚  英明  野心&lt;/li&gt;
+  &lt;li&gt;骨气  激情  才华  &lt;/li&gt;
+  &lt;li&gt;毅力  智慧  名气&lt;/li&gt;
+  &lt;li&gt;幽默  形象  踏实	&lt;/li&gt;
+  &lt;li&gt;魅力  善良  梦想&lt;/li&gt;
+  &lt;li&gt;霸气  豁达  浪漫  &lt;/li&gt;
+  &lt;li&gt;忠诚  英明  野心&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 </description>
         <pubDate>Fri, 13 Nov 2015 00:00:00 +0800</pubDate>
         <link>win.moe/think/2015/11/13/pinge/</link>
@@ -26,26 +26,37 @@
     
       <item>
         <title>Minecraft Ambient Occlusion</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ambient_occlusion&quot;&gt;Ambient Occlusion Wikipedia&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h2&gt;Minecraft Ambient Occlusion&lt;/h2&gt;
+&lt;h2 id=&quot;minecraft-ambient-occlusion&quot;&gt;Minecraft Ambient Occlusion&lt;/h2&gt;
 
 &lt;p&gt;ref:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/&quot;&gt;ambient-occlusion-for-minecraft-like-worlds&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/overviewer/Minecraft-Overviewer/blob/master/docs/design/designdoc.rst#lighting&quot;&gt;Minecraft-Overviewer-lighting&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&quot;&gt;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://codeflow.org/entries/2010/dec/09/minecraft-like-rendering-experiments-in-opengl-4/#ambient-occlusion&quot;&gt;minecraft-like-rendering-experiments-in-opengl-4&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mgoodfel/SeaOfMemes&quot;&gt;https://github.com/mgoodfel/SeaOfMemes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/15lb3i/the_big_list_of_block_engines/&quot;&gt;the-big-list-of-block-engines&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/&quot;&gt;ambient-occlusion-for-minecraft-like-worlds&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/overviewer/Minecraft-Overviewer/blob/master/docs/design/designdoc.rst#lighting&quot;&gt;Minecraft-Overviewer-lighting&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&quot;&gt;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://codeflow.org/entries/2010/dec/09/minecraft-like-rendering-experiments-in-opengl-4/#ambient-occlusion&quot;&gt;minecraft-like-rendering-experiments-in-opengl-4&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/mgoodfel/SeaOfMemes&quot;&gt;https://github.com/mgoodfel/SeaOfMemes&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/15lb3i/the_big_list_of_block_engines/&quot;&gt;the-big-list-of-block-engines&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 </description>
         <pubDate>Sat, 05 Sep 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/09/05/minecraft-ambient-occlusion/</link>
@@ -54,110 +65,108 @@
     
       <item>
         <title>影响力（笔记）</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;影响力&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;作者: [美] 罗伯特·西奥迪尼 &lt;/li&gt;
-&lt;li&gt;出版社: 中国人民大学出版社&lt;/li&gt;
-&lt;li&gt;原作名: Influence: The Psychology of Persuasion&lt;/li&gt;
-&lt;li&gt;译者: 陈叙 &lt;/li&gt;
-&lt;li&gt;出版年: 2006-5&lt;/li&gt;
-&lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/1786387&quot;&gt;影响力&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;作者: [美] 罗伯特·西奥迪尼 &lt;/li&gt;
+  &lt;li&gt;出版社: 中国人民大学出版社&lt;/li&gt;
+  &lt;li&gt;原作名: Influence: The Psychology of Persuasion&lt;/li&gt;
+  &lt;li&gt;译者: 陈叙 &lt;/li&gt;
+  &lt;li&gt;出版年: 2006-5&lt;/li&gt;
+  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/1786387&quot;&gt;影响力&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;“互惠原理可以通过两种方法促成彼此之间的让步。第一种方法显而易见，互惠原理给已经接受让步的人造成一种压力，迫使他采取类似的行动。第二种方法虽然没有那么明显，但却极为重要。跟前面我们提到过的接受了他人的好处、礼物或帮助的情形一样”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“我们将这种简单的技巧称为“拒绝－－退让”策略。假设你想让我答应你的一个请求，有一个方法可以帮你大大提高你的成功率：你先提出一个比较大的、极有可能会被我拒绝的请求，然后，当我拒绝了这个请求之后，你再提出一个小一些的、你真正感兴趣的请求。如果你能很有技巧地提出第二个请求，就会让我认为这第二个请求是你做出的一个让步，因而让我觉得自己也有义务做出相应的让步。我现在就有这样一个机会，即同意你的第二个请求。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“有利就有弊，既然“拒绝－－退让”策略的效果是如此显著，那它也可能会有一些明显的弊端。比如说，这个策略的受害者可能会因为被迫做出妥协而怀恨在心。为了发泄心中的怨恨，他们可能会拒绝履行自己口头做出的承”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“如果我们时刻保持高度的警惕，不给别人任何一点运用互惠原理的机会，自然也就可以避免与互惠原理发生正面冲突。通过拒绝他人的恩惠和妥协，我们就能避免此类问题的发生。但是，一概拒绝他人的恩惠或让步可谓是说起来容易，做起来难。因为最大的问题是我们很难分辨别人给我们的最初恩惠是出于真心还是别有用心。如果我们总是往坏处想，那么我们可能永远都享受不到那些从未打算借互惠原理占便宜的人所给予我们的恩惠或所做出的让步。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“在我们的生活中平时也经常遇到类似的事情。如果让孩子将自己承诺要做的事情写下来，那么他做到的可能性比他不写下来要大得多。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“我们必须认识到在大多数情况下，保持一致都是一种最具适应性、最受尊重的行为。前后不一通常被认为是一种不良的品行。一个在信仰、言辞和行为上前后矛盾的人，很有可能被看做是优柔寡断、是非不分、两面三刀，甚至被看成是有精神病。而高度的一致，则是和坚强的个性、超凡的智力联系在一起的，代表着逻辑性强、理性、坚定和诚实。伟大的英国化学家迈克尔·法拉第曾说过一句话，表明保持一致的认同度有时比做的正确的认同度还要高。在一次讲演之后，有人问法拉第，他是否在暗示他对手的观点总是错误时，法拉第不屑地答道：“他可不是那么始终如一！”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“如果对同事的一次好的行为给予公开赞扬，那么他下次做类似行为的可能性就远远高于不公开赞扬的情况。这也是企业组织行为中可以有效应用一致性的技巧。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“人们担心一样东西可能会失去通常发生在人们认可这样东西以后。所以，全面地讲，应该是一致性配合短缺压力从而导致的行为。意大利西服的销售人员永远牢记的是，只要客户对某款西服有兴趣，那么最好怂恿他试穿一下，一旦客户穿到身上，那么最好让他停留30分钟。安排店里一个画素描的人给试穿的人绘制素描。当客户脱下衣服的时候，他已经建立了对西服的好感和适应，因此一致性初步建立。此时，如果销售人员配置适当的短缺原理的应用，成交率几乎可以达到20%。要知道，通常西服店的成交率仅仅有2%”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“它们在圣诞节之前就开始为一些特别的玩具做一些很吸引人的广告。小孩子嘛，自然都是看见什么就想要什么，所以自然会恳求父母去买这些玩具作为自己的圣诞礼物。好，现在这些公司就要开始执行它们的天才计划了：它们故意不充分供应这些玩具。大部分家长会发现这些玩具已经卖光了，所以只好买一种价格差不多的玩具来代替。而这些代替的玩具，玩具商们当然是供应得足足的。圣诞节之后，这些公司又开始为那些特别的玩具做起广告来。这一下，那些小家伙们更想得到这些玩具了，他们会跑到父母那里，哭着说‘你答应过我的，你答应过的。’家长们为履行他们的诺言，只好跑到玩具店里去买了。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“从小事做起，循序渐进，慢慢积累。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“在我们为企业提供培训的时候，经常有学员说，这是我听过的最好的销售培训课程了。我们的工作人员立刻会拿起一个本子，走到他前面诚恳地询问，你愿意将你刚才说过的话写下来吗？一般这样的人当时的情绪是激动的，肯定是愿意写的，而且写成文字甚至比当初说的还要好。于是，我们积累了大量的客户培训现场中的话，这些话也起到了影响那些不了解我们培训的其他人。而且，说过这样的话的人，自己事后还会向别人推荐我们的销售培训课程。这才是承诺达到的持久效果。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“一个人的行为比言语更能暴露他的真实想法，因此人民经常通过观察一个人的行为来对这个人做出判断。我们也会用同样的依据来判断自己是什么样的人，我们的行为会告诉我们关于自己的一切。也就说，行为是人民用来判断自己的信仰、价值观和态度的最主要的依据。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“一旦人们主动做出了一个承诺，自我形象就会受到一致性原理的双重压力。一是来自内心的压力，它迫使我们的所作所为要与我们的形象保持一致；另一方面是来自外界的无形的压力，它要求我们要按照他人的看法来调整自己的形象。而且由于旁人对我们的看法是从我们所写的东西得来的（尽管在这件事情上我们完全是身不由己），因此我们会再一次感受到必须让自我形象与书面声明保持一致的这种压力。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“企业管理中这个手法是非常重要的，让员工将他们计划在一个月内实现的目标用书面形式写下来，甚至还要公开张贴在显眼的位置，从而不断起到强化其动机的作用。这也是一致性的高度体现。既然我写了要做到什么，而且大家也知道我写了，那么我必须要做到，否则是对不起自己的。一致性在起作用。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;“现在你终于理解为什么500强跨国企业总是喜欢搞有奖征文了吧。原来就是在写征文的过程中自己会不知不觉地偏好了这个品牌，从而形成了不用思考就采购的行为，从而塑造了这些企业产品的时常份额。原来这也是一种营销手段。”&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h2&gt;以下内容来自于&lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/08/influence_the_psychology_of_persuasion.html&quot;&gt;阮一峰的博客&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;section&quot;&gt;以下内容来自于&lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/08/influence_the_psychology_of_persuasion.html&quot;&gt;阮一峰的博客&lt;/a&gt;&lt;/h2&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h3&gt;第一章 心理影响&lt;/h3&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;第一章 心理影响&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验1：插队&lt;/li&gt;
+  &lt;li&gt;实验1：插队&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;一个心理学家跑到图书馆，请排队等候复印的人帮她一个小忙。
-&amp;ldquo;对不起，我有5页纸要复印，能不能让我先复印呢？&amp;quot;当她这样说时，60%的人答应了。
-然后，她换了一种说法：&amp;quot;对不起，能不能让我先复印呢？因为我要复印几页纸。&amp;quot;她只多加了两个字&amp;quot;因为&amp;quot;，但同意的人居然增加到了93%。
-虽然心理学家早就知道，当我们请别人帮忙时，如果能够讲出一个理由，得到帮助的可能性就更大。但是这个实验证明，只是听到&amp;quot;因为&amp;quot;两个字，人们就会认为她是有理由的，从而给予帮助。这证明了人类存在心理定势，会不自觉地受到影响。&lt;/p&gt;
+“对不起，我有5页纸要复印，能不能让我先复印呢？”当她这样说时，60%的人答应了。
+然后，她换了一种说法：”对不起，能不能让我先复印呢？因为我要复印几页纸。”她只多加了两个字”因为”，但同意的人居然增加到了93%。
+虽然心理学家早就知道，当我们请别人帮忙时，如果能够讲出一个理由，得到帮助的可能性就更大。但是这个实验证明，只是听到”因为”两个字，人们就会认为她是有理由的，从而给予帮助。这证明了人类存在心理定势，会不自觉地受到影响。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h3&gt;第二章 互惠（Reciprocity）&lt;/h3&gt;
+&lt;h3 id=&quot;reciprocity&quot;&gt;第二章 互惠（Reciprocity）&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验2：捐款信&lt;/li&gt;
+  &lt;li&gt;实验2：捐款信&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;美国伤残军人协会每年发出很多募捐信，经过统计，18%的收信人会捐款。
 有一年，该协会主动在信中放了一个小礼物（比如背面涂了不干胶的标签），结果捐款率几乎翻了一倍，35%的收信人捐款了。
-这说明人们存在&amp;quot;互惠心理&amp;quot;，接受别人的礼物后会有一种负债感，觉得自己应该回报。所以，先给予别人一点小恩小惠，然后再提出请求，将会大大提高对方答应请求的可能性。&lt;/p&gt;
+这说明人们存在”互惠心理”，接受别人的礼物后会有一种负债感，觉得自己应该回报。所以，先给予别人一点小恩小惠，然后再提出请求，将会大大提高对方答应请求的可能性。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验3：陪同参观&lt;/li&gt;
+  &lt;li&gt;实验3：陪同参观&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家来到大学校园，询问大学生们是否愿意陪一群少年犯去参观动物园，只有17%学生表示愿意。
@@ -165,12 +174,12 @@
 可以看到，让对方先拒绝一个更大的请求，会使得另一个较小的请求被接受的可能性上升三倍。心理学的解释是，人们不喜欢有负债感，当你拒绝对方的时候就会形成潜在的负债感，即使你实际上没有欠对方任何东西。为了做到不亏欠，人们往往会同意第二个较小的请求。另一方面，这里还涉及心理学的对比原理，因为两个请求形成对比，使得第二个请求看上去不那么过份，所以更有可能得到同意。
 这种情况在实际生活中的应用是，如果你要向别人推销，就要先展示质次价高的商品；如果你要向别人借钱，就要先开口借一个很高的金额。这样会增加第二个请求被接受的可能性。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h3&gt;第三章 承诺和一致（Commitment and Consistency）&lt;/h3&gt;
+&lt;h3 id=&quot;commitment-and-consistency&quot;&gt;第三章 承诺和一致（Commitment and Consistency）&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验4：看管物品&lt;/li&gt;
+  &lt;li&gt;实验4：看管物品&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家在海滩上随便找一个人作为实验对象，在离他1米的地方，放下浴巾，很放松地躺在上面，听着便携式收音机传出来的音乐。几分钟之后，心理学家从浴巾上爬起来，向大海走去。
@@ -179,21 +188,21 @@
 这是因为人们希望能够遵守承诺。人们在心理上有一种要与过去的所作所为保持一致的愿望。一旦做出了某个决定，或选择了某种立场，就有一种压力要与它保持一致，证明之前所做的决策。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验5：公益广告牌&lt;/li&gt;
+  &lt;li&gt;实验5：公益广告牌&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家假扮成义工，在加州的一个居民区内，挨家挨户地向居民们提出请求，希望允许在社区草地上树立一块超大的公益广告牌。
-为了让居民了解广告牌竖起来之后的样子，他们展示了一张照片：一栋漂亮的房子几乎被广告牌遮得严严实实，广告牌上面歪歪扭扭地写着几个字&amp;quot;小心驾驶&amp;quot;。83%的居民理所当然地拒绝了这个要求。
+为了让居民了解广告牌竖起来之后的样子，他们展示了一张照片：一栋漂亮的房子几乎被广告牌遮得严严实实，广告牌上面歪歪扭扭地写着几个字”小心驾驶”。83%的居民理所当然地拒绝了这个要求。
 心理学家又换了一个社区，先向居民询问，是否同意树立一块宣传安全驾驶的小牌子。这个请求不算什么，几乎所有人都答应了。两个星期后，心理学家拿着同一张大广告牌的照片，再来征求居民同意，这次只有24%的居民拒绝这个要求。
 人们之所以对同一张广告牌，产生不同的态度。原因就是一旦人们之前同意了某个请求，后面的态度就会发生改变，他会答应陌生人的请求，努力与自己过去的承诺保持一致。
 一般来说，当一个人公开选择了某种立场之后，马上就产生一种维持这个立场的压力，因为他想在别人眼里显得前后一致。而且，知道你的立场的人越多，你就越不愿意去改变它。所以，让对方信守承诺的最好方法，就是让他把承诺写下来，再尽量多地向他人展示。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h3&gt;第四章 社会认同（Social Proof）&lt;/h3&gt;
+&lt;h3 id=&quot;social-proof&quot;&gt;第四章 社会认同（Social Proof）&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验6：怕狗的小朋友&lt;/li&gt;
+  &lt;li&gt;实验6：怕狗的小朋友&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家挑选了一些怕狗的幼儿园小朋友，让他们每天花20分钟观看一个小男孩高兴地与狗玩耍。结果，这一做法使得怕狗的儿童发生了明显变化。
@@ -201,41 +210,41 @@
 这说明周围人的做法对我们决定自己的行动，具有很重要的指导作用。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验7：旁观者&lt;/li&gt;
+  &lt;li&gt;实验7：旁观者&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家让一个纽约大学的学生，在马路上假装癫痫病发作。
 当只有一个旁观者在场的时候， 85%的情况他会选择去帮助发病的大学生。当有5个旁观者在场的时候，大学生得到帮助的概率只有31%。
-既然绝大部分单独经过的人，都会伸出援手，我们就很难说这是一个&amp;quot;冷漠的社会&amp;quot;。但是，与一般的看法相反，旁观者越多，实际上得到帮助的可能性反而变小了，这是为什么？&lt;/p&gt;
+既然绝大部分单独经过的人，都会伸出援手，我们就很难说这是一个”冷漠的社会”。但是，与一般的看法相反，旁观者越多，实际上得到帮助的可能性反而变小了，这是为什么？&lt;/p&gt;
 
-&lt;p&gt;心理学家认为，原因至少有两个。第一个原因是，当有多个旁观者时，每个人的责任感都会下降，&amp;quot;也许其他人会帮忙的，也许有人已经这样做了。&amp;quot;结果，没有一个人帮忙。第二个原因是，每个人看到其他人都没有行动，就认为既然大家都不担心，说明一切正常。而且，我们都不喜欢在别人面前显得慌乱。
+&lt;p&gt;心理学家认为，原因至少有两个。第一个原因是，当有多个旁观者时，每个人的责任感都会下降，”也许其他人会帮忙的，也许有人已经这样做了。”结果，没有一个人帮忙。第二个原因是，每个人看到其他人都没有行动，就认为既然大家都不担心，说明一切正常。而且，我们都不喜欢在别人面前显得慌乱。
 重要的是认识到，旁观者没有采取行动并不是因为冷漠无情或缺乏善意，而是因为他们不知道是否有紧急事件发生，也不知道自己是否有责任去采取行动。如果他们明确地知道自己负有责任，他们的反应是非常迅速的。
-当你遇到危险，正确的做法是从人群中挑出一个人来，盯着他，指着他，直接对他说：&amp;quot;你，穿蓝夹克的先生，我需要帮助，请叫一辆救护车来。&amp;quot;通过这么简单的一句话，你可以让周围的人了解你的处境、明确他们的责任、消除所有可能妨碍或延误救助的不确定性。&lt;/p&gt;
+当你遇到危险，正确的做法是从人群中挑出一个人来，盯着他，指着他，直接对他说：”你，穿蓝夹克的先生，我需要帮助，请叫一辆救护车来。”通过这么简单的一句话，你可以让周围的人了解你的处境、明确他们的责任、消除所有可能妨碍或延误救助的不确定性。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;h3&gt;第五章 喜好（Liking）&lt;/h3&gt;
+&lt;h3 id=&quot;liking&quot;&gt;第五章 喜好（Liking）&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验8：足球队的称呼&lt;/li&gt;
+  &lt;li&gt;实验8：足球队的称呼&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;在期末考试结束以后，心理学家对亚利桑那州立大学的学生做电话调查，询问他们该校足球队上一场比赛的输赢。
-如果上一场比赛输了，只有17%的学生会说&amp;quot;我们的球队&amp;quot;；如果上一场比赛赢了，用到&amp;quot;我们&amp;quot;这个词的学生就会增加到41%。
+如果上一场比赛输了，只有17%的学生会说”我们的球队”；如果上一场比赛赢了，用到”我们”这个词的学生就会增加到41%。
 这种差异的原因是，人们对与自己相似的人会产生好感。因为没人喜欢当失败者，所以人们更愿意与失败者保持距离或差异。
 第六章 权威（Authority）&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验9：估计身高&lt;/li&gt;
+  &lt;li&gt;实验9：估计身高&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家将一位来自英国剑桥大学的访问者，依次介绍给澳大利亚某所大学五个班级的学生。但在每一个班上介绍他时，他的身份都不相同。
 在第一个班上，他被介绍为学生；在第二个班上，他被介绍为实验员；在第三个班上，他被介绍为讲师；在第四个班上，他被介绍为高级讲师；而在第五个班上，他被介绍为教授。
-当他离开之后，心理学家要学生们估计那位访问者的身高。结果发现，随着地位每一次升高，学生们估计的身高平均会增加1.5厘米。所以，当访问者是&amp;quot;教授&amp;quot;时比他是&amp;quot;学生&amp;quot;时，身高要高出6厘米。
+当他离开之后，心理学家要学生们估计那位访问者的身高。结果发现，随着地位每一次升高，学生们估计的身高平均会增加1.5厘米。所以，当访问者是”教授”时比他是”学生”时，身高要高出6厘米。
 这说明头衔对人们有很大的影响力，一个人的头衔越显赫，人们对这个人的身高就估计得越高。这反映了人们仰视权威的心理。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验10：闯红灯&lt;/li&gt;
+  &lt;li&gt;实验10：闯红灯&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家让一名31岁的男子在好几个不同的地方，闯红灯横穿马路。
@@ -243,7 +252,7 @@
 这说明，人们很容易从服装去判断权威。如果对方穿着一套权威的衣服，大多数人会选择服从。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;实验11：按喇叭&lt;/li&gt;
+  &lt;li&gt;实验11：按喇叭&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;心理学家在旧金山的繁忙路口做了一项调查。
@@ -254,6 +263,7 @@
 心理学家让一些消费者品尝同样的饼干。
 有一半人的罐子里有10块饼干，而另一半人的罐子里只有2块饼干。结果可想而知，后一半人对饼干的评价更高。
 这说明人们对稀缺的东西，会做出更高的评价。因此，与其告诉人们将会得到什么，不如告诉他们将会失去什么，这样更容易对他人产生影响。&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0800</pubDate>
         <link>win.moe/read/2015/09/03/influence/</link>
@@ -263,18 +273,18 @@
       <item>
         <title>不要慌，慢慢来</title>
         <description>&lt;ol&gt;
-&lt;li&gt;做事要大气，不慌，不急于下定论&lt;/li&gt;
-&lt;li&gt;把精力专注在重要的事情上，产品把控&lt;/li&gt;
-&lt;li&gt;心中告诉自己，遇事沉着是一种修养，要注意&lt;/li&gt;
-&lt;li&gt;放慢步骤，事情不可能一下就能解决，所以要一步一步来&lt;/li&gt;
-&lt;li&gt;先把能做的作对而不追求速度，这样去做速度自然地提高，因为踏实地一步步做会提高自己的信心&lt;/li&gt;
-&lt;li&gt;事后总结自己的不足和错误，记在心中，以便下次改进&lt;/li&gt;
-&lt;li&gt;体会别人说话的用途，用心感受别人做的事情，怀着感激之心&lt;/li&gt;
-&lt;li&gt;每次选择都选择更在意的事情&lt;/li&gt;
-&lt;li&gt;降低期望，提高标准，要求严格，对结果保守&lt;/li&gt;
+  &lt;li&gt;做事要大气，不慌，不急于下定论&lt;/li&gt;
+  &lt;li&gt;把精力专注在重要的事情上，产品把控&lt;/li&gt;
+  &lt;li&gt;心中告诉自己，遇事沉着是一种修养，要注意&lt;/li&gt;
+  &lt;li&gt;放慢步骤，事情不可能一下就能解决，所以要一步一步来&lt;/li&gt;
+  &lt;li&gt;先把能做的作对而不追求速度，这样去做速度自然地提高，因为踏实地一步步做会提高自己的信心&lt;/li&gt;
+  &lt;li&gt;事后总结自己的不足和错误，记在心中，以便下次改进&lt;/li&gt;
+  &lt;li&gt;体会别人说话的用途，用心感受别人做的事情，怀着感激之心&lt;/li&gt;
+  &lt;li&gt;每次选择都选择更在意的事情&lt;/li&gt;
+  &lt;li&gt;降低期望，提高标准，要求严格，对结果保守&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 </description>
         <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
         <link>win.moe/think/2015/07/27/xuexi/</link>
@@ -283,89 +293,73 @@
     
       <item>
         <title>重来（笔记）</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;重来&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;作者: [美] 贾森·弗里德 / [丹] 戴维·海涅迈尔·汉森 &lt;/li&gt;
-&lt;li&gt;出版社: 中信出版社&lt;/li&gt;
-&lt;li&gt;出版年: 2012&lt;/li&gt;
-&lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/5320866/&quot;&gt;重来&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;作者: [美] 贾森·弗里德 / [丹] 戴维·海涅迈尔·汉森 &lt;/li&gt;
+  &lt;li&gt;出版社: 中信出版社&lt;/li&gt;
+  &lt;li&gt;出版年: 2012&lt;/li&gt;
+  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/5320866/&quot;&gt;重来&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;问题通常可以用简单,世俗的方解决。这意味着不需要什么独特的做法。你不需要秀出你惊奇的技巧。你只需要做好事情,让其有进展。这样的方法你不会赢得别人的惊叹,但是可以让你的事情继续下去。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;不管怎样,终究是不值得过于关注你的竞争者的。为什么?因为关注别人太多会让自己 受到困扰。他们现在在做什么?他们下一步呢?我们该怎样作出回应?&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;每一个小小的动作都会被分析一下。那是一种可怕的心态。这会产生不可抗拒的压力和焦虑。这样的想法会滋长不好的东西。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;这是没有意义的事情。竞争者的风景时时在变。你的竞争者明天一个样儿,今天一个样儿。完全在你控制之外。去担心你所不能控制的事情有意义吗?&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;换过来关注一下自己。管好眼前事更重要。当你花时间关心他人时,就没有时间提高自己了。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;做决定。不要去等完美的解决方案。决定了就前进。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;商业社会中散布着死气沉沉的文件,没用却浪费人们的时间。没人阅读的文件,没人 去看的图表,从不符合成品的规则。这些东西一直存在但几秒种就被人遗忘了。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;埋头做想要做的事情很简单。停下来问为什么是很难的事情。有很多重要的问题问问自 己,看看你正在做的事情是否要紧&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;一件事情耗的时间越久,你将完成的量就越少。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;如果你花了很多时间在一件事情上却不值得,那么请放弃。 时间不会回来。浪费更多时间是最糟糕的事情。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;不睡觉是个坏主意。当然,你此刻获得额外的几小时,但之后总是要还的:你的创意
 变得匮乏,气势低迷,脾气也变糟。
 在你知道后果的情况下,偶尔可以熬夜。但是不能养成习惯。如果变成经常性的熬夜, 损失会增大:
 当你疲倦的时候,保持耐心和容忍的能力就会剧&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;把大事化小。越小的事物越容易估计。你也许仍然会估计错误但是比起评估一 件大项目要好得多。如果某件事花费你所期望的两倍时间,将它化为更小的项目,用几个 星期完成好过耗费数个月时间。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;当你创造出一个实用的好产品时,可能就要牺牲一些花哨的东西。一件产品做到实质优 良可能不及竞争者表面闪光的产品来得性感。把几个功能做到极好不会让它远远的就看起 来很浮华。没关系。你所追求的是长期关系而不是一夜情。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;如果有一个需求你总是忘记,这说明它不是太重要。真正重要的事情不会消失。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;要想成功不能操之过急。这很难,但是你必须有耐心。你要费点力气。在受到正确的人 关注之前,你需要花很长时间。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+&lt;p&gt;“但是,如果……?”“当……时,发生了什么?”“我们不需要计划或者……吗?” 别没事儿找些事儿来。真的问题出现之前就不是问题。大多数你担心的事情从未发生过。&lt;/p&gt;
 
-&lt;p&gt;“但是,如果&amp;hellip;&amp;hellip;?”“当&amp;hellip;&amp;hellip;时,发生了什么?”“我们不需要计划或者&amp;hellip;&amp;hellip;吗?” 别没事儿找些事儿来。真的问题出现之前就不是问题。大多数你担心的事情从未发生过。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;在商务中有一些 4 个字母组成的词是绝对不应该用的。不是 fuck 和 shit,是 need (需要)、must(必须)、can’t(不能)、easy(容易)、just(恰好)、only(仅仅)、fast(迅 速的)。这些词阻碍合理的交际。它们是产生敌意的危险信号、破坏良好的讨论、导致项目 延迟。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;在商务中有一些 4 个字母组成的词是绝对不应该用的。不是 fuck 和 shit,是 need (需要)、must(必须)、can&amp;rsquo;t(不能)、easy(容易)、just(恰好)、only(仅仅)、fast(迅 速的)。这些词阻碍合理的交际。它们是产生敌意的危险信号、破坏良好的讨论、导致项目 延迟。&lt;/p&gt;
-
-&lt;hr&gt;
 </description>
         <pubDate>Sun, 26 Jul 2015 00:00:00 +0800</pubDate>
         <link>win.moe/read/2015/07/26/rework/</link>
@@ -374,68 +368,44 @@
     
       <item>
         <title>Unity3D之打包IPA和APK</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;用Unity3D开发App，最终会打包为ipa(iOS),apk(Android),&lt;strong&gt;本质是zip文件&lt;/strong&gt;，下面我们来介绍这两个平台如何打包。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;系统 : OSX10.10.2&lt;/li&gt;
-&lt;li&gt;Unity : 4.6.3&lt;/li&gt;
+  &lt;li&gt;系统 : OSX10.10.2&lt;/li&gt;
+  &lt;li&gt;Unity : 4.6.3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+&lt;p&gt;##1. iOS平台ipa打包
+—&lt;/p&gt;
 
-&lt;h2&gt;1. iOS平台ipa打包&lt;/h2&gt;
+&lt;h4 id=&quot;apple1&quot;&gt;1. 注册Apple开发者账号,&lt;a href=&quot;https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm&quot;&gt;注册链接&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;####2. 打开Unity菜单 File -&amp;gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图： 
+ &lt;img src=&quot;/images/post/unity3d_distribution_02.png&quot; alt=&quot;&quot; /&gt;
+####3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可
+ &lt;img src=&quot;/images/post/unity3d_distribution_03.png&quot; alt=&quot;&quot; /&gt;
+####4. 接下来会自动编译，过程中我们会看到XCode打开了
+####5. 下一步分几个步骤如下图所示：
+#####1.选择 Product -&amp;gt; Archive
+&lt;img src=&quot;/images/post/unity3d_distribution_04.png&quot; alt=&quot;&quot; /&gt;
+#####2. 选中项目，点击Export
+&lt;img src=&quot;/images/post/unity3d_distribution_05.png&quot; alt=&quot;&quot; /&gt;
+#####3. 勾选选项，点击下一步
+&lt;img src=&quot;/images/post/unity3d_distribution_06.png&quot; alt=&quot;&quot; /&gt;
+#####4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧
+&lt;img src=&quot;/images/post/unity3d_distribution_07.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+&lt;p&gt;##2. Android平台apk打包
+—
+####1.下载&lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt;,&lt;a href=&quot;http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip&quot;&gt;下载链接&lt;/a&gt;
+####2.通过Android SDK Manager 安装更新SDK，国内参考链接；&lt;a href=&quot;http://www.androiddevtools.cn/&quot;&gt;http://www.androiddevtools.cn/&lt;/a&gt;
+####3.设置Unity Preferences 设置SDK路径
+&lt;img src=&quot;/images/post/unity3d_distribution_01.png&quot; alt=&quot;&quot; /&gt;
+####4.打开Unity菜单 File -&amp;gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧 
+&lt;img src=&quot;/images/post/unity3d_distribution_08.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4&gt;1. 注册Apple开发者账号,&lt;a href=&quot;https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm&quot;&gt;注册链接&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4&gt;2. 打开Unity菜单 File -&amp;gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图：&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_02.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;h4&gt;3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_03.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;h4&gt;4. 接下来会自动编译，过程中我们会看到XCode打开了&lt;/h4&gt;
-
-&lt;h4&gt;5. 下一步分几个步骤如下图所示：&lt;/h4&gt;
-
-&lt;h5&gt;1.选择 Product -&amp;gt; Archive&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_04.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;h5&gt;2. 选中项目，点击Export&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_05.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;h5&gt;3. 勾选选项，点击下一步&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_06.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;h5&gt;4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_07.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;2. Android平台apk打包&lt;/h2&gt;
-
-&lt;hr&gt;
-
-&lt;h4&gt;1.下载&lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt;,&lt;a href=&quot;http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip&quot;&gt;下载链接&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4&gt;2.通过Android SDK Manager 安装更新SDK，国内参考链接；&lt;a href=&quot;http://www.androiddevtools.cn/&quot;&gt;http://www.androiddevtools.cn/&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4&gt;3.设置Unity Preferences 设置SDK路径&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_01.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;h4&gt;4.打开Unity菜单 File -&amp;gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/unity3d_distribution_08.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/unity3d/2015/03/31/unity3d-distribution/</link>
@@ -444,52 +414,48 @@
     
       <item>
         <title>Unity3D之破解与反破解</title>
-        <description>&lt;hr&gt;
-
-&lt;h3&gt;1. Unity3D破解（MacOSX）&lt;/h3&gt;
+        <description>&lt;hr /&gt;
+&lt;p&gt;###1. Unity3D破解（MacOSX）&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;分别复制两个文件到相应目录即可&lt;/li&gt;
-&lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
-&lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
+  &lt;li&gt;分别复制两个文件到相应目录即可&lt;/li&gt;
+  &lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
+  &lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
-
-&lt;h3&gt;2. Unity3D游戏资源导出&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;###2. Unity3D游戏资源导出&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源&lt;/li&gt;
-&lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
+  &lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源&lt;/li&gt;
+  &lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;hr&gt;
-
-&lt;h3&gt;3. 代码反编译与防止&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;随便下载一个Unity做的游戏apk解压，找到Assembly-CSCarp.dll&lt;/li&gt;
-&lt;li&gt;拖拽到 MonoDevelop中打开（ 或者使用 .NET Reflector 8 反编译 ）&lt;/li&gt;
-&lt;li&gt;防止反编译插件：Codeguard&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;h3&gt;4. 代码混淆与还原&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;###3. 代码反编译与防止&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;代码混淆与还原工具&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;de4dot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;随便下载一个Unity做的游戏apk解压，找到Assembly-CSCarp.dll&lt;/li&gt;
+  &lt;li&gt;拖拽到 MonoDevelop中打开（ 或者使用 .NET Reflector 8 反编译 ）&lt;/li&gt;
+  &lt;li&gt;防止反编译插件：Codeguard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+&lt;p&gt;###4. 代码混淆与还原&lt;/p&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;代码混淆与还原工具&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;de4dot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 &lt;p&gt;参考:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.xuanyusong.com/&quot;&gt;http://www.xuanyusong.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;https://github.com/ata4/disunity/releases&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;https://github.com/0xd4d/de4dot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.xuanyusong.com/&quot;&gt;http://www.xuanyusong.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;https://github.com/ata4/disunity/releases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;https://github.com/0xd4d/de4dot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Sat, 28 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/unity3d/2015/03/28/unity3d-crack/</link>
@@ -498,39 +464,34 @@
     
       <item>
         <title>读书毁了我（笔记）</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;读书毁了我&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;作者: 王强&lt;/li&gt;
-&lt;li&gt;出版社: 中信出版社&lt;/li&gt;
-&lt;li&gt;出版年: 2012&lt;/li&gt;
-&lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/19912140/&quot;&gt;读书毁了我&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;凤凰读书：&lt;a href=&quot;http://v.book.ifeng.com/book/ts/32856.htm&quot;&gt;在线阅读&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;作者: 王强&lt;/li&gt;
+  &lt;li&gt;出版社: 中信出版社&lt;/li&gt;
+  &lt;li&gt;出版年: 2012&lt;/li&gt;
+  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/19912140/&quot;&gt;读书毁了我&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;凤凰读书：&lt;a href=&quot;http://v.book.ifeng.com/book/ts/32856.htm&quot;&gt;在线阅读&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;在埃及，驯养的动物受到了最高规格的礼遇。猫戴着金耳环，狗佩着银项链。杀死狗或猫是没有争议的死罪。有一个罗马士兵在底比斯杀死了一只猫，当地人愤怒地用乱棒击毙了他。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;在巴比伦，一个人被狗尿溅及乃是件举足轻重的事情。撒尿的若是黑狗或白狗，这意味着不祥将至；若是红狗，则预告着幸福和前程。假如一个人目睹狗在交配，那么这提醒他身边的女人不久将有外遇。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;节日临近，你们喜欢用泪水来浇灌记忆的花圃，你们喜欢用叹息来缅怀失去的故土。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;“试想时间是一圆环，首和尾相连。世界重复着自己，分毫不差，无止无尽。”在这样的一个世界里，人生该是一种什么样的呈现呢？人们不会知道自己将世复一世地活下去。经商的不知道自己会一而再、再而三地讨还同一个价码。从政的不知道自己会在时间的循环里，从同一个讲坛发出无数次的呐喊。身为父母的珍爱着孩子的第一次笑声，仿佛他们不再会听到它一样。热恋中的人头一次害羞地宽衣做爱的时候，惊异于灵活的腿股和娇嫩的乳头。他们何以会知道每一次隐秘的瞥视、每一次触摸都将一而再、再而三地重复下去，一如既往？在这样的一个世界里，丧失牵引着获得，永别连接着再生。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;这是一个只有“现在”的世界，“过去”只存在于书本中、文献里。为了认识自己，每个人都带着他自己的“生命之书”，书里填满了他生命的足迹。没有这部“生命之书”，一个人便只是一张快照，一个二维的图像，一个鬼影。随时间的推移，这“生命之书”变得越来越厚，直到人再也无法卒读。这时人即有了选择：上了岁数的人也许只读前边的书页，了解他们的年轻时代；也许只读最后，了解他们刚逝的岁月。有的人干脆全数放弃此册，也就弃绝了往昔。在这些人看来，昨天是穷是富，是学问满腹还是彻底无知，已变得没那么举足轻重了。甚至根本就不存在一个昨天。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/read/2015/03/21/read-book/</link>
@@ -539,35 +500,33 @@
     
       <item>
         <title>静态渲染之Ambient Occlusion</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ambient_occlusion&quot;&gt;Ambient Occlusion Wikipedia&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;描述：对于3D游戏，AO作为全局光照的一部分已经成为很多3D引擎的标配，不管是静态还是SSAO，本文描述了，在游戏开发后期为了提高整体效果而弥补的静态渲染的AO。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;流程：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;  按文件划分UV（正常应该按场景的区域还划分？）&lt;/li&gt;
-&lt;li&gt;  渲染生成AO贴图&lt;/li&gt;
-&lt;li&gt;  运行期使用AO贴图&lt;/li&gt;
+  &lt;li&gt;按文件划分UV（正常应该按场景的区域还划分？）&lt;/li&gt;
+  &lt;li&gt;渲染生成AO贴图&lt;/li&gt;
+  &lt;li&gt;运行期使用AO贴图&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;一些要点：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;  分UV，合并单个文件的Mesh为一个Mesh，然后转换为DX的标准Mesh，然后利用DX自带的UVAtlas来进行UV划分（UVAtlas分的UV并不是很好），UVAtlas中有很多参数需要注意.分好UV的Mesh，根据文件把第二套UV数据插入进去，保存Mesh以及文件.&lt;/li&gt;
-&lt;li&gt;  渲染生成AO部分参考&lt;a href=&quot;http://www.gamasutra.com/view/feature/130455/hardware_accelerating_art_.php?page=2&quot;&gt;这篇文章&lt;/a&gt;,对于非封闭的模型，美术又没有补面的，要做一些特殊处理.&lt;/li&gt;
-&lt;li&gt;  运行期AO贴图直接影响光照运算或者模拟乘上去（GameBryo的话直接放DarkMap通道来用了）&lt;/li&gt;
+  &lt;li&gt;分UV，合并单个文件的Mesh为一个Mesh，然后转换为DX的标准Mesh，然后利用DX自带的UVAtlas来进行UV划分（UVAtlas分的UV并不是很好），UVAtlas中有很多参数需要注意.分好UV的Mesh，根据文件把第二套UV数据插入进去，保存Mesh以及文件.&lt;/li&gt;
+  &lt;li&gt;渲染生成AO部分参考&lt;a href=&quot;http://www.gamasutra.com/view/feature/130455/hardware_accelerating_art_.php?page=2&quot;&gt;这篇文章&lt;/a&gt;,对于非封闭的模型，美术又没有补面的，要做一些特殊处理.&lt;/li&gt;
+  &lt;li&gt;运行期AO贴图直接影响光照运算或者模拟乘上去（GameBryo的话直接放DarkMap通道来用了）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/03/21/ambient-occlusion/</link>
@@ -576,47 +535,42 @@
     
       <item>
         <title>阴影优化之shadow cache</title>
-        <description>&lt;hr&gt;
-
+        <description>&lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;描述&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;p&gt;对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;针对这个问题，我做了一个思考：美术在场景做好之后，我们划分场景，预渲染整个场景静态物件的深度到贴图上，运行期，根据阴影摄像机的位置不同来拼接这些深度图，以此实现减少DrawCall和全局阴影的效果。&lt;/p&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;具体做法&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;  在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等&lt;/li&gt;
-&lt;li&gt;  针对每个摆好的阴影摄像机，对场景拍照，保存深度图&lt;/li&gt;
-&lt;li&gt;  运行期根据当前阴影摄像机所在的位置，拼出一张深度图，然后再画动态物件到shadowmap上&lt;/li&gt;
-&lt;li&gt;  最终使用这张shadowmap来画场景物件，实现阴影效果&lt;/li&gt;
+  &lt;li&gt;在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等&lt;/li&gt;
+  &lt;li&gt;针对每个摆好的阴影摄像机，对场景拍照，保存深度图&lt;/li&gt;
+  &lt;li&gt;运行期根据当前阴影摄像机所在的位置，拼出一张深度图，然后再画动态物件到shadowmap上&lt;/li&gt;
+  &lt;li&gt;最终使用这张shadowmap来画场景物件，实现阴影效果&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;一些关键点&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;  划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机&lt;/li&gt;
-&lt;li&gt;  保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间&lt;/li&gt;
-&lt;li&gt;  拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法&lt;/li&gt;
-&lt;li&gt;  最终的shadowmap使用&lt;a href=&quot;http://aras-p.info/texts/D3D9GPUHacks.html&quot;&gt;Read depth buffer as texture&lt;/a&gt;技术&lt;/li&gt;
+  &lt;li&gt;划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机&lt;/li&gt;
+  &lt;li&gt;保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间&lt;/li&gt;
+  &lt;li&gt;拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法&lt;/li&gt;
+  &lt;li&gt;最终的shadowmap使用&lt;a href=&quot;http://aras-p.info/texts/D3D9GPUHacks.html&quot;&gt;Read depth buffer as texture&lt;/a&gt;技术&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
-
+&lt;hr /&gt;
 &lt;p&gt;参考：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;http://aras-p.info/texts/D3D9GPUHacks.html&lt;/li&gt;
+  &lt;li&gt;http://aras-p.info/texts/D3D9GPUHacks.html&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/03/20/shadow-cache/</link>
