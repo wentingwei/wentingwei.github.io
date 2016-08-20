@@ -138,45 +138,6 @@
       </item>
     
       <item>
-        <title>Minecraft Ambient Occlusion</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ambient_occlusion&quot;&gt;Ambient Occlusion Wikipedia&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;minecraft-ambient-occlusion&quot;&gt;Minecraft Ambient Occlusion&lt;/h2&gt;
-
-&lt;p&gt;ref:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/&quot;&gt;ambient-occlusion-for-minecraft-like-worlds&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/overviewer/Minecraft-Overviewer/blob/master/docs/design/designdoc.rst#lighting&quot;&gt;Minecraft-Overviewer-lighting&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&quot;&gt;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://codeflow.org/entries/2010/dec/09/minecraft-like-rendering-experiments-in-opengl-4/#ambient-occlusion&quot;&gt;minecraft-like-rendering-experiments-in-opengl-4&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/mgoodfel/SeaOfMemes&quot;&gt;https://github.com/mgoodfel/SeaOfMemes&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/15lb3i/the_big_list_of_block_engines/&quot;&gt;the-big-list-of-block-engines&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Sat, 05 Sep 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/technology/2015/09/05/MineCraft-Ambient-Occlusion/</link>
-        <guid isPermaLink="true">win.moe/technology/2015/09/05/MineCraft-Ambient-Occlusion/</guid>
-      </item>
-    
-      <item>
         <title>影响力（笔记）</title>
         <description>&lt;hr /&gt;
 &lt;p&gt;影响力&lt;/p&gt;
@@ -640,10 +601,81 @@
 &lt;/ul&gt;
 
 &lt;hr /&gt;
+
+&lt;h2 id=&quot;minecraft-ambient-occlusion&quot;&gt;Minecraft Ambient Occlusion&lt;/h2&gt;
+
+&lt;p&gt;ref:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/&quot;&gt;ambient-occlusion-for-minecraft-like-worlds&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/overviewer/Minecraft-Overviewer/blob/master/docs/design/designdoc.rst#lighting&quot;&gt;Minecraft-Overviewer-lighting&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&quot;&gt;http://www.sea-of-memes.com/LetsCode35/LetsCode35.html&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://codeflow.org/entries/2010/dec/09/minecraft-like-rendering-experiments-in-opengl-4/#ambient-occlusion&quot;&gt;minecraft-like-rendering-experiments-in-opengl-4&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/mgoodfel/SeaOfMemes&quot;&gt;https://github.com/mgoodfel/SeaOfMemes&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/15lb3i/the_big_list_of_block_engines/&quot;&gt;the-big-list-of-block-engines&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0800</pubDate>
         <link>win.moe/technology/2015/03/21/Ambient-Occlusion/</link>
         <guid isPermaLink="true">win.moe/technology/2015/03/21/Ambient-Occlusion/</guid>
+      </item>
+    
+      <item>
+        <title>阴影优化之shadow cache</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;描述&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;对于3DMMO游戏，实时阴影一般使用shadowmap来实现，这样的话就存在一个问题，这张shadowmap需要画阴影摄像机下的所有物件一遍，对于DrawCall基本是没有阴影的2倍左右，虽然我们可以用ReadDepthAsTexture来对RT以及渲染稍作优化，但是DrawCall本质没有下降，那么有没有方法来减少DrawCall，或者在前期渲染好DepthTexture呢？&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;针对这个问题，我做了一个思考：美术在场景做好之后，我们划分场景，预渲染整个场景静态物件的深度到贴图上，运行期，根据阴影摄像机的位置不同来拼接这些深度图，以此实现减少DrawCall和全局阴影的效果。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;具体做法&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在Shadow Camera的空间，划分整个场景，计算好每个阴影摄像机的位置以及远近才见面，这时候需要根据地形以及场景物件的摆放等&lt;/li&gt;
+  &lt;li&gt;针对每个摆好的阴影摄像机，对场景拍照，保存深度图&lt;/li&gt;
+  &lt;li&gt;运行期根据当前阴影摄像机所在的位置，拼出一张深度图，然后再画动态物件到shadowmap上&lt;/li&gt;
+  &lt;li&gt;最终使用这张shadowmap来画场景物件，实现阴影效果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;一些关键点&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;划分区间，阴影摄像机可见的所有模型的顶点位置，最终算出一个合适的阴影摄像机&lt;/li&gt;
+  &lt;li&gt;保存深度图时，分解通道到rgba，然后压缩存储为png，减少存储空间&lt;/li&gt;
+  &lt;li&gt;拼图时，使用了Pixel Shader写深度的点，shader中 { depth ：depth}这种写法&lt;/li&gt;
+  &lt;li&gt;最终的shadowmap使用&lt;a href=&quot;http://aras-p.info/texts/D3D9GPUHacks.html&quot;&gt;Read depth buffer as texture&lt;/a&gt;技术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://aras-p.info/texts/D3D9GPUHacks.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Fri, 20 Mar 2015 00:00:00 +0800</pubDate>
+        <link>win.moe/technology/2015/03/20/Shadow-Cache/</link>
+        <guid isPermaLink="true">win.moe/technology/2015/03/20/Shadow-Cache/</guid>
       </item>
     
   </channel>
