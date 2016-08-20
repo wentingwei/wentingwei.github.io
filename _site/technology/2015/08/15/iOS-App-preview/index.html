@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <meta content='iOS审核注意 - win.moe' property='og:title' />
+    <title>iOS审核注意 - win.moe</title>
+    <!--link href='/images/fav.png' rel='shortcut icon' /-->
+<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
+<script src='/javascripts/jquery.js' type='text/javascript'></script>
+<script src='/javascripts/pd.js' type='text/javascript'></script>
+<script src='/javascripts/basics.js' type='text/javascript'></script>
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+
+  </head>
+  <body>
+    
+    <div id='container'>
+      <div class="block">
+  
+    <a target="_top" class="main" href="/">主页</a>
+  
+    <a target="_top" class="main" href="/about">关于</a>
+  
+    <a target="_top" class="main" href="/douban">豆瓣</a>
+  
+    <a target="_top" class="main" href="/links">链接</a>
+  
+</div>
+      <section class="paging">
+  
+    <div class="left">
+      <a href="/think/2015/07/27/xuexi/">
+        ‹
+      </a>
+    </div>
+  
+  
+    <div class="right">
+      <a href="/read/2015/09/03/Influence/">
+        ›
+      </a>
+    </div>
+  
+</section>
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+            <div class='date'>15 Aug 2015</div>
+            iOS审核注意
+          </h1>
+          <ul>
+  <li>1，不能出现更新字样</li>
+  <li>2，不能有网页</li>
+  <li>3，不能有CDkey</li>
+  <li>4，build version 必须用数字</li>
+  <li>5，用dis的mobileprovision</li>
+  <li>6，achieve出来的.app文件，可以直接拖到iTunes 中，然后就会自动生成ipa</li>
+  <li>7，IPV6真实环境测试</li>
+</ul>
+
+<hr />
+<div class="language-cpp highlighter-rouge"><pre class="highlight"><code><span class="k">struct</span> <span class="n">addrinfo</span> <span class="o">*</span><span class="n">answer</span><span class="p">,</span> <span class="n">hint</span><span class="p">,</span> <span class="o">*</span><span class="n">curr</span><span class="p">;</span>
+<span class="n">ZeroMemory</span><span class="p">(</span><span class="o">&amp;</span><span class="n">hint</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">hint</span><span class="p">));</span>
+<span class="n">hint</span><span class="p">.</span><span class="n">ai_family</span> <span class="o">=</span> <span class="n">AF_UNSPEC</span><span class="p">;</span>
+<span class="n">hint</span><span class="p">.</span><span class="n">ai_socktype</span> <span class="o">=</span> <span class="n">SOCK_STREAM</span><span class="p">;</span>
+<span class="kt">char</span> <span class="n">ipstr4</span><span class="p">[</span><span class="mi">128</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">};</span>
+<span class="kt">char</span> <span class="n">ipstr6</span><span class="p">[</span><span class="mi">128</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">};</span>
+
+<span class="k">struct</span> <span class="n">sockaddr_in</span>  <span class="o">*</span><span class="n">sockaddr_ipv4</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+<span class="k">struct</span> <span class="n">sockaddr_in6</span> <span class="o">*</span><span class="n">sockaddr_ipv6</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">ret</span> <span class="o">=</span> <span class="n">getaddrinfo</span><span class="p">(</span><span class="n">szHostName</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span><span class="o">&amp;</span><span class="n">hint</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">answer</span><span class="p">);</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">ret</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="n">IPNone</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="n">curr</span> <span class="o">=</span> <span class="n">answer</span><span class="p">;</span> <span class="n">curr</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">;</span> <span class="n">curr</span> <span class="o">=</span> <span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_next</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">switch</span> <span class="p">(</span><span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_family</span><span class="p">){</span>
+	<span class="k">case</span> <span class="n">AF_UNSPEC</span><span class="p">:</span>
+		<span class="c1">//do something here
+</span>		<span class="k">break</span><span class="p">;</span>
+	<span class="k">case</span> <span class="n">AF_INET</span><span class="p">:</span>
+		<span class="n">sockaddr_ipv4</span> <span class="o">=</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="k">struct</span> <span class="n">sockaddr_in</span> <span class="o">*&gt;</span><span class="p">(</span> <span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_addr</span><span class="p">);</span>
+	<span class="k">case</span> <span class="n">AF_INET6</span><span class="p">:</span>
+		<span class="n">sockaddr_ipv6</span> <span class="o">=</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="k">struct</span> <span class="n">sockaddr_in6</span> <span class="o">*&gt;</span><span class="p">(</span> <span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_addr</span><span class="p">);</span>
+		<span class="n">inet_ntop</span><span class="p">(</span><span class="n">AF_INET6</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">sockaddr_ipv6</span><span class="o">-&gt;</span><span class="n">sin6_addr</span><span class="p">,</span> <span class="n">ipstr6</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">ipstr6</span><span class="p">));</span>
+		<span class="k">break</span><span class="p">;</span>
+	<span class="k">default</span><span class="o">:</span>
+		<span class="k">break</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<hr />
+
+        </section>
+        <hr>
+<p align="center" style="font-style:italic;font-weight:bold">
+每天进步一点点.
+</p>
+<hr>
+
+        
+          <div class="ds-thread" data-thread-key=/technology/2015/08/15/iOS-App-preview data-title=iOS审核注意 :: win.moe data-url="win.moe/technology/2015/08/15/iOS-App-preview/"</div>
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"wentingwei"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script>
+        
+      </div>
+  <div>
+    <footer id="footer" class="inner">
+    Copyright &copy; 2014 win.moe. All rights reserved. Powered by <a href="http://jekyllbootstrap.com">Jekyll</a> 
+</footer>
+  </div>
+  </body>
+</html>
