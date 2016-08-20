@@ -10,13 +10,35 @@ icon: file-alt
 duoshuo: y
 ---
 
-- 1，不能出现更新字样
-- 2，不能有网页
-- 3，不能有CDkey
-- 4，build version 必须用数字
-- 5，用dis的mobileprovision
-- 6，achieve出来的.app文件，可以直接拖到iTunes 中，然后就会自动生成ipa
-- 7，IPV6真实环境测试
+---
+1，不能出现更新字样
+
+---
+2，不能有外部网页
+
+---
+3，不能有 CDkey
+
+---
+4，BuildVersion 必须用数字
+
+---
+5，用 dis 的 mobileprovision
+
+---
+6，archieve 出来的 xxx.app 文件可以直接拖到 iTunes 中，然后就会自动生成 .ipa 文件
+
+---
+7，IPV6 真实环境测试
+
+---
+8, 补全 AppIcon 分辨率正确
+
+---
+9, iPad 选择 fullscreen
+
+---
+10, 提供两个账号，一个是小号，一个是能玩多有功能的大号
 
 ---
 ```cpp

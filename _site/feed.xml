@@ -346,15 +346,35 @@
     
       <item>
         <title>iOS审核注意</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;1，不能出现更新字样&lt;/li&gt;
-  &lt;li&gt;2，不能有网页&lt;/li&gt;
-  &lt;li&gt;3，不能有CDkey&lt;/li&gt;
-  &lt;li&gt;4，build version 必须用数字&lt;/li&gt;
-  &lt;li&gt;5，用dis的mobileprovision&lt;/li&gt;
-  &lt;li&gt;6，achieve出来的.app文件，可以直接拖到iTunes 中，然后就会自动生成ipa&lt;/li&gt;
-  &lt;li&gt;7，IPV6真实环境测试&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;hr /&gt;
+&lt;p&gt;1，不能出现更新字样&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;2，不能有外部网页&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;3，不能有 CDkey&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;4，BuildVersion 必须用数字&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;5，用 dis 的 mobileprovision&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;6，archieve 出来的 xxx.app 文件可以直接拖到 iTunes 中，然后就会自动生成 .ipa 文件&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;7，IPV6 真实环境测试&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;8, 补全 AppIcon 分辨率正确&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;9, iPad 选择 fullscreen&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;10, 提供两个账号，一个是小号，一个是能玩多有功能的大号&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;addrinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
