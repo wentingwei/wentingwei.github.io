@@ -53,6 +53,12 @@ duoshuo: y
 14, mobileprovision 一定要配置正确，是否内购，是否允许通知
 
 ---
+15, 商品类型一定要注意，和描述一致，月卡终身卡，非续订订阅。
+
+---
+16, 可以用变相方式来实现非商品内购，充值xxx钻可以有购买资格，购买需要xxx钻，相当于商品了
+
+---
 ```cpp
 struct addrinfo *answer, hint, *curr;
 ZeroMemory(&hint, sizeof(hint));
