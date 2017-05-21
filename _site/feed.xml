@@ -7,6 +7,101 @@
     <atom:link href="win.moe/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>做项目方法论</title>
+        <description>&lt;p&gt;做项目方法论：&lt;/p&gt;
+
+&lt;p&gt;1，立项要慎重，多参考，多思考，多看市场情况，结合游戏玩法，美术制作水准，看能否可行&lt;/p&gt;
+
+&lt;p&gt;2，项目定期发版，版本内容提前规划好，每周一次会议，看进度，有问题及时调整&lt;/p&gt;
+
+&lt;p&gt;3，不停添加功能，玩家需求，每个需求都针对玩家，或者留存，打点，AB-TEST，确定是否可行&lt;/p&gt;
+
+&lt;p&gt;4，关注留存数据，分析留存变化产生的原因&lt;/p&gt;
+
+&lt;p&gt;5，目标KPI制定好，运营会有压力推进&lt;/p&gt;
+
+&lt;p&gt;6，时刻关注玩家的反馈，FB，商店&lt;/p&gt;
+
+&lt;p&gt;7，收集玩家反馈信息&lt;/p&gt;
+
+&lt;p&gt;8，不断的招聘，找合适的人&lt;/p&gt;
+
+&lt;p&gt;9，关注每个人的生活状态&lt;/p&gt;
+
+&lt;p&gt;10，时间把控好，尽量的压，不管是否做完，开会添加新的需求点&lt;/p&gt;
+
+&lt;p&gt;11，无止境的优化，性能，包体，耗电&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sun, 21 May 2017 00:00:00 +0800</pubDate>
+        <link>win.moe/think/2017/05/21/project/</link>
+        <guid isPermaLink="true">win.moe/think/2017/05/21/project/</guid>
+      </item>
+    
+      <item>
+        <title>思考与笔记</title>
+        <description>&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;鸡汤：看起来都是大道理，读完了什么都无法获得。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;以下来自《人民的名义》&lt;/p&gt;
+
+&lt;p&gt;1，再穷，不要借钱去消费。&lt;/p&gt;
+
+&lt;p&gt;2，再难，不要说话不算数。&lt;/p&gt;
+
+&lt;p&gt;3，欠钱，一定拼命挣钱来还，还不上，要打电话让人知道你没忘。&lt;/p&gt;
+
+&lt;p&gt;4，堂堂正正做人，明明白白做事。&lt;/p&gt;
+
+&lt;p&gt;5，永远不要丢掉别人对你的信任，别人信任你，是你在别人心目中存在的价值。&lt;/p&gt;
+
+&lt;p&gt;6，人生路很长，自己别把路走窄了。&lt;/p&gt;
+
+&lt;p&gt;7，把人做好了，什么都会有的。&lt;/p&gt;
+
+&lt;p&gt;8，永远不要透支身边的人对你的信任，失去诚信等于终身破产。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;孙宏斌说：&lt;/p&gt;
+
+&lt;p&gt;1，你成功的时候，别急着总结经验，别把功劳全归自己，因为成功的原因可能不是因为你。&lt;/p&gt;
+
+&lt;p&gt;2，你失败的时候，别灰心别放弃，要深刻总结失败的教训，把经历变成财富，这些可能就是自省。&lt;/p&gt;
+
+&lt;p&gt;3，超越自己才能进步，超越自己很难，自省的人才能超越自己。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;互联网创业者的素质：&lt;/p&gt;
+
+&lt;p&gt;1，拥有灵敏的互联网嗅觉&lt;/p&gt;
+
+&lt;p&gt;2，善于反思，悟性高，不钻死胡同&lt;/p&gt;
+
+&lt;p&gt;3，能熬能扛有执行力&lt;/p&gt;
+
+&lt;p&gt;4，没有财务压力，不会为生计所迫中途放弃，有着强力的成功欲望，会坚持到底&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;有时候，我们做错事，是因为该用脑子的时候却动了感情。
+有时候，我们说错话，是因为该喝饮料的时候却喝了江小白。
+不做错事，不说错话，青春白走一回。—by 江小白&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;凡是神话，大多是要走向破灭的。没有破灭的，最后都成为了帝国&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sun, 21 May 2017 00:00:00 +0800</pubDate>
+        <link>win.moe/think/2017/05/21/mind/</link>
+        <guid isPermaLink="true">win.moe/think/2017/05/21/mind/</guid>
+      </item>
+    
+      <item>
         <title>创业需要注意什么</title>
         <description>&lt;hr /&gt;
 &lt;p&gt;我的失败经验&lt;/p&gt;
@@ -647,102 +742,6 @@
         <pubDate>Sun, 26 Jul 2015 00:00:00 +0800</pubDate>
         <link>win.moe/read/2015/07/26/Rework/</link>
         <guid isPermaLink="true">win.moe/read/2015/07/26/Rework/</guid>
-      </item>
-    
-      <item>
-        <title>Unity3D之打包IPA和APK</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;用Unity3D开发App，最终会打包为ipa(iOS),apk(Android),&lt;strong&gt;本质是zip文件&lt;/strong&gt;，下面我们来介绍这两个平台如何打包。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;系统 : OSX10.10.2&lt;/li&gt;
-  &lt;li&gt;Unity : 4.6.3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;##1. iOS平台ipa打包
-—&lt;/p&gt;
-
-&lt;p&gt;####1. 注册Apple开发者账号,&lt;a href=&quot;https://developer.apple.com/enroll/selectEnrollmentType.php?t=cm&quot;&gt;注册链接&lt;/a&gt;
-####2. 打开Unity菜单 File -&amp;gt; Build Setting 选中IOS平台，添加场景，设置好对应的选项，参考下图： 
- &lt;img src=&quot;/images/post/unity3d_distribution_02.png&quot; alt=&quot;&quot; /&gt;
-####3. 上一步选好之后，点击Build And Run 会出现下面的界面，点击保存即可
- &lt;img src=&quot;/images/post/unity3d_distribution_03.png&quot; alt=&quot;&quot; /&gt;
-####4. 接下来会自动编译，过程中我们会看到XCode打开了
-####5. 下一步分几个步骤如下图所示：
-#####1.选择 Product -&amp;gt; Archive
-&lt;img src=&quot;/images/post/unity3d_distribution_04.png&quot; alt=&quot;&quot; /&gt;
-#####2. 选中项目，点击Export
-&lt;img src=&quot;/images/post/unity3d_distribution_05.png&quot; alt=&quot;&quot; /&gt;
-#####3. 勾选选项，点击下一步
-&lt;img src=&quot;/images/post/unity3d_distribution_06.png&quot; alt=&quot;&quot; /&gt;
-#####4. 这一步会自动选中证书，点击Export即可，接下来等待ipa出现吧
-&lt;img src=&quot;/images/post/unity3d_distribution_07.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;##2. Android平台apk打包
-—
-####1.下载&lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt;,&lt;a href=&quot;http://dl.google.com/android/android-sdk_r24.1.2-macosx.zip&quot;&gt;下载链接&lt;/a&gt;
-####2.通过Android SDK Manager 安装更新SDK，国内参考链接；&lt;a href=&quot;http://www.androiddevtools.cn/&quot;&gt;http://www.androiddevtools.cn/&lt;/a&gt;
-####3.设置Unity Preferences 设置SDK路径
-&lt;img src=&quot;/images/post/unity3d_distribution_01.png&quot; alt=&quot;&quot; /&gt;
-####4.打开Unity菜单 File -&amp;gt; Build Setting 选中Android平台，添加场景，设置好对应的选项，参考下图，接下来等待apk出现吧 
-&lt;img src=&quot;/images/post/unity3d_distribution_08.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 31 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/unity3d/2015/03/31/Unity3D-Distribution/</link>
-        <guid isPermaLink="true">win.moe/unity3d/2015/03/31/Unity3D-Distribution/</guid>
-      </item>
-    
-      <item>
-        <title>Unity3D之破解与反破解</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;###1. Unity3D破解（MacOSX）&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;分别复制两个文件到相应目录即可&lt;/li&gt;
-  &lt;li&gt;/Library/Application Support/Unity/Unity_v4.x.ulf&lt;/li&gt;
-  &lt;li&gt;/Applications/Unity/Unity.app/Contents/MacOS/Unity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;###2. Unity3D游戏资源导出&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;下载.IPA或者.APK文件,修改后缀名为.zip，解压就得到打包的资源&lt;/li&gt;
-  &lt;li&gt;使用资源的提取工具&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;disunity&lt;/a&gt;提取资源，具体参考其说明&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;###3. 代码反编译与防止&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;随便下载一个Unity做的游戏apk解压，找到Assembly-CSCarp.dll&lt;/li&gt;
-  &lt;li&gt;拖拽到 MonoDevelop中打开（ 或者使用 .NET Reflector 8 反编译 ）&lt;/li&gt;
-  &lt;li&gt;防止反编译插件：Codeguard&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;###4. 代码混淆与还原&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;代码混淆与还原工具&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;de4dot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;参考:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.xuanyusong.com/&quot;&gt;http://www.xuanyusong.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ata4/disunity/releases&quot;&gt;https://github.com/ata4/disunity/releases&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/0xd4d/de4dot&quot;&gt;https://github.com/0xd4d/de4dot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 28 Mar 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/unity3d/2015/03/28/Unity3D-Crack/</link>
-        <guid isPermaLink="true">win.moe/unity3d/2015/03/28/Unity3D-Crack/</guid>
       </item>
     
   </channel>
