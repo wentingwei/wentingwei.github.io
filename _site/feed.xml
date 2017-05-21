@@ -8,29 +8,44 @@
     
       <item>
         <title>做项目方法论</title>
-        <description>&lt;p&gt;做项目方法论：&lt;/p&gt;
+        <description>&lt;h4 id=&quot;section&quot;&gt;做项目方法论：&lt;/h4&gt;
 
-&lt;p&gt;1，立项要慎重，多参考，多思考，多看市场情况，结合游戏玩法，美术制作水准，看能否可行&lt;/p&gt;
-
-&lt;p&gt;2，项目定期发版，版本内容提前规划好，每周一次会议，看进度，有问题及时调整&lt;/p&gt;
-
-&lt;p&gt;3，不停添加功能，玩家需求，每个需求都针对玩家，或者留存，打点，AB-TEST，确定是否可行&lt;/p&gt;
-
-&lt;p&gt;4，关注留存数据，分析留存变化产生的原因&lt;/p&gt;
-
-&lt;p&gt;5，目标KPI制定好，运营会有压力推进&lt;/p&gt;
-
-&lt;p&gt;6，时刻关注玩家的反馈，FB，商店&lt;/p&gt;
-
-&lt;p&gt;7，收集玩家反馈信息&lt;/p&gt;
-
-&lt;p&gt;8，不断的招聘，找合适的人&lt;/p&gt;
-
-&lt;p&gt;9，关注每个人的生活状态&lt;/p&gt;
-
-&lt;p&gt;10，时间把控好，尽量的压，不管是否做完，开会添加新的需求点&lt;/p&gt;
-
-&lt;p&gt;11，无止境的优化，性能，包体，耗电&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;立项要慎重，多参考，多思考，多看市场情况，结合游戏玩法，美术制作水准，看能否可行&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目定期发版，版本内容提前规划好，每周一次会议，看进度，有问题及时调整&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;不停添加功能，玩家需求，每个需求都针对玩家，或者留存，打点，AB-TEST，确定是否可行&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;关注留存数据，分析留存变化产生的原因&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;目标KPI制定好，运营会有压力推进&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;时刻关注玩家的反馈，FB，商店&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;收集玩家反馈信息&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;不断的招聘，找合适的人&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;关注每个人的生活状态&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;时间把控好，尽量的压，不管是否做完，开会添加新的需求点&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;无止境的优化，性能，包体，耗电&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;hr /&gt;
 </description>
@@ -43,12 +58,11 @@
         <title>思考与笔记</title>
         <description>&lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;鸡汤：看起来都是大道理，读完了什么都无法获得。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&quot;section&quot;&gt;鸡汤：看起来都是大道理，读完了什么都无法获得。&lt;/h4&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;以下来自《人民的名义》&lt;/p&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;以下来自《人民的名义》&lt;/h4&gt;
 
 &lt;p&gt;1，再穷，不要借钱去消费。&lt;/p&gt;
 
@@ -67,7 +81,8 @@
 &lt;p&gt;8，永远不要透支身边的人对你的信任，失去诚信等于终身破产。&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;孙宏斌说：&lt;/p&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;孙宏斌说：&lt;/h4&gt;
 
 &lt;p&gt;1，你成功的时候，别急着总结经验，别把功劳全归自己，因为成功的原因可能不是因为你。&lt;/p&gt;
 
@@ -76,7 +91,8 @@
 &lt;p&gt;3，超越自己才能进步，超越自己很难，自省的人才能超越自己。&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;互联网创业者的素质：&lt;/p&gt;
+
+&lt;h4 id=&quot;section-3&quot;&gt;互联网创业者的素质：&lt;/h4&gt;
 
 &lt;p&gt;1，拥有灵敏的互联网嗅觉&lt;/p&gt;
 
@@ -87,12 +103,16 @@
 &lt;p&gt;4，没有财务压力，不会为生计所迫中途放弃，有着强力的成功欲望，会坚持到底&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;h4 id=&quot;section-4&quot;&gt;江小白&lt;/h4&gt;
+
 &lt;p&gt;有时候，我们做错事，是因为该用脑子的时候却动了感情。
 有时候，我们说错话，是因为该喝饮料的时候却喝了江小白。
-不做错事，不说错话，青春白走一回。—by 江小白&lt;/p&gt;
+不做错事，不说错话，青春白走一回。&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;凡是神话，大多是要走向破灭的。没有破灭的，最后都成为了帝国&lt;/p&gt;
+
+&lt;h4 id=&quot;section-5&quot;&gt;凡是神话，大多是要走向破灭的。没有破灭的，最后都成为了帝国&lt;/h4&gt;
 
 &lt;hr /&gt;
 </description>
@@ -104,7 +124,8 @@
       <item>
         <title>创业需要注意什么</title>
         <description>&lt;hr /&gt;
-&lt;p&gt;我的失败经验&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;我的失败经验&lt;/h4&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;1，说到做到，只认功劳，严己宽人，敢担责任，艰苦奋斗&lt;/p&gt;
@@ -158,7 +179,8 @@
 &lt;p&gt;25，遇到问题，多去沟通并且寻找解决方案&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;困境：&lt;/p&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;困境：&lt;/h4&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;让你陷入困境的不是位置的世界，而是你坚信的事情并非如你所想。
@@ -177,7 +199,8 @@
       <item>
         <title>为何人会心存侥幸</title>
         <description>&lt;hr /&gt;
-&lt;p&gt;过于自信，或者叫&lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;乐观主义偏差（Optimism bias)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;optimism-bias1&quot;&gt;过于自信，或者叫&lt;a href=&quot;https://en.wikipedia.org/wiki/Hofstadter%27s_law&quot;&gt;乐观主义偏差（Optimism bias)&lt;/a&gt;&lt;/h4&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;1，什么事都没做，但是希望状态变好。（不努力学习，期望考试通过，不努力工作，期望能赚很多钱）&lt;/p&gt;
@@ -209,8 +232,9 @@
 &lt;p&gt;14，我们习惯性的不引以为戒，即使以前买彩票从未中过，也不影响对于本次购买的期望。&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;参考：
-&lt;a href=&quot;[https://book.douban.com/subject/1291204/]&quot;&gt;哥德尔、艾舍尔、巴赫&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;参考：&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;[https://book.douban.com/subject/1291204/]&quot;&gt;哥德尔、艾舍尔、巴赫&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 22 Nov 2016 00:00:00 +0800</pubDate>
@@ -221,7 +245,8 @@
       <item>
         <title>估值就是讲故事：创业融资与投资（笔记）</title>
         <description>&lt;hr /&gt;
-&lt;p&gt;估值就是讲故事：创业融资与投资&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;估值就是讲故事：创业融资与投资&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;作者: Dr.2&lt;/li&gt;
@@ -352,7 +377,8 @@
       <item>
         <title>影响力（笔记）</title>
         <description>&lt;hr /&gt;
-&lt;p&gt;影响力&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;影响力&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;作者: [美] 罗伯特·西奥迪尼&lt;/li&gt;
@@ -424,7 +450,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;以下内容来自于&lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/08/influence_the_psychology_of_persuasion.html&quot;&gt;阮一峰的博客&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;以下内容来自于&lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/08/influence_the_psychology_of_persuasion.html&quot;&gt;阮一峰的博客&lt;/a&gt;&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -659,7 +685,6 @@
   &lt;li&gt;体会别人说话的用途，用心感受别人做的事情，怀着感激之心&lt;/li&gt;
   &lt;li&gt;每次选择都选择更在意的事情&lt;/li&gt;
   &lt;li&gt;降低期望，提高标准，要求严格，对结果保守&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;hr /&gt;
@@ -672,7 +697,8 @@
       <item>
         <title>重来（笔记）</title>
         <description>&lt;hr /&gt;
-&lt;p&gt;重来&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;重来&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;作者: [美] 贾森·弗里德 / [丹] 戴维·海涅迈尔·汉森&lt;/li&gt;
