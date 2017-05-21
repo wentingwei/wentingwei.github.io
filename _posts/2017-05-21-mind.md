@@ -7,7 +7,7 @@ categories: [Think]
 tags: [Think]
 group: archive
 icon: file-alt
-duoshuo: n
+disqus: y
 ---
 
 ---

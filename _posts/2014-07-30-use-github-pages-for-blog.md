@@ -3,7 +3,7 @@ layout: post
 title: 使用Github Pages搭建博客
 date: 2014-07-30 16:27:31
 categories: [Technology]
-duoshuo: y
+disqus: y
 ---
 
  - 注册[github][1]
