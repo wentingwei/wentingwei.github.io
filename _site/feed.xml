@@ -10,7 +10,7 @@
         <title>3D游戏引擎概览</title>
         <description>&lt;hr /&gt;
 
-&lt;h2 id=&quot;d&quot;&gt;一. 国内主流商业3D游戏引擎以及介绍&lt;/h2&gt;
+&lt;h2 id=&quot;d&quot;&gt;一. 主流商业3D游戏引擎介绍&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;ul&gt;
@@ -50,7 +50,7 @@
         &lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
-    &lt;li&gt;策划工具
+    &lt;li&gt;策划工具链
       &lt;ul&gt;
         &lt;li&gt;2.1 角色系统
           &lt;ul&gt;
@@ -72,7 +72,7 @@
         &lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
-    &lt;li&gt;程序
+    &lt;li&gt;程序框架与工具
       &lt;ul&gt;
         &lt;li&gt;3.1 程序系统
           &lt;ul&gt;
@@ -132,7 +132,68 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;四. 渲染部分学习技巧&lt;/h2&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;四. 渲染流程&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;更新所有可渲染对象
+      &lt;ul&gt;
+        &lt;li&gt;可见性判断&lt;/li&gt;
+        &lt;li&gt;排序&lt;/li&gt;
+        &lt;li&gt;把数据给GPU渲染
+          &lt;ul&gt;
+            &lt;li&gt;Forward Rendering
+              &lt;ul&gt;
+                &lt;li&gt;PreZ这一步是优化可能没有&lt;/li&gt;
+                &lt;li&gt;由近到远渲染Solid Object&lt;/li&gt;
+                &lt;li&gt;由远到近渲染Transparent Object&lt;/li&gt;
+                &lt;li&gt;弊端多光照支持不好&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Deferred Rendering
+              &lt;ul&gt;
+                &lt;li&gt;渲染每个像素数据(颜色，深度，法线，坐标）到Buffer(MRT)&lt;/li&gt;
+                &lt;li&gt;基于屏幕的每一个像素做光照渲染输出&lt;/li&gt;
+                &lt;li&gt;弊端AA支持不好，半透明支持不好&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;渲染一个物件
+          &lt;ul&gt;
+            &lt;li&gt;准备顶点数据&lt;/li&gt;
+            &lt;li&gt;顶点变换(vertex shader)
+              &lt;ul&gt;
+                &lt;li&gt;顶点位置变换&lt;/li&gt;
+                &lt;li&gt;顶点光照&lt;/li&gt;
+                &lt;li&gt;纹理坐标变换&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;图元装配(Primitive Assembly)
+              &lt;ul&gt;
+                &lt;li&gt;视锥裁剪&lt;/li&gt;
+                &lt;li&gt;背面剔除&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;纹理映射着色（fragment shader)
+              &lt;ul&gt;
+                &lt;li&gt;裁剪测试&lt;/li&gt;
+                &lt;li&gt;Alpha Test&lt;/li&gt;
+                &lt;li&gt;Stencil Test&lt;/li&gt;
+                &lt;li&gt;Depth Test&lt;/li&gt;
+                &lt;li&gt;光照，阴影&lt;/li&gt;
+                &lt;li&gt;Alpha Blend&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;光删化（Rasterization Stage）&lt;/li&gt;
+            &lt;li&gt;输出到屏幕&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;四. 渲染部分学习技巧&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;ul&gt;
     &lt;li&gt;CPU
@@ -152,10 +213,10 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;五. 参考书籍&lt;/h2&gt;
+&lt;h2 id=&quot;section-4&quot;&gt;五. 参考书籍&lt;/h2&gt;
 &lt;blockquote&gt;
 
-  &lt;h3 id=&quot;section-4&quot;&gt;基础入门：&lt;/h3&gt;
+  &lt;h3 id=&quot;section-5&quot;&gt;基础入门：&lt;/h3&gt;
   &lt;ol&gt;
     &lt;li&gt;3D数学基础:图形与游戏开发 		&lt;a href=&quot;https://book.douban.com/subject/1400419/&quot;&gt;https://book.douban.com/subject/1400419/&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;C++程序设计语言 				&lt;a href=&quot;https://book.douban.com/subject/1099889/&quot;&gt;https://book.douban.com/subject/1099889/&lt;/a&gt;&lt;/li&gt;
@@ -166,7 +227,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-5&quot;&gt;进阶：&lt;/h3&gt;
+&lt;h3 id=&quot;section-6&quot;&gt;进阶：&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -176,7 +237,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-6&quot;&gt;引擎架构与设计&lt;/h3&gt;
+&lt;h3 id=&quot;section-7&quot;&gt;引擎架构与设计&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -185,7 +246,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-7&quot;&gt;源码与资源&lt;/h3&gt;
+&lt;h3 id=&quot;section-8&quot;&gt;源码与资源&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -198,7 +259,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-8&quot;&gt;最重要的：&lt;/h3&gt;
+&lt;h3 id=&quot;section-9&quot;&gt;最重要的：&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -206,7 +267,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-9&quot;&gt;六. 附录，关键字&lt;/h2&gt;
+&lt;h2 id=&quot;section-10&quot;&gt;六. 附录，关键字&lt;/h2&gt;
 &lt;blockquote&gt;
 
   &lt;ul&gt;
@@ -225,7 +286,7 @@
     &lt;li&gt;Shadow&lt;/li&gt;
     &lt;li&gt;Lightting&lt;/li&gt;
     &lt;li&gt;Forward Render&lt;/li&gt;
-    &lt;li&gt;Deferred Rendering&lt;/li&gt;
+    &lt;li&gt;Deferred Render&lt;/li&gt;
     &lt;li&gt;PBR Rendering&lt;/li&gt;
     &lt;li&gt;Static Rendering&lt;/li&gt;
     &lt;li&gt;Read Depth Buffer As Texture&lt;/li&gt;
@@ -250,8 +311,10 @@
     &lt;li&gt;OpenGL&lt;/li&gt;
     &lt;li&gt;DirectX&lt;/li&gt;
     &lt;li&gt;Material&lt;/li&gt;
+    &lt;li&gt;Transform&lt;/li&gt;
+    &lt;li&gt;Pipeline&lt;/li&gt;
     &lt;li&gt;
-      &lt;h2 id=&quot;transform&quot;&gt;Transform&lt;/h2&gt;
+      &lt;h2 id=&quot;shader&quot;&gt;Shader&lt;/h2&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;

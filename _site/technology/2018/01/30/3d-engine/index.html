@@ -46,7 +46,7 @@
           </h1>
           <hr />
 
-<h2 id="d">一. 国内主流商业3D游戏引擎以及介绍</h2>
+<h2 id="d">一. 主流商业3D游戏引擎介绍</h2>
 
 <blockquote>
   <ul>
@@ -86,7 +86,7 @@
         </li>
       </ul>
     </li>
-    <li>策划工具
+    <li>策划工具链
       <ul>
         <li>2.1 角色系统
           <ul>
@@ -108,7 +108,7 @@
         </li>
       </ul>
     </li>
-    <li>程序
+    <li>程序框架与工具
       <ul>
         <li>3.1 程序系统
           <ul>
@@ -168,7 +168,68 @@
   </ul>
 </blockquote>
 
-<h2 id="section-2">四. 渲染部分学习技巧</h2>
+<h2 id="section-2">四. 渲染流程</h2>
+<blockquote>
+  <ul>
+    <li>更新所有可渲染对象
+      <ul>
+        <li>可见性判断</li>
+        <li>排序</li>
+        <li>把数据给GPU渲染
+          <ul>
+            <li>Forward Rendering
+              <ul>
+                <li>PreZ这一步是优化可能没有</li>
+                <li>由近到远渲染Solid Object</li>
+                <li>由远到近渲染Transparent Object</li>
+                <li>弊端多光照支持不好</li>
+              </ul>
+            </li>
+            <li>Deferred Rendering
+              <ul>
+                <li>渲染每个像素数据(颜色，深度，法线，坐标）到Buffer(MRT)</li>
+                <li>基于屏幕的每一个像素做光照渲染输出</li>
+                <li>弊端AA支持不好，半透明支持不好</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>渲染一个物件
+          <ul>
+            <li>准备顶点数据</li>
+            <li>顶点变换(vertex shader)
+              <ul>
+                <li>顶点位置变换</li>
+                <li>顶点光照</li>
+                <li>纹理坐标变换</li>
+              </ul>
+            </li>
+            <li>图元装配(Primitive Assembly)
+              <ul>
+                <li>视锥裁剪</li>
+                <li>背面剔除</li>
+              </ul>
+            </li>
+            <li>纹理映射着色（fragment shader)
+              <ul>
+                <li>裁剪测试</li>
+                <li>Alpha Test</li>
+                <li>Stencil Test</li>
+                <li>Depth Test</li>
+                <li>光照，阴影</li>
+                <li>Alpha Blend</li>
+              </ul>
+            </li>
+            <li>光删化（Rasterization Stage）</li>
+            <li>输出到屏幕</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h2 id="section-3">四. 渲染部分学习技巧</h2>
 <blockquote>
   <ul>
     <li>CPU
@@ -188,10 +249,10 @@
   </ul>
 </blockquote>
 
-<h2 id="section-3">五. 参考书籍</h2>
+<h2 id="section-4">五. 参考书籍</h2>
 <blockquote>
 
-  <h3 id="section-4">基础入门：</h3>
+  <h3 id="section-5">基础入门：</h3>
   <ol>
     <li>3D数学基础:图形与游戏开发 		<a href="https://book.douban.com/subject/1400419/">https://book.douban.com/subject/1400419/</a></li>
     <li>C++程序设计语言 				<a href="https://book.douban.com/subject/1099889/">https://book.douban.com/subject/1099889/</a></li>
@@ -202,7 +263,7 @@
   </ol>
 </blockquote>
 
-<h3 id="section-5">进阶：</h3>
+<h3 id="section-6">进阶：</h3>
 <blockquote>
 
   <ol>
@@ -212,7 +273,7 @@
   </ol>
 </blockquote>
 
-<h3 id="section-6">引擎架构与设计</h3>
+<h3 id="section-7">引擎架构与设计</h3>
 <blockquote>
 
   <ol>
@@ -221,7 +282,7 @@
   </ol>
 </blockquote>
 
-<h3 id="section-7">源码与资源</h3>
+<h3 id="section-8">源码与资源</h3>
 <blockquote>
 
   <ol>
@@ -234,7 +295,7 @@
   </ol>
 </blockquote>
 
-<h3 id="section-8">最重要的：</h3>
+<h3 id="section-9">最重要的：</h3>
 <blockquote>
 
   <ol>
@@ -242,7 +303,7 @@
   </ol>
 </blockquote>
 
-<h2 id="section-9">六. 附录，关键字</h2>
+<h2 id="section-10">六. 附录，关键字</h2>
 <blockquote>
 
   <ul>
@@ -261,7 +322,7 @@
     <li>Shadow</li>
     <li>Lightting</li>
     <li>Forward Render</li>
-    <li>Deferred Rendering</li>
+    <li>Deferred Render</li>
     <li>PBR Rendering</li>
     <li>Static Rendering</li>
     <li>Read Depth Buffer As Texture</li>
@@ -286,8 +347,10 @@
     <li>OpenGL</li>
     <li>DirectX</li>
     <li>Material</li>
+    <li>Transform</li>
+    <li>Pipeline</li>
     <li>
-      <h2 id="transform">Transform</h2>
+      <h2 id="shader">Shader</h2>
     </li>
   </ul>
 </blockquote>
