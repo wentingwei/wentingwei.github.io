@@ -7,44 +7,275 @@
     <atom:link href="win.moe/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>做项目方法论</title>
-        <description>&lt;h4 id=&quot;section&quot;&gt;做项目方法论：&lt;/h4&gt;
+        <title>3D游戏引擎概览</title>
+        <description>&lt;hr /&gt;
 
-&lt;hr /&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;立项要慎重，多参考，多思考，多看市场情况，结合游戏玩法，美术制作水准，看能否可行&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;项目定期发版，版本内容提前规划好，每周一次会议，看进度，有问题及时调整&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;不停添加功能，玩家需求，每个需求都针对玩家，或者留存，打点，AB-TEST，确定是否可行&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;关注留存数据，分析留存变化产生的原因&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;目标KPI制定好，运营会有压力推进&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;时刻关注玩家的反馈，FB，商店&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;收集玩家反馈信息&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;不断的招聘，找合适的人&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;关注每个人的生活状态&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;时间把控好，尽量的压，不管是否做完，开会添加新的需求点&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;无止境的优化，性能，包体，耗电&lt;/p&gt;
-  &lt;/li&gt;
+&lt;h2 id=&quot;d&quot;&gt;一. 国内主流商业3D游戏引擎以及介绍&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Unreal Engine&lt;/li&gt;
+    &lt;li&gt;Unity Engine&lt;/li&gt;
+    &lt;li&gt;Gamebryo Engine&lt;/li&gt;
+    &lt;li&gt;Cry Engine&lt;/li&gt;
+    &lt;li&gt;BigWorld Engine&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;二. 主流商业引擎包含的内容&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;美术工具链
+      &lt;ul&gt;
+        &lt;li&gt;1.1 制作工具
+          &lt;ul&gt;
+            &lt;li&gt;地图编辑器&lt;/li&gt;
+            &lt;li&gt;特效编辑器&lt;/li&gt;
+            &lt;li&gt;材质编辑器&lt;/li&gt;
+            &lt;li&gt;动画编辑器&lt;/li&gt;
+            &lt;li&gt;水流编辑&lt;/li&gt;
+            &lt;li&gt;天气编辑&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;1.2 导出工具（插件）
+          &lt;ul&gt;
+            &lt;li&gt;贴图&lt;/li&gt;
+            &lt;li&gt;动画数据&lt;/li&gt;
+            &lt;li&gt;模型数据&lt;/li&gt;
+            &lt;li&gt;粒子参数&lt;/li&gt;
+            &lt;li&gt;材质&lt;/li&gt;
+            &lt;li&gt;物理数据&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;策划工具
+      &lt;ul&gt;
+        &lt;li&gt;2.1 角色系统
+          &lt;ul&gt;
+            &lt;li&gt;关键帧打点反馈&lt;/li&gt;
+            &lt;li&gt;动画融合&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;2.2 逻辑数据编辑
+          &lt;ul&gt;
+            &lt;li&gt;障碍点编辑&lt;/li&gt;
+            &lt;li&gt;步怪&lt;/li&gt;
+            &lt;li&gt;怪物AI设定&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;2.3 音效数据
+          &lt;ul&gt;
+            &lt;li&gt;导入，设置播放方式，回调&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;程序
+      &lt;ul&gt;
+        &lt;li&gt;3.1 程序系统
+          &lt;ul&gt;
+            &lt;li&gt;内存管理系统&lt;/li&gt;
+            &lt;li&gt;虚拟文件系统&lt;/li&gt;
+            &lt;li&gt;数学库&lt;/li&gt;
+            &lt;li&gt;渲染系统&lt;/li&gt;
+            &lt;li&gt;基础的Actor，GameObject对象&lt;/li&gt;
+            &lt;li&gt;场景管理系统&lt;/li&gt;
+            &lt;li&gt;UI系统&lt;/li&gt;
+            &lt;li&gt;动画系统&lt;/li&gt;
+            &lt;li&gt;物理引擎&lt;/li&gt;
+            &lt;li&gt;音效引擎&lt;/li&gt;
+            &lt;li&gt;视频播放&lt;/li&gt;
+            &lt;li&gt;脚本系统&lt;/li&gt;
+            &lt;li&gt;网络通讯&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;3.2 工具
+          &lt;ul&gt;
+            &lt;li&gt;资源打包工具&lt;/li&gt;
+            &lt;li&gt;材质生成工具&lt;/li&gt;
+            &lt;li&gt;性能profiler工具&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;三. 如何系统的学习一款引擎&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;美术:
+      &lt;ul&gt;
+        &lt;li&gt;1.看官方例子和文档&lt;/li&gt;
+        &lt;li&gt;2.熟悉各种导出，3D工具设置，参数意义&lt;/li&gt;
+        &lt;li&gt;3.尝试导出模型、贴图到编辑器，尝试调整材质球，了解材质球参数意义&lt;/li&gt;
+        &lt;li&gt;4.导出动画数据到编辑器中，能正确播放&lt;/li&gt;
+        &lt;li&gt;5.尝试制作一个场景（包含地形，河流，天空，灯光，树，动画模型，后期处理）&lt;/li&gt;
+        &lt;li&gt;6.了解编辑器各个功能如何使用，参数的意义，不懂就再看文档&lt;/li&gt;
+        &lt;li&gt;7.尝试去了解如何制作效果更高级的一个DEMO&lt;/li&gt;
+        &lt;li&gt;8.了解如何控制资源，减少材质链，减少贴图大小，在有限资源下做出更好的效果&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;程序
+      &lt;ul&gt;
+        &lt;li&gt;1.学习上面美术部分前6条&lt;/li&gt;
+        &lt;li&gt;2.大概阅读代码，了解那一部分的用途是什么&lt;/li&gt;
+        &lt;li&gt;3.了解各个模块间如何协作&lt;/li&gt;
+        &lt;li&gt;4.用工具列出来大概的框架&lt;/li&gt;
+        &lt;li&gt;5.尝试根据项目需求添加一些模快&lt;/li&gt;
+        &lt;li&gt;6.尝试扩展编辑器&lt;/li&gt;
+        &lt;li&gt;7.扩展或调整框架适应项目需求&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;四. 渲染部分学习技巧&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;CPU
+      &lt;ul&gt;
+        &lt;li&gt;1.搜索源代码中的Render 或者 Draw 关键字&lt;/li&gt;
+        &lt;li&gt;2.在相关地方打断点&lt;/li&gt;
+        &lt;li&gt;3.跟无数遍，一遍一遍的看&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;GPU
+      &lt;ul&gt;
+        &lt;li&gt;1.用工具截图一帧，然后看一帧内都做了什么事，具体工具&lt;/li&gt;
+        &lt;li&gt;2.Mobile: Intel GPA, snapdragonprofiler,&lt;/li&gt;
+        &lt;li&gt;3.PC: Intel GPA , Microsoft PIX, Nvida perfHud&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;五. 参考书籍&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;h3 id=&quot;section-4&quot;&gt;基础入门：&lt;/h3&gt;
+  &lt;ol&gt;
+    &lt;li&gt;3D数学基础:图形与游戏开发 		&lt;a href=&quot;https://book.douban.com/subject/1400419/&quot;&gt;https://book.douban.com/subject/1400419/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;C++程序设计语言 				&lt;a href=&quot;https://book.douban.com/subject/1099889/&quot;&gt;https://book.douban.com/subject/1099889/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;精通DirectX 3D图形与动画程序设计 &lt;a href=&quot;https://book.douban.com/subject/2115210/&quot;&gt;https://book.douban.com/subject/2115210/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;DirectX 9.0 3D游戏开发编程基础 	&lt;a href=&quot;https://book.douban.com/subject/2111771/&quot;&gt;https://book.douban.com/subject/2111771/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;实时计算机图形学 				&lt;a href=&quot;https://book.douban.com/subject/1231141/&quot;&gt;https://book.douban.com/subject/1231141/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Character Animation With Direct3D &lt;a href=&quot;https://book.douban.com/subject/3863786/&quot;&gt;https://book.douban.com/subject/3863786/&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;进阶：&lt;/h3&gt;
+&lt;blockquote&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;3D绘图程序设计 					&lt;a href=&quot;https://book.douban.com/subject/3725456/&quot;&gt;https://book.douban.com/subject/3725456/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;CG教程-可编程实时图形权威指南  	&lt;a href=&quot;https://book.douban.com/subject/1231160/&quot;&gt;https://book.douban.com/subject/1231160/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;GPU精粹系列&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;引擎架构与设计&lt;/h3&gt;
+&lt;blockquote&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;3D游戏引擎设计 					&lt;a href=&quot;https://book.douban.com/subject/25821829/&quot;&gt;https://book.douban.com/subject/25821829/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;游戏引擎架构 					&lt;a href=&quot;https://book.douban.com/subject/25815142/&quot;&gt;https://book.douban.com/subject/25815142/&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;源码与资源&lt;/h3&gt;
+&lt;blockquote&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;Wild Magic Source Code 		&lt;a href=&quot;https://www.geometrictools.com/Downloads/Downloads.html&quot;&gt;https://www.geometrictools.com/Downloads/Downloads.html&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Unreal Engine Source Code   	&lt;a href=&quot;https://github.com/EpicGames/UnrealEngine&quot;&gt;https://github.com/EpicGames/UnrealEngine&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;OGRE3D &lt;a href=&quot;https://www.ogre3d.org/&quot;&gt;https://www.ogre3d.org/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Siggraph Paper&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.realtimerendering.com/&quot;&gt;http://www.realtimerendering.com/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.shadertoy.com/&quot;&gt;https://www.shadertoy.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;最重要的：&lt;/h3&gt;
+&lt;blockquote&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;程序员健康指南 					&lt;a href=&quot;https://book.douban.com/subject/25981248/]&quot;&gt;https://book.douban.com/subject/25981248/&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;六. 附录，关键字&lt;/h2&gt;
+&lt;blockquote&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Model&lt;/li&gt;
+    &lt;li&gt;Texture&lt;/li&gt;
+    &lt;li&gt;Texcoord&lt;/li&gt;
+    &lt;li&gt;Skeleton&lt;/li&gt;
+    &lt;li&gt;Depth Test&lt;/li&gt;
+    &lt;li&gt;Stencil Test&lt;/li&gt;
+    &lt;li&gt;AlphaTest&lt;/li&gt;
+    &lt;li&gt;AlphaBlend&lt;/li&gt;
+    &lt;li&gt;Camera&lt;/li&gt;
+    &lt;li&gt;Matrix&lt;/li&gt;
+    &lt;li&gt;Sampler&lt;/li&gt;
+    &lt;li&gt;Address&lt;/li&gt;
+    &lt;li&gt;Shadow&lt;/li&gt;
+    &lt;li&gt;Lightting&lt;/li&gt;
+    &lt;li&gt;Forward Render&lt;/li&gt;
+    &lt;li&gt;Deferred Rendering&lt;/li&gt;
+    &lt;li&gt;PBR Rendering&lt;/li&gt;
+    &lt;li&gt;Static Rendering&lt;/li&gt;
+    &lt;li&gt;Read Depth Buffer As Texture&lt;/li&gt;
+    &lt;li&gt;Project Matrix&lt;/li&gt;
+    &lt;li&gt;BSPTREE&lt;/li&gt;
+    &lt;li&gt;OCTREE&lt;/li&gt;
+    &lt;li&gt;CULL&lt;/li&gt;
+    &lt;li&gt;Skeleton Animation&lt;/li&gt;
+    &lt;li&gt;Partical System&lt;/li&gt;
+    &lt;li&gt;Physics System&lt;/li&gt;
+    &lt;li&gt;AABB BOX&lt;/li&gt;
+    &lt;li&gt;OBB BOX&lt;/li&gt;
+    &lt;li&gt;RigidBody&lt;/li&gt;
+    &lt;li&gt;Nvidia Pyhsics&lt;/li&gt;
+    &lt;li&gt;ODE&lt;/li&gt;
+    &lt;li&gt;Havok&lt;/li&gt;
+    &lt;li&gt;Unreal Engine&lt;/li&gt;
+    &lt;li&gt;Gamebryo&lt;/li&gt;
+    &lt;li&gt;OGRE&lt;/li&gt;
+    &lt;li&gt;Unity&lt;/li&gt;
+    &lt;li&gt;Render&lt;/li&gt;
+    &lt;li&gt;OpenGL&lt;/li&gt;
+    &lt;li&gt;DirectX&lt;/li&gt;
+    &lt;li&gt;Material&lt;/li&gt;
+    &lt;li&gt;
+      &lt;h2 id=&quot;transform&quot;&gt;Transform&lt;/h2&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 30 Jan 2018 00:00:00 +0800</pubDate>
+        <link>win.moe/technology/2018/01/30/3d-engine/</link>
+        <guid isPermaLink="true">win.moe/technology/2018/01/30/3d-engine/</guid>
+      </item>
+    
+      <item>
+        <title>做项目方法论</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;立项要慎重，多参考，多思考，多看市场情况，结合游戏玩法，美术制作水准，看能否可行&lt;/li&gt;
+  &lt;li&gt;项目定期发版，版本内容提前规划好，每周一次会议，看进度，有问题及时调整&lt;/li&gt;
+  &lt;li&gt;不停添加功能，玩家需求，每个需求都针对玩家，或者留存，打点，AB-TEST，确定是否可行&lt;/li&gt;
+  &lt;li&gt;关注留存数据，分析留存变化产生的原因&lt;/li&gt;
+  &lt;li&gt;目标KPI制定好，运营会有压力推进&lt;/li&gt;
+  &lt;li&gt;时刻关注玩家的反馈，FB，商店&lt;/li&gt;
+  &lt;li&gt;收集玩家反馈信息&lt;/li&gt;
+  &lt;li&gt;不断的招聘，找合适的人&lt;/li&gt;
+  &lt;li&gt;关注每个人的生活状态&lt;/li&gt;
+  &lt;li&gt;时间把控好，尽量的快，需求不能少&lt;/li&gt;
+  &lt;li&gt;无止境的优化，性能，包体，耗电，体验&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;hr /&gt;
@@ -720,82 +951,6 @@
         <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
         <link>win.moe/think/2015/07/27/xuexi/</link>
         <guid isPermaLink="true">win.moe/think/2015/07/27/xuexi/</guid>
-      </item>
-    
-      <item>
-        <title>重来（笔记）</title>
-        <description>&lt;hr /&gt;
-
-&lt;h4 id=&quot;section&quot;&gt;重来&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;作者: [美] 贾森·弗里德 / [丹] 戴维·海涅迈尔·汉森&lt;/li&gt;
-  &lt;li&gt;出版社: 中信出版社&lt;/li&gt;
-  &lt;li&gt;出版年: 2012&lt;/li&gt;
-  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/5320866/&quot;&gt;重来&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;问题通常可以用简单,世俗的方解决。这意味着不需要什么独特的做法。你不需要秀出你惊奇的技巧。你只需要做好事情,让其有进展。这样的方法你不会赢得别人的惊叹,但是可以让你的事情继续下去。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;不管怎样,终究是不值得过于关注你的竞争者的。为什么?因为关注别人太多会让自己 受到困扰。他们现在在做什么?他们下一步呢?我们该怎样作出回应?&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;每一个小小的动作都会被分析一下。那是一种可怕的心态。这会产生不可抗拒的压力和焦虑。这样的想法会滋长不好的东西。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;这是没有意义的事情。竞争者的风景时时在变。你的竞争者明天一个样儿,今天一个样儿。完全在你控制之外。去担心你所不能控制的事情有意义吗?&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;换过来关注一下自己。管好眼前事更重要。当你花时间关心他人时,就没有时间提高自己了。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;做决定。不要去等完美的解决方案。决定了就前进。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;商业社会中散布着死气沉沉的文件,没用却浪费人们的时间。没人阅读的文件,没人 去看的图表,从不符合成品的规则。这些东西一直存在但几秒种就被人遗忘了。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;埋头做想要做的事情很简单。停下来问为什么是很难的事情。有很多重要的问题问问自 己,看看你正在做的事情是否要紧&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;一件事情耗的时间越久,你将完成的量就越少。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;如果你花了很多时间在一件事情上却不值得,那么请放弃。 时间不会回来。浪费更多时间是最糟糕的事情。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;不睡觉是个坏主意。当然,你此刻获得额外的几小时,但之后总是要还的:你的创意
-变得匮乏,气势低迷,脾气也变糟。
-在你知道后果的情况下,偶尔可以熬夜。但是不能养成习惯。如果变成经常性的熬夜, 损失会增大:
-当你疲倦的时候,保持耐心和容忍的能力就会剧&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;把大事化小。越小的事物越容易估计。你也许仍然会估计错误但是比起评估一 件大项目要好得多。如果某件事花费你所期望的两倍时间,将它化为更小的项目,用几个 星期完成好过耗费数个月时间。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;当你创造出一个实用的好产品时,可能就要牺牲一些花哨的东西。一件产品做到实质优 良可能不及竞争者表面闪光的产品来得性感。把几个功能做到极好不会让它远远的就看起 来很浮华。没关系。你所追求的是长期关系而不是一夜情。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;如果有一个需求你总是忘记,这说明它不是太重要。真正重要的事情不会消失。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;要想成功不能操之过急。这很难,但是你必须有耐心。你要费点力气。在受到正确的人 关注之前,你需要花很长时间。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;“但是,如果……?”“当……时,发生了什么?”“我们不需要计划或者……吗?” 别没事儿找些事儿来。真的问题出现之前就不是问题。大多数你担心的事情从未发生过。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;在商务中有一些 4 个字母组成的词是绝对不应该用的。不是 fuck 和 shit,是 need (需要)、must(必须)、can’t(不能)、easy(容易)、just(恰好)、only(仅仅)、fast(迅 速的)。这些词阻碍合理的交际。它们是产生敌意的危险信号、破坏良好的讨论、导致项目 延迟。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-</description>
-        <pubDate>Sun, 26 Jul 2015 00:00:00 +0800</pubDate>
-        <link>win.moe/read/2015/07/26/Rework/</link>
-        <guid isPermaLink="true">win.moe/read/2015/07/26/Rework/</guid>
       </item>
     
   </channel>

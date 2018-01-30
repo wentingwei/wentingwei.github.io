@@ -1,0 +1,333 @@
+<html>
+  <head>
+    <meta content='3D游戏引擎概览 - win.moe' property='og:title' />
+    <title>3D游戏引擎概览 - win.moe</title>
+    <!--link href='/images/fav.png' rel='shortcut icon' /-->
+<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
+<script src='/javascripts/jquery.js' type='text/javascript'></script>
+<script src='/javascripts/pd.js' type='text/javascript'></script>
+<script src='/javascripts/basics.js' type='text/javascript'></script>
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+
+  </head>
+  <body>
+    
+    <div id='container'>
+      <div class="block">
+  
+    <a target="_top" class="main" href="/">主页</a>
+  
+    <a target="_top" class="main" href="/about">关于</a>
+  
+    <a target="_top" class="main" href="/douban">豆瓣</a>
+  
+    <a target="_top" class="main" href="/links">链接</a>
+  
+</div>
+      <section class="paging">
+  
+    <div class="left">
+      <a href="/think/2017/05/21/project/">
+        ‹
+      </a>
+    </div>
+  
+  
+</section>
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+            <div class='date'>30 Jan 2018</div>
+            3D游戏引擎概览
+          </h1>
+          <hr />
+
+<h2 id="d">一. 国内主流商业3D游戏引擎以及介绍</h2>
+
+<blockquote>
+  <ul>
+    <li>Unreal Engine</li>
+    <li>Unity Engine</li>
+    <li>Gamebryo Engine</li>
+    <li>Cry Engine</li>
+    <li>BigWorld Engine</li>
+  </ul>
+</blockquote>
+
+<h2 id="section">二. 主流商业引擎包含的内容</h2>
+
+<blockquote>
+  <ul>
+    <li>美术工具链
+      <ul>
+        <li>1.1 制作工具
+          <ul>
+            <li>地图编辑器</li>
+            <li>特效编辑器</li>
+            <li>材质编辑器</li>
+            <li>动画编辑器</li>
+            <li>水流编辑</li>
+            <li>天气编辑</li>
+          </ul>
+        </li>
+        <li>1.2 导出工具（插件）
+          <ul>
+            <li>贴图</li>
+            <li>动画数据</li>
+            <li>模型数据</li>
+            <li>粒子参数</li>
+            <li>材质</li>
+            <li>物理数据</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>策划工具
+      <ul>
+        <li>2.1 角色系统
+          <ul>
+            <li>关键帧打点反馈</li>
+            <li>动画融合</li>
+          </ul>
+        </li>
+        <li>2.2 逻辑数据编辑
+          <ul>
+            <li>障碍点编辑</li>
+            <li>步怪</li>
+            <li>怪物AI设定</li>
+          </ul>
+        </li>
+        <li>2.3 音效数据
+          <ul>
+            <li>导入，设置播放方式，回调</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>程序
+      <ul>
+        <li>3.1 程序系统
+          <ul>
+            <li>内存管理系统</li>
+            <li>虚拟文件系统</li>
+            <li>数学库</li>
+            <li>渲染系统</li>
+            <li>基础的Actor，GameObject对象</li>
+            <li>场景管理系统</li>
+            <li>UI系统</li>
+            <li>动画系统</li>
+            <li>物理引擎</li>
+            <li>音效引擎</li>
+            <li>视频播放</li>
+            <li>脚本系统</li>
+            <li>网络通讯</li>
+          </ul>
+        </li>
+        <li>3.2 工具
+          <ul>
+            <li>资源打包工具</li>
+            <li>材质生成工具</li>
+            <li>性能profiler工具</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h2 id="section-1">三. 如何系统的学习一款引擎</h2>
+<blockquote>
+  <ul>
+    <li>美术:
+      <ul>
+        <li>1.看官方例子和文档</li>
+        <li>2.熟悉各种导出，3D工具设置，参数意义</li>
+        <li>3.尝试导出模型、贴图到编辑器，尝试调整材质球，了解材质球参数意义</li>
+        <li>4.导出动画数据到编辑器中，能正确播放</li>
+        <li>5.尝试制作一个场景（包含地形，河流，天空，灯光，树，动画模型，后期处理）</li>
+        <li>6.了解编辑器各个功能如何使用，参数的意义，不懂就再看文档</li>
+        <li>7.尝试去了解如何制作效果更高级的一个DEMO</li>
+        <li>8.了解如何控制资源，减少材质链，减少贴图大小，在有限资源下做出更好的效果</li>
+      </ul>
+    </li>
+    <li>程序
+      <ul>
+        <li>1.学习上面美术部分前6条</li>
+        <li>2.大概阅读代码，了解那一部分的用途是什么</li>
+        <li>3.了解各个模块间如何协作</li>
+        <li>4.用工具列出来大概的框架</li>
+        <li>5.尝试根据项目需求添加一些模快</li>
+        <li>6.尝试扩展编辑器</li>
+        <li>7.扩展或调整框架适应项目需求</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h2 id="section-2">四. 渲染部分学习技巧</h2>
+<blockquote>
+  <ul>
+    <li>CPU
+      <ul>
+        <li>1.搜索源代码中的Render 或者 Draw 关键字</li>
+        <li>2.在相关地方打断点</li>
+        <li>3.跟无数遍，一遍一遍的看</li>
+      </ul>
+    </li>
+    <li>GPU
+      <ul>
+        <li>1.用工具截图一帧，然后看一帧内都做了什么事，具体工具</li>
+        <li>2.Mobile: Intel GPA, snapdragonprofiler,</li>
+        <li>3.PC: Intel GPA , Microsoft PIX, Nvida perfHud</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h2 id="section-3">五. 参考书籍</h2>
+<blockquote>
+
+  <h3 id="section-4">基础入门：</h3>
+  <ol>
+    <li>3D数学基础:图形与游戏开发 		<a href="https://book.douban.com/subject/1400419/">https://book.douban.com/subject/1400419/</a></li>
+    <li>C++程序设计语言 				<a href="https://book.douban.com/subject/1099889/">https://book.douban.com/subject/1099889/</a></li>
+    <li>精通DirectX 3D图形与动画程序设计 <a href="https://book.douban.com/subject/2115210/">https://book.douban.com/subject/2115210/</a></li>
+    <li>DirectX 9.0 3D游戏开发编程基础 	<a href="https://book.douban.com/subject/2111771/">https://book.douban.com/subject/2111771/</a></li>
+    <li>实时计算机图形学 				<a href="https://book.douban.com/subject/1231141/">https://book.douban.com/subject/1231141/</a></li>
+    <li>Character Animation With Direct3D <a href="https://book.douban.com/subject/3863786/">https://book.douban.com/subject/3863786/</a></li>
+  </ol>
+</blockquote>
+
+<h3 id="section-5">进阶：</h3>
+<blockquote>
+
+  <ol>
+    <li>3D绘图程序设计 					<a href="https://book.douban.com/subject/3725456/">https://book.douban.com/subject/3725456/</a></li>
+    <li>CG教程-可编程实时图形权威指南  	<a href="https://book.douban.com/subject/1231160/">https://book.douban.com/subject/1231160/</a></li>
+    <li>GPU精粹系列</li>
+  </ol>
+</blockquote>
+
+<h3 id="section-6">引擎架构与设计</h3>
+<blockquote>
+
+  <ol>
+    <li>3D游戏引擎设计 					<a href="https://book.douban.com/subject/25821829/">https://book.douban.com/subject/25821829/</a></li>
+    <li>游戏引擎架构 					<a href="https://book.douban.com/subject/25815142/">https://book.douban.com/subject/25815142/</a></li>
+  </ol>
+</blockquote>
+
+<h3 id="section-7">源码与资源</h3>
+<blockquote>
+
+  <ol>
+    <li>Wild Magic Source Code 		<a href="https://www.geometrictools.com/Downloads/Downloads.html">https://www.geometrictools.com/Downloads/Downloads.html</a></li>
+    <li>Unreal Engine Source Code   	<a href="https://github.com/EpicGames/UnrealEngine">https://github.com/EpicGames/UnrealEngine</a></li>
+    <li>OGRE3D <a href="https://www.ogre3d.org/">https://www.ogre3d.org/</a></li>
+    <li>Siggraph Paper</li>
+    <li><a href="http://www.realtimerendering.com/">http://www.realtimerendering.com/</a></li>
+    <li><a href="https://www.shadertoy.com/">https://www.shadertoy.com/</a></li>
+  </ol>
+</blockquote>
+
+<h3 id="section-8">最重要的：</h3>
+<blockquote>
+
+  <ol>
+    <li>程序员健康指南 					<a href="https://book.douban.com/subject/25981248/]">https://book.douban.com/subject/25981248/</a></li>
+  </ol>
+</blockquote>
+
+<h2 id="section-9">六. 附录，关键字</h2>
+<blockquote>
+
+  <ul>
+    <li>Model</li>
+    <li>Texture</li>
+    <li>Texcoord</li>
+    <li>Skeleton</li>
+    <li>Depth Test</li>
+    <li>Stencil Test</li>
+    <li>AlphaTest</li>
+    <li>AlphaBlend</li>
+    <li>Camera</li>
+    <li>Matrix</li>
+    <li>Sampler</li>
+    <li>Address</li>
+    <li>Shadow</li>
+    <li>Lightting</li>
+    <li>Forward Render</li>
+    <li>Deferred Rendering</li>
+    <li>PBR Rendering</li>
+    <li>Static Rendering</li>
+    <li>Read Depth Buffer As Texture</li>
+    <li>Project Matrix</li>
+    <li>BSPTREE</li>
+    <li>OCTREE</li>
+    <li>CULL</li>
+    <li>Skeleton Animation</li>
+    <li>Partical System</li>
+    <li>Physics System</li>
+    <li>AABB BOX</li>
+    <li>OBB BOX</li>
+    <li>RigidBody</li>
+    <li>Nvidia Pyhsics</li>
+    <li>ODE</li>
+    <li>Havok</li>
+    <li>Unreal Engine</li>
+    <li>Gamebryo</li>
+    <li>OGRE</li>
+    <li>Unity</li>
+    <li>Render</li>
+    <li>OpenGL</li>
+    <li>DirectX</li>
+    <li>Material</li>
+    <li>
+      <h2 id="transform">Transform</h2>
+    </li>
+  </ul>
+</blockquote>
+
+
+        </section>
+        <hr>
+<p align="center" style="font-style:italic;font-weight:bold">
+每天进步一点点.
+</p>
+<hr>
+
+        
+          <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://winmoe.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+        
+      </div>
+  <div>
+    <footer id="footer" class="inner">
+    Copyright &copy; 2014-2017 win.moe. All rights reserved. 
+</footer>
+  </div>
+  </body>
+</html>
