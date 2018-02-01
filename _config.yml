@@ -11,8 +11,8 @@ links:
     url:          /
   - name:         关于
     url:          /about
-  - name:         豆瓣
-    url:          /douban
+  #- name:         豆瓣
+  #  url:          /douban
   - name:         链接
     url:          /links
 rouge:      pygments
