@@ -22,7 +22,7 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;二. 主流商业引擎包含的内容&lt;/h2&gt;
+&lt;h2 id=&quot;d-1&quot;&gt;二. 3D引擎包含的内容&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;ul&gt;
@@ -106,7 +106,7 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;三. 如何系统的学习一款引擎&lt;/h2&gt;
+&lt;h2 id=&quot;section&quot;&gt;三. 如何系统的学习一款引擎&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;ul&gt;
     &lt;li&gt;美术:
@@ -135,7 +135,7 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;四. 渲染流程&lt;/h2&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;四. 渲染流程&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;ul&gt;
     &lt;li&gt;渲染阶段概览
@@ -224,7 +224,7 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;四. 渲染部分学习技巧&lt;/h2&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;五. 渲染部分学习技巧&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;ul&gt;
     &lt;li&gt;CPU
@@ -244,10 +244,10 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;五. 参考书籍&lt;/h2&gt;
+&lt;h2 id=&quot;section-3&quot;&gt;六. 参考书籍&lt;/h2&gt;
 &lt;blockquote&gt;
 
-  &lt;h3 id=&quot;section-5&quot;&gt;基础入门：&lt;/h3&gt;
+  &lt;h3 id=&quot;section-4&quot;&gt;基础入门：&lt;/h3&gt;
   &lt;ol&gt;
     &lt;li&gt;3D数学基础:图形与游戏开发 		&lt;a href=&quot;https://book.douban.com/subject/1400419/&quot;&gt;https://book.douban.com/subject/1400419/&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;C++程序设计语言 				&lt;a href=&quot;https://book.douban.com/subject/1099889/&quot;&gt;https://book.douban.com/subject/1099889/&lt;/a&gt;&lt;/li&gt;
@@ -258,7 +258,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-6&quot;&gt;进阶：&lt;/h3&gt;
+&lt;h3 id=&quot;section-5&quot;&gt;进阶：&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -268,7 +268,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-7&quot;&gt;引擎架构与设计&lt;/h3&gt;
+&lt;h3 id=&quot;section-6&quot;&gt;引擎架构与设计&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -277,7 +277,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-8&quot;&gt;源码与资源&lt;/h3&gt;
+&lt;h3 id=&quot;section-7&quot;&gt;源码与资源&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
@@ -290,7 +290,7 @@
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;section-9&quot;&gt;最重要的：&lt;/h3&gt;
+&lt;h3 id=&quot;section-8&quot;&gt;最重要的：&lt;/h3&gt;
 &lt;blockquote&gt;
 
   &lt;ol&gt;
