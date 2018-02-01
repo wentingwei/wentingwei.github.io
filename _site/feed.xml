@@ -486,23 +486,23 @@
 
 &lt;p&gt;5，随着年龄的增大，我们更加开始关注老年大成的人。&lt;/p&gt;
 
-&lt;p&gt;6，我们不相信自己能力不行，却懒惰，不上进，不努力。&lt;/p&gt;
+&lt;p&gt;6，不相信自己能力不行，却懒惰，不上进，不努力。&lt;/p&gt;
 
-&lt;p&gt;7，我们知道很多事情不好，可是还是会去尝试，然后自食其果。&lt;/p&gt;
+&lt;p&gt;7，知道很多事情不好，可是还是会去尝试，然后自食其果。&lt;/p&gt;
 
 &lt;p&gt;8，一些大龄男女青年自身条件一般，不去努力改善，还很深信能遇到公主或白马王子。&lt;/p&gt;
 
-&lt;p&gt;9，我们会对别人付出，即使是没有反馈，还是总相信TA会有一天懂得感恩。&lt;/p&gt;
+&lt;p&gt;9，会对别人付出，即使是没有反馈，还是总相信TA会有一天懂得感恩。&lt;/p&gt;
 
-&lt;p&gt;10，我们虚度过一天天，仍然觉得生命还很长。&lt;/p&gt;
+&lt;p&gt;10，虚度过一天天，仍然觉得生命还很长。&lt;/p&gt;
 
-&lt;p&gt;11，我们积累了很多不好的生活习惯，却从来不会相信噩梦会降临。&lt;/p&gt;
+&lt;p&gt;11，积累了很多不好的生活习惯，却从来不会相信噩梦会降临。&lt;/p&gt;
 
-&lt;p&gt;12，我们知道一些决策对现实的自己很有利，却因为一些莫名的原因承担错误的决策。&lt;/p&gt;
+&lt;p&gt;12，知道一些决策对现实的自己很有利，却因为一些莫名的原因承担错误的决策。&lt;/p&gt;
 
 &lt;p&gt;13，做事所花费的时间总是比你预期的要长，即使你的预期中考虑了侯世达定律。&lt;/p&gt;
 
-&lt;p&gt;14，我们习惯性的不引以为戒，即使以前买彩票从未中过，也不影响对于本次购买的期望。&lt;/p&gt;
+&lt;p&gt;14，习惯性的不引以为戒，即使以前买彩票从未中过，也不影响对于本次购买的期望。&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -886,52 +886,22 @@
       <item>
         <title>iOS审核注意</title>
         <description>&lt;hr /&gt;
-&lt;p&gt;1，不能出现更新字样&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;2，不能有外部网页&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;3，不能有 CDkey&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;4，BuildVersion 必须用数字&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;5，用 dis 的 mobileprovision&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;6，archieve 出来的 xxx.app 文件可以直接拖到 iTunes 中，然后就会自动生成 xxx.ipa 文件&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;7，IPV6 真实环境测试&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;8, 补全 AppIcon 分辨率正确&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;9, iPad 选择 fullscreen&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;10, 提供两个账号，一个是小号，一个是能玩多有功能的大号&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;11, 测试 iOS 老的版本是否有闪退情况，因为API用的新的，可能苹果有改动&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;12, 保留一个审核的过的版本，以后出问题就改代码，修改版本号，继续用这个去提审&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;13, 尽量避免强更&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;14, mobileprovision 一定要配置正确，是否内购，是否允许通知&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;15, 商品类型一定要注意，和描述一致，月卡终身卡，非续订订阅。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;16, 可以用变相方式来实现非商品内购，充值xxx钻可以有购买资格，购买需要xxx钻，相当于商品了&lt;/p&gt;
+&lt;p&gt;1，不能出现更新字样
+2，不能有外部网页
+3，不能有 CDkey
+4，BuildVersion 必须用数字
+5，用 dis 的 mobileprovision
+6，archieve 出来的 xxx.app 文件可以直接拖到 iTunes 中，然后就会自动生成xxx.ipa 文件
+7，IPV6 真实环境测试
+8, 补全 AppIcon 分辨率正确
+9, iPad 选择 fullscreen
+10, 提供两个账号，一个是小号，一个是能玩多有功能的大号
+11, 测试 iOS 老的版本是否有闪退情况，因为API用的新的，可能苹果有改动
+12, 保留一个审核的过的版本，以后出问题就改代码，修改版本号，继续用这个去提审
+13, 尽量避免强更
+14, mobileprovision 一定要配置正确，是否内购，是否允许通知
+15, 商品类型一定要注意，和描述一致，月卡终身卡，非续订订阅。
+16, 可以用变相方式来实现非商品内购，充值xxx钻可以有购买资格，购买需要xxx钻，相当于商品了&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;addrinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
