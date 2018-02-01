@@ -112,17 +112,19 @@
       <ul>
         <li>3.1 程序系统
           <ul>
-            <li>内存管理系统</li>
+            <li>内存管理系统（内存池，内存分配器）</li>
             <li>虚拟文件系统</li>
             <li>数学库</li>
-            <li>渲染系统</li>
+            <li>渲染系统(API,材质，光照)</li>
             <li>基础的Actor，GameObject对象</li>
+            <li>对象管理系统</li>
             <li>场景管理系统</li>
             <li>UI系统</li>
             <li>动画系统</li>
             <li>物理引擎</li>
             <li>音效引擎</li>
             <li>视频播放</li>
+            <li>事件触发系统</li>
             <li>脚本系统</li>
             <li>网络通讯</li>
           </ul>
@@ -131,6 +133,7 @@
           <ul>
             <li>资源打包工具</li>
             <li>材质生成工具</li>
+            <li>场景生成工具</li>
             <li>性能profiler工具</li>
           </ul>
         </li>
@@ -171,11 +174,22 @@
 <h2 id="section-2">四. 渲染流程</h2>
 <blockquote>
   <ul>
-    <li>更新所有可渲染对象
+    <li>渲染阶段概览
       <ul>
+        <li>工具阶段（定义几何和材质）</li>
+        <li>资源处理阶段 处理数据，生成引擎所用的格式</li>
+        <li>应用程序阶段 可见性处理，然后交由GPU渲染</li>
+        <li>几何阶段 （三角形变换，照明，裁剪）</li>
+        <li>光栅化阶段 （三角形转换为片段，片段着色，测试，输出）</li>
+      </ul>
+    </li>
+    <li>渲染流程
+      <ul>
+        <li>更新所有可渲染对象</li>
         <li>可见性判断</li>
         <li>排序</li>
-        <li>把数据给GPU渲染
+        <li>把数据给GPU渲染</li>
+        <li>几种渲染流程
           <ul>
             <li>Forward Rendering
               <ul>
@@ -192,9 +206,25 @@
                 <li>弊端AA支持不好，半透明支持不好</li>
               </ul>
             </li>
+            <li>Forward+ Rendering
+              <ul>
+                <li>Z-prepass，很多forward shading都会用这个作为优化，而在forward+中，这个变成了必然步骤。</li>
+                <li>把Z-Buffer划分成许多16×16的tile，每个tile根据depth得到bounding box。</li>
+                <li>对于每个tile，把它的bounding box和light求交，得到对这个tile有贡献的light序列。</li>
+                <li>对于每个物体，在PS中用该pixel所在tile的light序列累加计算shading。</li>
+              </ul>
+            </li>
+            <li>Tiled-based Deferred Shading
+              <ul>
+                <li>生成G-Buffer，这一步和传统deferred shading一样。</li>
+                <li>把G-Buffer划分成许多16×16的tile，每个tile根据depth得到bounding box。</li>
+                <li>对于每个tile，把它的bounding box和light求交，得到对这个tile有贡献的light序列。</li>
+                <li>对于G-Buffer的每个pixel，用它所在tile的light序列累加计算shading。</li>
+              </ul>
+            </li>
           </ul>
         </li>
-        <li>渲染一个物件
+        <li>渲染一个物件的流程
           <ul>
             <li>准备顶点数据</li>
             <li>顶点变换(vertex shader)
@@ -208,14 +238,15 @@
               <ul>
                 <li>视锥裁剪</li>
                 <li>背面剔除</li>
+                <li>Early Z(取决于显卡是否支持)</li>
               </ul>
             </li>
             <li>纹理映射着色（fragment shader)
               <ul>
-                <li>裁剪测试</li>
-                <li>Alpha Test</li>
+                <li>裁剪测试（Scissor Test）</li>
                 <li>Stencil Test</li>
                 <li>Depth Test</li>
+                <li>Alpha Test</li>
                 <li>光照，阴影</li>
                 <li>Alpha Blend</li>
               </ul>
@@ -349,9 +380,11 @@
     <li>Material</li>
     <li>Transform</li>
     <li>Pipeline</li>
-    <li>
-      <h2 id="shader">Shader</h2>
-    </li>
+    <li>Shader</li>
+    <li>MSAA</li>
+    <li>SSAO</li>
+    <li>HDR</li>
+    <li>BLOOM</li>
   </ul>
 </blockquote>
 

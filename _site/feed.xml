@@ -76,17 +76,19 @@
       &lt;ul&gt;
         &lt;li&gt;3.1 程序系统
           &lt;ul&gt;
-            &lt;li&gt;内存管理系统&lt;/li&gt;
+            &lt;li&gt;内存管理系统（内存池，内存分配器）&lt;/li&gt;
             &lt;li&gt;虚拟文件系统&lt;/li&gt;
             &lt;li&gt;数学库&lt;/li&gt;
-            &lt;li&gt;渲染系统&lt;/li&gt;
+            &lt;li&gt;渲染系统(API,材质，光照)&lt;/li&gt;
             &lt;li&gt;基础的Actor，GameObject对象&lt;/li&gt;
+            &lt;li&gt;对象管理系统&lt;/li&gt;
             &lt;li&gt;场景管理系统&lt;/li&gt;
             &lt;li&gt;UI系统&lt;/li&gt;
             &lt;li&gt;动画系统&lt;/li&gt;
             &lt;li&gt;物理引擎&lt;/li&gt;
             &lt;li&gt;音效引擎&lt;/li&gt;
             &lt;li&gt;视频播放&lt;/li&gt;
+            &lt;li&gt;事件触发系统&lt;/li&gt;
             &lt;li&gt;脚本系统&lt;/li&gt;
             &lt;li&gt;网络通讯&lt;/li&gt;
           &lt;/ul&gt;
@@ -95,6 +97,7 @@
           &lt;ul&gt;
             &lt;li&gt;资源打包工具&lt;/li&gt;
             &lt;li&gt;材质生成工具&lt;/li&gt;
+            &lt;li&gt;场景生成工具&lt;/li&gt;
             &lt;li&gt;性能profiler工具&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/li&gt;
@@ -135,11 +138,22 @@
 &lt;h2 id=&quot;section-2&quot;&gt;四. 渲染流程&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;ul&gt;
-    &lt;li&gt;更新所有可渲染对象
+    &lt;li&gt;渲染阶段概览
       &lt;ul&gt;
+        &lt;li&gt;工具阶段（定义几何和材质）&lt;/li&gt;
+        &lt;li&gt;资源处理阶段 处理数据，生成引擎所用的格式&lt;/li&gt;
+        &lt;li&gt;应用程序阶段 可见性处理，然后交由GPU渲染&lt;/li&gt;
+        &lt;li&gt;几何阶段 （三角形变换，照明，裁剪）&lt;/li&gt;
+        &lt;li&gt;光栅化阶段 （三角形转换为片段，片段着色，测试，输出）&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;渲染流程
+      &lt;ul&gt;
+        &lt;li&gt;更新所有可渲染对象&lt;/li&gt;
         &lt;li&gt;可见性判断&lt;/li&gt;
         &lt;li&gt;排序&lt;/li&gt;
-        &lt;li&gt;把数据给GPU渲染
+        &lt;li&gt;把数据给GPU渲染&lt;/li&gt;
+        &lt;li&gt;几种渲染流程
           &lt;ul&gt;
             &lt;li&gt;Forward Rendering
               &lt;ul&gt;
@@ -156,9 +170,25 @@
                 &lt;li&gt;弊端AA支持不好，半透明支持不好&lt;/li&gt;
               &lt;/ul&gt;
             &lt;/li&gt;
+            &lt;li&gt;Forward+ Rendering
+              &lt;ul&gt;
+                &lt;li&gt;Z-prepass，很多forward shading都会用这个作为优化，而在forward+中，这个变成了必然步骤。&lt;/li&gt;
+                &lt;li&gt;把Z-Buffer划分成许多16×16的tile，每个tile根据depth得到bounding box。&lt;/li&gt;
+                &lt;li&gt;对于每个tile，把它的bounding box和light求交，得到对这个tile有贡献的light序列。&lt;/li&gt;
+                &lt;li&gt;对于每个物体，在PS中用该pixel所在tile的light序列累加计算shading。&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Tiled-based Deferred Shading
+              &lt;ul&gt;
+                &lt;li&gt;生成G-Buffer，这一步和传统deferred shading一样。&lt;/li&gt;
+                &lt;li&gt;把G-Buffer划分成许多16×16的tile，每个tile根据depth得到bounding box。&lt;/li&gt;
+                &lt;li&gt;对于每个tile，把它的bounding box和light求交，得到对这个tile有贡献的light序列。&lt;/li&gt;
+                &lt;li&gt;对于G-Buffer的每个pixel，用它所在tile的light序列累加计算shading。&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
           &lt;/ul&gt;
         &lt;/li&gt;
-        &lt;li&gt;渲染一个物件
+        &lt;li&gt;渲染一个物件的流程
           &lt;ul&gt;
             &lt;li&gt;准备顶点数据&lt;/li&gt;
             &lt;li&gt;顶点变换(vertex shader)
@@ -172,14 +202,15 @@
               &lt;ul&gt;
                 &lt;li&gt;视锥裁剪&lt;/li&gt;
                 &lt;li&gt;背面剔除&lt;/li&gt;
+                &lt;li&gt;Early Z(取决于显卡是否支持)&lt;/li&gt;
               &lt;/ul&gt;
             &lt;/li&gt;
             &lt;li&gt;纹理映射着色（fragment shader)
               &lt;ul&gt;
-                &lt;li&gt;裁剪测试&lt;/li&gt;
-                &lt;li&gt;Alpha Test&lt;/li&gt;
+                &lt;li&gt;裁剪测试（Scissor Test）&lt;/li&gt;
                 &lt;li&gt;Stencil Test&lt;/li&gt;
                 &lt;li&gt;Depth Test&lt;/li&gt;
+                &lt;li&gt;Alpha Test&lt;/li&gt;
                 &lt;li&gt;光照，阴影&lt;/li&gt;
                 &lt;li&gt;Alpha Blend&lt;/li&gt;
               &lt;/ul&gt;
@@ -313,9 +344,11 @@
     &lt;li&gt;Material&lt;/li&gt;
     &lt;li&gt;Transform&lt;/li&gt;
     &lt;li&gt;Pipeline&lt;/li&gt;
-    &lt;li&gt;
-      &lt;h2 id=&quot;shader&quot;&gt;Shader&lt;/h2&gt;
-    &lt;/li&gt;
+    &lt;li&gt;Shader&lt;/li&gt;
+    &lt;li&gt;MSAA&lt;/li&gt;
+    &lt;li&gt;SSAO&lt;/li&gt;
+    &lt;li&gt;HDR&lt;/li&gt;
+    &lt;li&gt;BLOOM&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
