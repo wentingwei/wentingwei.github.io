@@ -67,7 +67,7 @@
 16, 可以用变相方式来实现非商品内购，充值xxx钻可以有购买资格，购买需要xxx钻，相当于商品了</p>
 
 <hr />
-<div class="language-cpp highlighter-rouge"><pre class="highlight"><code><span class="k">struct</span> <span class="n">addrinfo</span> <span class="o">*</span><span class="n">answer</span><span class="p">,</span> <span class="n">hint</span><span class="p">,</span> <span class="o">*</span><span class="n">curr</span><span class="p">;</span>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="n">addrinfo</span> <span class="o">*</span><span class="n">answer</span><span class="p">,</span> <span class="n">hint</span><span class="p">,</span> <span class="o">*</span><span class="n">curr</span><span class="p">;</span>
 <span class="n">ZeroMemory</span><span class="p">(</span><span class="o">&amp;</span><span class="n">hint</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">hint</span><span class="p">));</span>
 <span class="n">hint</span><span class="p">.</span><span class="n">ai_family</span> <span class="o">=</span> <span class="n">AF_UNSPEC</span><span class="p">;</span>
 <span class="n">hint</span><span class="p">.</span><span class="n">ai_socktype</span> <span class="o">=</span> <span class="n">SOCK_STREAM</span><span class="p">;</span>
@@ -85,8 +85,8 @@
 <span class="k">for</span> <span class="p">(</span><span class="n">curr</span> <span class="o">=</span> <span class="n">answer</span><span class="p">;</span> <span class="n">curr</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">;</span> <span class="n">curr</span> <span class="o">=</span> <span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_next</span><span class="p">)</span> <span class="p">{</span>
 	<span class="k">switch</span> <span class="p">(</span><span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_family</span><span class="p">){</span>
 	<span class="k">case</span> <span class="n">AF_UNSPEC</span><span class="p">:</span>
-		<span class="c1">//do something here
-</span>		<span class="k">break</span><span class="p">;</span>
+		<span class="c1">//do something here</span>
+		<span class="k">break</span><span class="p">;</span>
 	<span class="k">case</span> <span class="n">AF_INET</span><span class="p">:</span>
 		<span class="n">sockaddr_ipv4</span> <span class="o">=</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="k">struct</span> <span class="n">sockaddr_in</span> <span class="o">*&gt;</span><span class="p">(</span> <span class="n">curr</span><span class="o">-&gt;</span><span class="n">ai_addr</span><span class="p">);</span>
 	<span class="k">case</span> <span class="n">AF_INET6</span><span class="p">:</span>
@@ -97,8 +97,7 @@
 		<span class="k">break</span><span class="p">;</span>
 	<span class="p">}</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <hr />
 
