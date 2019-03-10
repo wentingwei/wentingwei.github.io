@@ -305,20 +305,72 @@
       </item>
     
       <item>
-        <title>做项目方法论</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;立项要慎重，多参考，多思考，多看市场情况，结合游戏玩法，美术制作水准，看能否可行&lt;/li&gt;
-  &lt;li&gt;项目定期发版，版本内容提前规划好，每周一次会议，看进度，有问题及时调整&lt;/li&gt;
-  &lt;li&gt;不停添加功能，玩家需求，每个需求都针对玩家，或者留存，打点，AB-TEST，确定是否可行&lt;/li&gt;
+        <title>做项目注意事项</title>
+        <description>&lt;hr /&gt;
+&lt;h3 id=&quot;1-立项&quot;&gt;1. 立项&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;要慎重，多参考，多思考，多看市场情况，竞品情况&lt;/li&gt;
+  &lt;li&gt;结合游戏玩法，美术制作水准，看能否可行&lt;/li&gt;
+  &lt;li&gt;选择团队比较喜欢和擅长的题材&lt;/li&gt;
+  &lt;li&gt;结合过往成功PC主机游戏题材，最好有一些舒适度&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;2-研发&quot;&gt;2. 研发&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;项目定期发版，版本内容提前规划好&lt;/li&gt;
+  &lt;li&gt;每周一次会议，看进度，有问题及时调整&lt;/li&gt;
+  &lt;li&gt;制定阶段性目标&lt;/li&gt;
+  &lt;li&gt;适当放弃费时成效较低的事情&lt;/li&gt;
+  &lt;li&gt;不停添加功能玩法&lt;/li&gt;
+  &lt;li&gt;关注玩家需求&lt;/li&gt;
+  &lt;li&gt;针对每个需求在留存，打点，AB-TEST，确定是否可行&lt;/li&gt;
   &lt;li&gt;关注留存数据，分析留存变化产生的原因&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;3-运营&quot;&gt;3. 运营&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
   &lt;li&gt;目标KPI制定好，运营会有压力推进&lt;/li&gt;
   &lt;li&gt;时刻关注玩家的反馈，FB，商店&lt;/li&gt;
-  &lt;li&gt;收集玩家反馈信息&lt;/li&gt;
+  &lt;li&gt;收集玩家反馈信息，分析并快速改善&lt;/li&gt;
+  &lt;li&gt;关注主流游戏动态，竞品运营方式&lt;/li&gt;
+  &lt;li&gt;根据玩家情况及时调整策略，适当调整游戏内容&lt;/li&gt;
+  &lt;li&gt;游戏内容投放节奏把握&lt;/li&gt;
+  &lt;li&gt;适当可以先屏蔽到开发的内容，慢慢给玩家，保持新鲜感&lt;/li&gt;
+  &lt;li&gt;养成和付费深度要有&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;4-团队&quot;&gt;4. 团队&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
   &lt;li&gt;不断的招聘，找合适的人&lt;/li&gt;
   &lt;li&gt;关注每个人的生活状态&lt;/li&gt;
+  &lt;li&gt;多沟通，了解真实情况&lt;/li&gt;
   &lt;li&gt;时间把控好，尽量的快，需求不能少&lt;/li&gt;
+  &lt;li&gt;相信大家，把压力传送下去&lt;/li&gt;
+  &lt;li&gt;注重监督和复查&lt;/li&gt;
+  &lt;li&gt;保持开放的心态，多问更懂的人，找解决问题更好的办法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;5-产品&quot;&gt;5. 产品&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
   &lt;li&gt;无止境的优化，性能，包体，耗电，体验&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;一遍一遍的体验游戏，录视频，播放，观察&lt;/li&gt;
+  &lt;li&gt;杜绝卡顿&lt;/li&gt;
+  &lt;li&gt;增加惊喜感，目标感，战斗的爽快感&lt;/li&gt;
+  &lt;li&gt;领奖的感受，奖励多，并且很流畅&lt;/li&gt;
+  &lt;li&gt;按钮的点击感，UI的配色，字体的选择和大小以及清晰度&lt;/li&gt;
+  &lt;li&gt;关注游戏内背景音乐，音效，等声音方面表现&lt;/li&gt;
+  &lt;li&gt;立绘的配色，表情以及神态，角色性格的表达&lt;/li&gt;
+  &lt;li&gt;引导要有吸引力，剧情表现，引导角色表现，代入感&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 </description>
