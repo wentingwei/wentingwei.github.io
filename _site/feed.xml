@@ -238,7 +238,7 @@
       &lt;ul&gt;
         &lt;li&gt;1.用工具截图一帧，然后看一帧内都做了什么事，具体工具&lt;/li&gt;
         &lt;li&gt;2.Mobile: Intel GPA, snapdragonprofiler,&lt;/li&gt;
-        &lt;li&gt;3.PC: Intel GPA , Microsoft PIX, Nvida perfHud&lt;/li&gt;
+        &lt;li&gt;3.PC: Intel GPA , Microsoft PIX, Nvidia perfHud&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
@@ -936,66 +936,6 @@
       </item>
     
       <item>
-        <title>iOS审核注意</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;1，不能出现更新字样
-2，不能有外部网页
-3，不能有 CDkey
-4，BuildVersion 必须用数字
-5，用 dis 的 mobileprovision
-6，archieve 出来的 xxx.app 文件可以直接拖到 iTunes 中，然后就会自动生成xxx.ipa 文件
-7，IPV6 真实环境测试
-8, 补全 AppIcon 分辨率正确
-9, iPad 选择 fullscreen
-10, 提供两个账号，一个是小号，一个是能玩多有功能的大号
-11, 测试 iOS 老的版本是否有闪退情况，因为API用的新的，可能苹果有改动
-12, 保留一个审核的过的版本，以后出问题就改代码，修改版本号，继续用这个去提审
-13, 尽量避免强更
-14, mobileprovision 一定要配置正确，是否内购，是否允许通知
-15, 商品类型一定要注意，和描述一致，月卡终身卡，非续订订阅。
-16, 可以用变相方式来实现非商品内购，充值xxx钻可以有购买资格，购买需要xxx钻，相当于商品了&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;addrinfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;ZeroMemory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ai_family&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AF_UNSPEC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ai_socktype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SOCK_STREAM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipstr4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipstr6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sockaddr_in&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sockaddr_ipv4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sockaddr_in6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sockaddr_ipv6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getaddrinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;szHostName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IPNone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ai_next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ai_family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AF_UNSPEC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;c1&quot;&gt;//do something here&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AF_INET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;sockaddr_ipv4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;reinterpret_cast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sockaddr_in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ai_addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AF_INET6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;sockaddr_ipv6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;reinterpret_cast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sockaddr_in6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ai_addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;inet_ntop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;AF_INET6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sockaddr_ipv6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin6_addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ipstr6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ipstr6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Sat, 15 Aug 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/technology/2015/08/15/iOS-App-preview/</link>
-        <guid isPermaLink="true">http://localhost:4000/technology/2015/08/15/iOS-App-preview/</guid>
-      </item>
-    
-      <item>
         <title>不要慌，慢慢来</title>
         <description>&lt;ol&gt;
   &lt;li&gt;做事要大气，不慌，不急于下定论&lt;/li&gt;
@@ -1014,6 +954,82 @@
         <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/think/2015/07/27/xuexi/</link>
         <guid isPermaLink="true">http://localhost:4000/think/2015/07/27/xuexi/</guid>
+      </item>
+    
+      <item>
+        <title>重来（笔记）</title>
+        <description>&lt;hr /&gt;
+
+&lt;h4 id=&quot;重来&quot;&gt;重来&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;作者: [美] 贾森·弗里德 / [丹] 戴维·海涅迈尔·汉森&lt;/li&gt;
+  &lt;li&gt;出版社: 中信出版社&lt;/li&gt;
+  &lt;li&gt;出版年: 2012&lt;/li&gt;
+  &lt;li&gt;豆瓣: &lt;a href=&quot;http://book.douban.com/subject/5320866/&quot;&gt;重来&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;问题通常可以用简单,世俗的方解决。这意味着不需要什么独特的做法。你不需要秀出你惊奇的技巧。你只需要做好事情,让其有进展。这样的方法你不会赢得别人的惊叹,但是可以让你的事情继续下去。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;不管怎样,终究是不值得过于关注你的竞争者的。为什么?因为关注别人太多会让自己 受到困扰。他们现在在做什么?他们下一步呢?我们该怎样作出回应?&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;每一个小小的动作都会被分析一下。那是一种可怕的心态。这会产生不可抗拒的压力和焦虑。这样的想法会滋长不好的东西。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;这是没有意义的事情。竞争者的风景时时在变。你的竞争者明天一个样儿,今天一个样儿。完全在你控制之外。去担心你所不能控制的事情有意义吗?&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;换过来关注一下自己。管好眼前事更重要。当你花时间关心他人时,就没有时间提高自己了。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;做决定。不要去等完美的解决方案。决定了就前进。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;商业社会中散布着死气沉沉的文件,没用却浪费人们的时间。没人阅读的文件,没人 去看的图表,从不符合成品的规则。这些东西一直存在但几秒种就被人遗忘了。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;埋头做想要做的事情很简单。停下来问为什么是很难的事情。有很多重要的问题问问自 己,看看你正在做的事情是否要紧&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;一件事情耗的时间越久,你将完成的量就越少。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;如果你花了很多时间在一件事情上却不值得,那么请放弃。 时间不会回来。浪费更多时间是最糟糕的事情。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;不睡觉是个坏主意。当然,你此刻获得额外的几小时,但之后总是要还的:你的创意
+变得匮乏,气势低迷,脾气也变糟。
+在你知道后果的情况下,偶尔可以熬夜。但是不能养成习惯。如果变成经常性的熬夜, 损失会增大:
+当你疲倦的时候,保持耐心和容忍的能力就会剧&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;把大事化小。越小的事物越容易估计。你也许仍然会估计错误但是比起评估一 件大项目要好得多。如果某件事花费你所期望的两倍时间,将它化为更小的项目,用几个 星期完成好过耗费数个月时间。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;当你创造出一个实用的好产品时,可能就要牺牲一些花哨的东西。一件产品做到实质优 良可能不及竞争者表面闪光的产品来得性感。把几个功能做到极好不会让它远远的就看起 来很浮华。没关系。你所追求的是长期关系而不是一夜情。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;如果有一个需求你总是忘记,这说明它不是太重要。真正重要的事情不会消失。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;要想成功不能操之过急。这很难,但是你必须有耐心。你要费点力气。在受到正确的人 关注之前,你需要花很长时间。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;“但是,如果……?”“当……时,发生了什么?”“我们不需要计划或者……吗?” 别没事儿找些事儿来。真的问题出现之前就不是问题。大多数你担心的事情从未发生过。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;在商务中有一些 4 个字母组成的词是绝对不应该用的。不是 fuck 和 shit,是 need (需要)、must(必须)、can’t(不能)、easy(容易)、just(恰好)、only(仅仅)、fast(迅 速的)。这些词阻碍合理的交际。它们是产生敌意的危险信号、破坏良好的讨论、导致项目 延迟。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/read/2015/07/26/Rework/</link>
+        <guid isPermaLink="true">http://localhost:4000/read/2015/07/26/Rework/</guid>
       </item>
     
   </channel>
