@@ -23,6 +23,7 @@ published: false
 6. 毛发材质支持（技术）
 7. 制作天空球还表现环境，增加细节
 8. 布料制作（Marvelous Designer)
+9. 注意Unity在Gamma空间，用SP最好用unityshader或者livelink(官方有提供)
 
 ---
 ## 散射和投射的简单实现
