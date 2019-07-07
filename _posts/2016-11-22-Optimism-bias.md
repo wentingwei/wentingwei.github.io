@@ -49,6 +49,6 @@ disqus: y
 [哥德尔、艾舍尔、巴赫][2]
 
 [1]:https://en.wikipedia.org/wiki/Hofstadter%27s_law
-[2]:[https://book.douban.com/subject/1291204/]
+[2]:https://book.douban.com/subject/1291204/
 
 
