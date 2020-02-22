@@ -10,6 +10,7 @@ title: 链接
 5. [徐宥][4]
 6. [陈皓][5]
 7. [王垠][6]
+8. [唐巧][7]
 
 <script type="text/javascript">
 var links = document.links;
@@ -28,3 +29,4 @@ for (var i = 0, linksLength = links.length; i < linksLength; i++) {
 [4]: http://blog.youxu.info
 [5]: http://coolshell.cn
 [6]: http://www.yinwang.org
+[7]: http://blog.devtang.com
